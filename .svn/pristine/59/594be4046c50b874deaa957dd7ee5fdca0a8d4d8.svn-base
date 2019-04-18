@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width,maximum-scale=1.0,minimum-scale=1.0,initial-scale=1.0,user-scalable=no">
+    <title>Document</title>
+    <link rel="stylesheet" href="fonts/iconfont.css">
+    <link rel="stylesheet" href="css/lib/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/section5.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+
+<body>
+    <div class="neirong all-box clearfix">
+        <!-- 网站左侧的导航 -->
+        <aside class="aside-nav">
+
+                <dl class="nav">
+                    <dt>网站导航</dt>
+                    <dd>
+                        <a href="#">首页</a>
+                    </dd>
+                    <dd>
+                        <a href="#">品牌专区</a>
+                    </dd>
+                    <dd>
+                        <a href="#">套装分类</a>
+                    </dd>
+                    <dd>
+                        <a href="#">商品分类</a>
+                    </dd>
+                    <dd>
+                        <a href="#">活动专场</a>
+                    </dd>
+                    <dd>
+                        <a href="#">我的音平</a>
+                    </dd>
+                    <dd>
+                        <a href="#">帮助中心</a>
+                    </dd>
+                    <dd>
+                        <a href="#">商城广告</a>
+                    </dd>
+                </dl>
+    
+                <dl class="server">
+                    <dt>特色服务</dt>
+                    <dd>
+                        <a href="#">
+                            <img src="./imgs/section3/server1.jpg" alt="">
+                        </a>
+                    </dd>
+                    <dd>
+                        <a href="#">
+                            <img src="./imgs/section3/server2.jpg" alt="">
+                        </a>
+                    </dd>
+                    <dd>
+                        <a href="#">
+                            <img src="./imgs/section3/server3.jpg" alt="">
+                        </a>
+                    </dd>
+                </dl>
+    
+                <dl class="other">
+                    <dd>
+                        <a href="#">
+                            <img src="./imgs/section3/ot1.jpg" alt="" class="ot">
+                            订单查询
+                        </a>
+                    </dd>
+                    <dd>
+                        <a href="#">
+                            <img src="./imgs/section3/ot2.png" alt="" class="ot">
+                            投诉建议
+                        </a>
+                    </dd>
+                </dl>
+    
+                <dl>
+                    <dd>
+                        <a href="javascript:void(0);" class="phone-box">
+                            <img src="./imgs/section3/phone.jpg" alt="" class="phone">
+                            400-700-3638
+                        </a>
+                    </dd>
+                </dl>
+    
+                <dl>
+                    <dd class="heart-info">
+                        <a href="javascript:void(0);">
+                            正品保障
+                        </a>
+                    </dd>
+                    <dd class="heart-info">
+                        <a href="javascript:void(0);">
+                            售后无忧
+                        </a>
+                    </dd>
+                    <dd class="heart-info">
+                        <a href="javascript:void(0);">
+                            货到付款
+                        </a>
+                    </dd>
+                    <dd class="heart-info">
+                        <a href="javascript:void(0);">
+                            闪电发货
+                        </a>
+                    </dd>
+                </dl>
+        </aside>
+        <!-- 页面内容区域开始 -->
+        <main class="cont">
+            <header class="head">
+                <div class="h-left">
+                    <div class="aside-nav-toggle iconfont icon-caidan" data-flag="true"></div>
+                    <div class="logo">
+                        <a href="#">
+                            <img src="./imgs/suit/logo.png" alt="音平商城">
+                        </a>
+                    </div>
+                </div>
+                <div class="h-right">
+                    <a href="#">
+                        <div class="myicon icon_01"></div>
+                        <span>搜索</span>
+                    </a>
+                    <a href="#">
+                        <div class="myicon icon_02"></div>
+                        <span>我的</span>
+                    </a>
+                </div>
+            </header>
+
+            <div class="bread">
+                <div class="brand-item">
+                    <a href="#">音平商城</a>
+                </div>
+                <div class="brand-item split"></div>
+                <div class="brand-item">
+                    <a href="#">主题专场</a>
+                </div>
+                <div class="brand-item split"></div>
+                <div class="brand-item">
+                    <h1>手机直播间设备专场</h1>
+                </div>
+            </div>
+                    <!-- 红包区域 -->
+        <div class="o-banner">
+                <img src="imgs/section5/002.jpg" alt="">
+            </div>
+            <div class="t-banner">
+                <div class="banner-list">
+                    <div class="banner-list1">
+                        <a href="">
+                            <img src="imgs/section5/003.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="banner-list1">
+                        <a href="">
+                            <img src="imgs/section5/004.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="banner-list1">
+                        <a href="">
+                            <img src="imgs/section5/005.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="banner-list1">
+                        <a href="">
+                            <img src="imgs/section5/006.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <p class="banner-p">
+                    注：登录/注册后即可领取，优惠券在订单结算时使用 <br>
+                    （使用时间为
+                    <span>2019年1月28日</span>
+                    至
+                    <span>2019年2月14日</span>
+                    )
+                </p>
+            </div>
+            <!-- 红包区域结束 -->
+            <!-- 产品分类 -->
+            <div class="f-banner">
+                <div class="banner-list">
+                    <div class="banner-list1">
+                        <a href="#">
+                            <img src="imgs/section5/007.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="banner-list1">
+                        <a href="#">
+                            <img src="imgs/section5/008.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="banner-list1">
+                        <a href="#">
+                            <img src="imgs/section5/009.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="banner-list1">
+                        <a href="#">
+                            <img src="imgs/section5/010.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- 产品分类结束 -->
+            <!-- 热卖精选 -->
+            <div class="hot-sale">
+                <div class="h-sale">
+                    <img src="imgs/section5/011.jpg" alt="">
+                </div>
+            </div>
+            <div class="h-sale-tab">
+                <div class="left-sale">
+                    套装
+                </div>
+                <div class="right-sale">
+                    单品
+                </div>
+            </div>
+            <div class="suit-div">
+                <div class="suit-div-top">
+                    <script type="text/template" class="tpl">
+                        <% for(var i = 0; i< data.length;i++){ %> 
+                            <div class="suit-one">
+                                    <div class="left-suit"style="background:<%=data[i].color%>">
+                                        <p>top</p>
+                                        <p class="number"><%=data[i].number%></p>
+                                    </div>
+                                    <div class="right-suit">
+                                        <div class="right-suit-one">
+                                            <a href="#">
+                                                <img src="imgs/section5/img1/<%=data[i].img%>" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="right-suit-two">
+                                            <div class="right-suit-two-a">
+                                                <a href="#">
+                                                    <span><%=data[i].jianjie%></span>
+                                                </a>
+                                            </div>
+                                            <div class="price">
+                                                <div class="left-price">
+                                                    <span class="ins-price-new">￥<span><%=data[i].price%></span></span>
+                                                    <span class="ranklable">精选</span>
+                                                </div>
+                                                <div class="right-price">
+                                                    <a href="#">
+                                                        <img src="imgs/section5/img1/<%=data[i].img1%>" alt="">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        <% } %>
+                    </script>
+                </div>
+                <div class="suit-div-down suit-div-list">
+                    <script type="text/template" class="tpl1">
+                        <% for(var i = 0; i< data.length;i++){ %> 
+                            <div class="suit-one">
+                                    <div class="left-suit"style="background:<%=data[i].color%>">
+                                        <p>top</p>
+                                        <p class="number"><%=data[i].number%></p>
+                                    </div>
+                                    <div class="right-suit">
+                                        <div class="right-suit-one">
+                                            <a href="#">
+                                                <img src="imgs/section5/img1/<%=data[i].img%>" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="right-suit-two">
+                                            <div class="right-suit-two-a">
+                                                <a href="#">
+                                                    <span><%=data[i].jianjie%></span>
+                                                </a>
+                                            </div>
+                                            <div class="price">
+                                                <div class="left-price">
+                                                    <span class="ins-price-new">￥<span><%=data[i].price%></span></span>
+                                                    <span class="ranklable">精选</span>
+                                                </div>
+                                                <div class="right-price">
+                                                    <a href="#">
+                                                        <img src="imgs/section5/img1/<%=data[i].img1%>" alt="">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        <% } %>
+                    </script>
+                </div>
+            </div>
+            <!-- 热卖精选结束 -->
+            <!-- 热卖精选产品介绍 -->
+            <div class="product-introduction-top">
+                <img src="imgs/section5/014.jpg" alt="">
+            </div>
+            <div class="product-introduction-down">
+                <script type="text/template" class="tpl2">
+                    <% for(var i = 0; i< data.length;i++){ %> 
+                        <div class="product-introduction">
+                            <div class="product-pic">
+                                <a href="#">
+                                    <img src="imgs/section5/img/<%=data[i].img%>" alt="">
+                                </a>
+                                <div class="product-pic-right">
+                                    <p class="tehui">套装特惠</p>
+                                    整套已立省
+                                    <p class="youhui-price"><%=data[i].lijian%></p>
+                                </div>
+                            </div>
+                            <img src="imgs/section5/img/<%=data[i].img1%>" alt="">
+                            <div class="product-price" style="background:<%=data[i].color%>">
+                                <div class="product-price-box">
+                                    <div class="product-price-box1">
+                                        ￥
+                                        <span class="new"><%=data[i].price%></span>
+                                    </div>
+                                    <a href="#" class="btn-buy">
+                                        立即购买
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    <% } %>
+                </script>
+            </div>
+            <!-- 热卖精选产品介绍结束 -->
+            <!-- 便携式K歌 -->
+            <div class="K-song">
+                <script type="text/template" class="tpl3">
+                    <% for(var i = 0; i< dataArr.length;i++){ %> 
+                        <div class="top-K-song">
+                            <img src="imgs/section5/img3/<%=dataArr[i].headImg%>" alt="">
+                        </div>
+                        <div class="down-k-song">
+                            <a href="#">
+                                <img src="imgs/section5/img3/<%=dataArr[i].navImg%>" alt="">
+                            </a>
+                        </div>
+                        <div class="K-song-list">
+                            <% for(var j = 0; j< dataArr[i].items.length;j++){ %> 
+                                <div class="K-list">
+                                    <a href="#">
+                                        <div class="K-list-pic">
+                                            <img src="imgs/section5/img3/<%=dataArr[i].items[j].imgName%>" alt="">
+                                        </div>
+                                        <div class="K-list-jianjie">
+                                            <span>
+                                                <%=dataArr[i].items[j].info%>
+                                            </span>
+                                        </div>
+                                        <div class="K-list-price">
+                                            <div class="K-list-price1">
+                                                <span>
+                                                    ￥
+                                                    <span class="K-list-price2"><%=dataArr[i].items[j].price%></span>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            <% } %>
+                        </div>
+                    <% } %>
+                </script>
+            </div>
+    
+            <!-- 精选麦克风 -->
+            <div class="maikefeng">
+                <script type="text/template" class="tpl4">
+                    <% for(var i = 0; i< dataAll.length;i++){ %>
+                        <div class="top-MKF">
+                                <img src="imgs/section5/img3/<%=dataAll[i].headImg%>" alt="">
+                            </div>
+                            <div class="down-k-song">
+                                <a href="#">
+                                    <img src="imgs/section5/img3/<%=dataAll[i].navImg%>" alt="">
+                                </a>
+                            </div>
+                            <div class="K-song-list">
+                                <% for(var j = 0; j< dataAll[i].items.length;j++){ %> 
+                                    <div class="K-list">
+                                        <a href="#">
+                                            <div class="K-list-pic">
+                                                <img src="imgs/section5/img3/<%=dataAll[i].items[j].imgName%>" alt="">
+                                            </div>
+                                            <div class="K-list-jianjie">
+                                                <span>
+                                                    <%=dataAll[i].items[j].info%>
+                                                </span>
+                                            </div>
+                                            <div class="K-list-price">
+                                                <div class="K-list-price1">
+                                                    <span>
+                                                        ￥
+                                                        <span class="K-list-price2"><%=dataAll[i].items[j].price%></span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                <% } %>
+                            </div>
+                            <div class="MKF-brand">
+                                <% for(var n = 0; n< dataAll[i].items1.length;n++){ %> 
+                                    <div class="brand-list">
+                                        <a href="#">
+                                            <div class="brand-list-top">
+                                                <img src="imgs/section5/img3/<%=dataAll[i].items1[n].imgName1%>" alt="">
+                                            </div>
+                                            <div class="brand-list-down">
+                                                <div class="brandname">
+                                                    <%=dataAll[i].items1[n].info1%>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                <% } %>
+                            </div>
+                    <% } %>  
+                </script>
+            </div>
+            <!-- 精选麦克风结束 -->
+    
+            <!-- 手机直播相关设备 -->
+            <div class="live-equipment">
+                <div class="live-equipment-top">
+                    <div class="live-equipment-box">
+                        <img src="imgs/section5/kg009.jpg" alt="">
+                    </div>
+                </div>
+                <div class="live-equipment-list">
+                    <div class="equipment-list">监听耳机</div>
+                    <div>耳麦</div>
+                    <div>耳放话放</div>
+                    <div>支架</div>
+                    <div>其他</div>
+                </div>
+                <div class="live-equipment-down live-equipment-down1">
+                   
+                </div>
+                <div class="gengduo">
+                    <a href="#">
+                        更多监听耳机 >
+                    </a>
+                </div>
+            </div>
+            <!-- 手机直播相关设备结束 -->
+            <!-- 免费测试 -->
+            <div class="tiaoshi">
+                <div class="tiaoshi-top">
+                    <img src="imgs/section5/024.jpg" alt="">
+                </div>
+                <div class="tiaoshi-service">
+                    <div class="tiaoshi-service-top">
+                        <img src="imgs/section5/025.jpg" alt="">
+                    </div>
+                    <div class="tiaoshi-service-down">
+                        <a href="#">了解详情 ></a>
+                    </div>
+                </div>
+                <div class="live-equipment-down live-equipment-down2">
+                    <script type="text/template" class="tpl5">
+                        <% for(var i = 0; i< data.length;i++){ %>
+                            <div class="live-equipment-down-list">
+                                <a href="#">
+                                    <div class="equipment-list-top">
+                                        <img src="imgs/section5/img1/<%=data[i].img%>" alt="">
+                                    </div>
+                                    <div class="equipment-list-middle">
+                                        <span>
+                                            <%=data[i].jianjie%>
+                                        </span>
+                                    </div>
+                                    <div class="equipment-list-down">
+                                        <div class="equipment-list-price">
+                                            <span>
+                                                ￥
+                                                <span class="list-price"><%=data[i].price%></span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        <% } %>  
+                    </script>
+                </div>
+                <div class="gengduo">
+                    <a href="#">
+                        更多监听耳机 >
+                    </a>
+                </div>
+            </div>
+            <!-- 免费测试结束 -->
+            <!-- 售后 -->
+            <div class="after-sale">
+                <div class="after-sale1">
+                    <img src="imgs/section5/026.jpg" alt="">
+                </div>
+            </div>
+            <!-- 售后结束 -->
+            <!-- 网络主播设备专场 -->
+            <div class="anchor">
+                <img src="imgs/section5/027.jpg" alt="">
+            </div>
+            <!-- 网络主播设备专场结束 -->
+            <!-- 页脚 -->
+            <footer>
+                <div class="thematic-special">
+                    <span>
+                        更多主题专场
+                    </span>
+                </div>
+                <div class="thematic-special-list">
+                    <div class="thematic-special-list1">
+                        <a href="#">
+                            <img src="imgs/section5/028.jpg" alt="">
+                            <p>录音编曲</p>
+                        </a>
+                    </div>
+                    <div class="thematic-special-list1">
+                        <a href="#">
+                            <img src="imgs/section5/029.jpg" alt="">
+                            <p>网络主播</p>
+                        </a>
+                    </div>
+                    <div class="thematic-special-list1">
+                        <a href="#">
+                            <img src="imgs/section5/030.jpg" alt="">
+                            <p>手机直播</p>
+                        </a>
+                    </div>
+                    <div class="thematic-special-list1">
+                        <a href="#">
+                            <img src="imgs/section5/031.jpg" alt="">
+                            <p>演出音响</p>
+                        </a>
+                    </div>
+                    <div class="thematic-special-list1">
+                        <a href="#">
+                            <img src="imgs/section5/032.jpg" alt="">
+                            <p>家庭ktv</p>
+                        </a>
+                    </div>
+                    <div class="thematic-special-list1">
+                        <a href="#">
+                            <img src="imgs/section5/033.jpg" alt="">
+                            <p>吉他乐器</p>
+                        </a>
+                    </div>
+                    <div class="thematic-special-list1">
+                        <a href="#">
+                            <img src="imgs/section5/034.jpg" alt="">
+                            <p>影视录音</p>
+                        </a>
+                    </div>
+                    <div class="thematic-special-list1">
+                        <a href="#">
+                            <img src="imgs/section5/035.jpg" alt="">
+                            <p>音乐欣赏</p>
+                        </a>
+                    </div>
+                    <div class="thematic-special-list1">
+                        <a href="#">
+                            <img src="imgs/section5/036.jpg" alt="">
+                            <p>家庭影院</p>
+                        </a>
+                    </div>
+                    <div class="thematic-special-list1">
+                        <a href="#">
+                            <img src="imgs/section5/037.jpg" alt="">
+                            <p>会议工程</p>
+                        </a>
+                    </div>
+    
+                </div>
+            </footer>
+            <!-- 页脚结束 -->
+        </main>
+        <!-- 页面内容区域结束 -->
+
+    </div>
+    <!-- 页角内容区域开始 -->
+    <main class="cont">
+        <!-- 网站脚注区域 -->
+        <footer class="page-foot">
+            <!-- 长按扫码区域 -->
+            <section class="press-scan">
+                <img src="./imgs/suit/press_scan.jpg" alt="长按扫码">
+            </section>
+
+            <!-- 登陆注册链接区域 -->
+            <section class="tip-box">
+                <div class="left-box">
+                    <a href="#">登陆</a>
+                    <span>|</span>
+                    <a href="#">注册</a>
+                </div>
+                <div class="right-box">
+                    <a href="#">
+                        客服热线 :
+                        <span>400-700-3683</span>
+                    </a>
+                </div>
+            </section>
+
+            <!-- 售后帮助导航区域 -->
+            <section class="help-box">
+                <div class="item">
+                    <i class="item1"></i>
+                    <span>正品保障</span>
+                </div>
+                <div class="item">
+                    <i class="item2"></i>
+                    <span>满99包邮</span>
+                </div>
+                <div class="item">
+                    <i class="item3"></i>
+                    <span>七天退换</span>
+                </div>
+                <div class="item">
+                    <i class="item4"></i>
+                    <span>售后保障</span>
+                </div>
+            </section>
+
+            <!-- img信息提示区域 -->
+            <section class="img-info-box">
+                <figure>
+                    <img src="./imgs/suit/img-info1.png" alt="了解音平">
+                    <span>了解音平</span>
+                </figure>
+                <figure>
+                    <img src="./imgs/suit/img-info2.png" alt="触屏版">
+                    <span>触屏版</span>
+                </figure>
+                <figure>
+                    <img src="./imgs/suit/img-info3.png" alt="电脑版">
+                    <span>电脑版</span>
+                </figure>
+                <figure>
+                    <img src="./imgs/suit/img-info4.png" alt="小程序">
+                    <span>小程序</span>
+                </figure>
+            </section>
+
+            <!-- 许可证信息区域 -->
+            <section class="license">
+                <p>增值电信业务经营许可证：粤B2-20110237 | 粤ICP备11032710号</p>
+                <p>© 2011-2019 音平商城</p>
+            </section>
+        </footer>
+
+        <!-- 底部固定的导航区域 -->
+        <nav class="fixed-bottom">
+            <a href="#">
+                <i class="iconfont icon-kefu"></i>
+                <span>客服</span>
+            </a>
+            <a href="#">
+                <i class="iconfont icon-caidan"></i>
+                <span>分类</span>
+            </a>
+            <a href="#">
+                <i class="iconfont icon-jishiben"></i>
+                <span>套装</span>
+            </a>
+            <a href="#">
+                <i class="iconfont icon-tubiaozhizuo--"></i>
+                <span>活动</span>
+            </a>
+            <a href="#">
+                <i class="iconfont icon-gouwuche"></i>
+                <span>我的购物车</span>
+            </a>
+        </nav>
+    </main>
+    <!-- 页角内容区域结束 -->
+    <script type="text/template" class="tpl6">
+        <% for(var i = 0; i< data.length;i++){ %>
+            <div class="live-equipment-down-list">
+                <a href="#">
+                    <div class="equipment-list-top">
+                        <img src="imgs/section5/img1/<%=data[i].img%>" alt="">
+                    </div>
+                    <div class="equipment-list-middle">
+                        <span>
+                            <%=data[i].jianjie%> 
+                        </span>
+                    </div>
+                    <div class="equipment-list-down">
+                        <div class="equipment-list-price">
+                            <span>
+                                ￥
+                                <span class="list-price"><%= data[i].price %> </span>
+                            </span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        <% } %> 
+    </script>
+</body>
+<script src="js/lib/fastclick.js"></script>
+<script src="js/lib/adapaMobile.js"></script>
+<script src="js/lib/zepto.min.js"></script>
+<script src="js/lib/fx_methods.js"></script>
+<script src="js/lib/touch.js"></script>
+<script src="js/lib/adapaMobile.js"></script>
+<script src="js/lib/swiper.min.js"></script>
+<script src="js/section5.js"></script>
+<script src="js/lib/ejs.js"></script>
+<script src="js/section5del.js"></script>
+<script src="js/header.js"></script>
+
+</html>

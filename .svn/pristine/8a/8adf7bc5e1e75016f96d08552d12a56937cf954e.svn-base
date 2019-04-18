@@ -1,0 +1,56 @@
+$(function () {
+    var G_myFun = (function () {
+        // 热卖爆品tab切换
+        function first(){
+            $(".hot-list-top div").click(function(){
+                $(".hot-list-top").children().eq($(this).index()).addClass("hot-list-left").siblings().removeClass("hot-list-left");
+                var pro = $(this).html()
+                console.log($(this).html())
+                $.ajax({
+                    type: "post",
+                    url: "api/section6.php",
+                    data: {
+                       type: pro,
+                       type1: "简易录音"
+                    },
+                    dataType: 'json',
+                    success: function (data) { 
+                        console.log(data)
+                        var html = ejs.render($('.tpl').html(), { data: data["1"]})
+                        $(".hot-list-down-one1").html(html);
+                        tabOne();
+                    }
+                    
+                })
+            })
+        }
+        // 点击热卖爆品
+        function autoClickTab(){
+            $(".hot-list-top").children().eq(0).trigger("click");
+        }
+        // 热卖爆品滑动
+        function tabOne() {
+            var swiper = new Swiper('.swiper-container', {
+                slidesPerView: 2.3,
+                spaceBetween: 30,
+                freeMode: true,
+            });
+        }
+        
+        return {
+            // 热卖爆品tab切换
+            first:first,
+            // 热卖爆品滑动
+            tabOne:tabOne,
+             // 点击热卖爆品
+            autoClickTab:autoClickTab
+        }
+    })();
+    // 热卖爆品tab切换
+    G_myFun.first();
+    // 热卖爆品滑动
+    G_myFun.tabOne();
+    // 点击热卖爆品
+    G_myFun.autoClickTab();
+    
+})

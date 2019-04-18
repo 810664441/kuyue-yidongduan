@@ -1,0 +1,19 @@
+(function () {
+    var c_obj = (function () {
+
+        
+        //购物车操作逻辑
+        function cartOperate(){
+            
+        }
+
+        return {
+            cartOperate,cartOperate
+
+        }
+    })();
+
+    
+    //购物车操作逻辑
+    c_obj.cartOperate();
+})();

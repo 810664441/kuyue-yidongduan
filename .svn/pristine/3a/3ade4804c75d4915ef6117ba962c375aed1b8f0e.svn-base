@@ -1,0 +1,25 @@
+
+切记切记: 在修改公用数据库时，要在群里通知其他人，修改完毕后，把最中的sql保存到00000文件夹下
+
+1.冯少蕊 :  图片命名示例: f_01.jpg
+                        f_02.jpg
+
+2.黄起鹏 :  图片命名示例: number_01.jpg
+                        number_02.jpg
+
+3.郭晓波 :  图片命令示例: g_01.jpg
+                        g_02.jpg
+
+4.陈冲冲 :  图片命名示例: CH_01.jpg
+                        CH_02.jpg
+    
+5.褚光灿 :  图片命名示例: shop_01.jpg
+                        shop_02.jpg
+                
+6.宋春阳 :  图片命名示例: SY_01.jpg
+                        SY_02.jpg
+
+字段对应:
+    indimg     price    info        brief       type        brand      count
+
+    图片名      价格     图片信息    简介(暗字)   图片类型      牌子       点击量

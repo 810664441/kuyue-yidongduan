@@ -1,0 +1,169 @@
+@charset 'utf-8';
+$container: 7.5rem;
+$themeColor: #ff7f00;
+
+body{
+    font-size: 0.16rem;
+}
+
+.all-box{
+    width: $container;
+    overflow: hidden;
+}
+
+// 页面内容区域开始
+.cont{
+    width: $container;
+    margin: 0 auto;
+    .head{
+        width: $container;
+        height: 0.90rem;
+        border-bottom: 0.04rem solid $themeColor;
+        display: flex;
+        justify-content: space-between;
+
+        .h-left{
+            display: flex;
+            .aside-nav-toggle{
+                width: 0.80rem;
+                height: 0.80rem;
+                font-size: 0.4rem;
+                line-height: 0.80rem;
+                text-align: center;
+            }
+
+            .logo{
+                height: 0.8rem;
+                line-height: 0.80rem;
+                a{
+                    display: inline-block;
+                    width: 2.36rem;
+                    height: 0.64rem;
+                }
+                img{
+                    vertical-align: middle;
+                }
+            }
+        }
+
+        .h-right{
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            a{
+                width: 0.6rem;
+                height: 0.90rem;
+                margin-right: 0.16rem;
+                padding-top: 0.10rem;
+                text-align: center;
+                .myicon{
+                    width: 0.4rem;
+                    height: 0.40rem;
+                    margin: 0 auto;
+                    background: url("../imgs/suit/head_icon.png") no-repeat;
+                    background-size: auto 0.40rem;
+                }
+                .icon_01{
+                    background-position: -0.40rem 0;
+                }
+                .icon_02{
+                    background-position: -0.80rem 0;
+                }
+                span{
+                    color: #000;
+                    font-size: 0.14rem;
+                }
+            }
+        }
+    }
+
+    .bread{
+        width: $container;
+        height: 0.62rem;
+        font-size: 0.24rem;
+        background-color: #fff;
+        border-bottom: 0.02rem solid #ccc;
+        .brand-item{
+            height: 0.60rem;
+            line-height: 0.60rem;
+            padding: 0 0.16rem;
+            float: left;
+        }
+        .brand-item a{
+            color: #06c;
+        }
+        .brand-item h1{
+            font-size: 0.24rem;
+        }
+        .split{
+            width: 0.30rem;
+            background: url("../imgs/suit/head_icon.png") no-repeat;
+            background-size: auto 0.60rem;
+            background-position: -2.52rem 0;
+        }
+    }
+}
+// 页面内容区域结束
+
+// 网站左侧的导航
+.aside-nav{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    box-sizing: border-box;
+    padding: 0.20rem;
+    display: none;
+    background-color: white;
+    overflow: auto;
+    dl{
+        width: 2.30rem;
+        margin-bottom: 0.20rem;
+        padding-bottom: 0.20rem;
+        border-bottom: 0.02rem solid #e6e6e6;
+        dt{
+            font-size: 0.30rem;
+            font-weight: bolder;
+            color: $themeColor;
+            margin-bottom: 0.20rem;
+        }
+        dd{
+            a{
+                display: block;
+                overflow: hidden;
+                color: #666;
+                line-height: 20px;
+                margin: 0;
+                padding: 0.10rem 0;
+                font-size: 0.28rem;
+
+                img{
+                    width: 1.74rem;
+                    height: 0.58rem;
+                    vertical-align: middle;
+                }
+
+                img.ot, img.phone{
+                    width: 0.24rem;
+                    height: 0.24rem;
+                }
+            }
+
+            a.phone-box{
+                color: $themeColor;
+                font-size: 0.24rem;
+            }
+        }
+
+        dd.heart-info{
+            padding-left: 0.26rem;
+            background: url("../imgs/section3/ico_info.jpg") no-repeat;
+            background-position: left center;
+            a{
+                color: #999;
+                font-size: 0.24rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,maximum-scale=1.0,minimum-scale=1.0,initial-scale=1.0,user-scalable=no">
+    <title>会议工程</title>
+    <link rel="stylesheet" href="fonts/iconfont.css">
+    <link rel="stylesheet" href="css/lib/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/section9.css">
+</head>
+
+
+<body>
+
+
+    <!-- 页面左侧隐藏的侧边栏导航区域开始 -->
+    <aside class="main-left"></aside>
+    <!-- 页面左侧隐藏的侧边栏导航区域结束 -->
+
+    <!-- 主体开始 -->
+    <article class="cont">
+        <!-- 头部开始 -->
+     <!--    <header class="head">
+            <div class="h-left">
+                <div class="aside-nav-toggle iconfont icon-caidan"></div>
+                <div class="logo">
+                    <a href="#">
+                        <img src="./imgs/section9/logo-v1.0.0.jpg" alt="音平商城">
+                    </a>
+                </div>
+            </div>
+            <div class="h-right">
+                <a href="#">
+                    <div class="myicon icon_01"></div>
+                    <span>搜索</span>
+                </a>
+                <a href="#">
+                    <div class="myicon icon_02"></div>
+                    <span>我的</span>
+                </a>
+            </div>
+        </header>
+        <div class="bread">
+            <div class="brand-item">
+                <a href="#">音平商城</a>
+            </div>
+            <div class="brand-item split"></div>
+            <div class="brand-item">
+                <h1>主体专场</h1>
+            </div>
+        </div> -->
+        <!-- 头部结束 -->
+        <!-- 列表内容开始 -->
+        <div class="meeting"></div>
+        <div class="discounts">
+            <div><a href=""><img src="imgs/section9/youhui_01.jpg" alt=""></a></div>
+            <div><a href=""><img src="imgs/section9/youhui_02.jpg" alt=""></a></div>
+            <div><a href=""><img src="imgs/section9/youhui_03.jpg" alt=""></a></div>
+            <div><a href=""><img src="imgs/section9/youhui_04.jpg" alt=""></a></div>
+            <p>注：登录/注册后即可领取，优惠券在订单结算时使用 <br />
+                （使用时间为
+                <span>2019年1月28日</span>
+                至
+                <span>2019年2月14日</span>
+                ）
+            </p>
+        </div>
+        <div class="suit-list">
+            <a href=""><img src="imgs/section9/tz1.jpg" alt=""></a>
+            <a href=""><img src="imgs/section9/tz2.jpg" alt=""></a>
+            <a href=""><img src="imgs/section9/tz3.jpg" alt=""></a>
+            <a href=""><img src="imgs/section9/tz4.jpg" alt=""></a>
+        </div>
+        <!-- 列表内容结束 -->
+        <!-- 会议套装开始 -->
+        <div class="meeting-suit">
+            <div class="meeting-log"><img src="imgs/section9/hy1.jpg" alt=""></div>
+            <a href="">
+                <div class="meeting-list">
+                    <img src="imgs/section9/hytz1.jpg" alt="">
+                    <div class="list-cont">
+                        ￥
+                        <span>5851</span>
+                        <p>立即购买</p>
+                    </div>
+                </div>
+            </a>
+            <a href="">
+                <div class="meeting-list">
+                    <img src="imgs/section9/hytz2.jpg" alt="">
+                    <div class="list-cont">
+                        ￥
+                        <span>7688</span>
+                        <p>立即购买</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="meeting-suit">
+            <div class="meeting-log"><img src="imgs/section9/hy2.jpg" alt=""></div>
+            <a href="">
+                <div class="meeting-list">
+                    <img src="imgs/section9/hytz3.jpg" alt="">
+                    <div class="list-cont">
+                        ￥
+                        <span>14075</span>
+                        <p>立即购买</p>
+                    </div>
+                </div>
+            </a>
+            <a href="">
+                <div class="meeting-list">
+                    <img src="imgs/section9/hytz4.jpg" alt="">
+                    <div class="list-cont">
+                        ￥
+                        <span>30872</span>
+                        <p>立即购买</p>
+                    </div>
+                </div>
+            </a>
+            <a href="">
+                <div class="meeting-list">
+                    <img src="imgs/section9/hytz5.jpg" alt="">
+                    <div class="list-cont">
+                        ￥
+                        <span>13133</span>
+                        <p>立即购买</p>
+                    </div>
+                </div>
+            </a>
+            <a href="">
+                <div class="meeting-list">
+                    <img src="imgs/section9/hytz6.jpg" alt="">
+                    <div class="list-cont">
+                        ￥
+                        <span>9826</span>
+                        <p>立即购买</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="meeting-suit">
+            <div class="meeting-log"><img src="imgs/section9/hy3.jpg" alt=""></div>
+            <a href="">
+                <div class="meeting-list">
+                    <img src="imgs/section9/hytz7.jpg" alt="">
+                    <div class="list-cont">
+                        ￥
+                        <span>16151</span>
+                        <p>立即购买</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <!-- 会议套装结束 -->
+        <!-- 会议麦克风开始 -->
+        <div class="meeting-Mike" data-list="会议麦克风">
+            <div class="Mike-img1"><img src="imgs/section9/mk1.jpg" alt=""></div>
+            <div class="Mike-img2"><img src="imgs/section9/mk2.jpg" alt=""></div>
+            <div class="Mike-list">
+                <div class="Mike-list-box"></div>
+                <div class="Mike-bottom">
+                    <a href="">
+                        <div class="mike-brand">
+                            <img src="imgs/section9/brand1.jpg" alt="">
+                            <p>得胜</p>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="mike-brand">
+                            <img src="imgs/section9/pp11.jpg" alt="">
+                            <p>舒尔</p>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="mike-brand">
+                            <img src="imgs/section9/pp1.jpg" alt="">
+                            <p>三角</p>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="mike-brand">
+                            <img src="imgs/section9/brand2.jpg" alt="">
+                            <p>海天</p>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="mike-brand">
+                            <img src="imgs/section9/brand3.jpg" alt="">
+                            <p>咪宝</p>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="mike-brand">
+                            <img src="imgs/section9/pp2.jpg" alt="">
+                            <p>爱科技</p>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="mike-brand">
+                            <img src="imgs/section9/pp3.jpg" alt="">
+                            <p>森海尔</p>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="mike-brand">
+                            <img src="imgs/section9/brand4.jpg" alt="">
+                            <p>more></p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+        <!-- 会议麦克风结束 -->
+        <!-- 会议音响开始 -->
+        <div class="meeting-Mike" data-list="会议音响">
+            <div class="Mike-img1"><img src="imgs/section9/mk3.jpg" alt=""></div>
+            <div class="Mike-img2"><img src="imgs/section9/mk4.jpg" alt=""></div>
+            <div class="Mike-list">
+                <div class="Mike-list-box"></div>
+                <div class="mike-more">
+                    <a href="">更多会议音响 &gt;</a>
+                </div>
+            </div>
+
+        </div>
+        <!-- 会议音响结束 -->
+        <!-- 会议功放开始 -->
+        <div class="meeting-Mike" data-list="会议功放">
+            <div class="Mike-img1"><img src="imgs/section9/mk5.jpg" alt=""></div>
+            <div class="Mike-img2"><img src="imgs/section9/mk6.jpg" alt=""></div>
+            <div class="Mike-list">
+                <div class="Mike-list-box"></div>
+                <div class="mike-more">
+                    <a href="">更多会议功效 &gt;</a>
+                </div>
+            </div>
+
+        </div>
+        <!-- 会议功放结束 -->
+        <!-- 其他相关产品开始 -->
+        <div class="meeting-else">
+            <div class="else-img1"><img src="imgs/section9/mk7.jpg" alt=""></div>
+            <div class="btn-box">
+                <div class="btn-list">监听耳机</div>
+                <div class="btn-list">影视配件</div>
+                <div class="btn-list">相关线材</div>
+            </div>
+            <div class="list-box">
+                
+               <!--  <div class="list-item">
+                    <a href="">
+                        <img src="imgs/commonImg/shop_19.jpg" alt="">
+                        <p>得胜(TAKSTAR) XR-210FX 带效果USB调音台</p>
+                        <div class="price">
+                            <p>￥1080</p>
+                            <img src="imgs/section9/guc.jpg" alt="">
+                        </div>
+                    </a>
+                </div>
+                <div class="list-item">
+                    <a href="">
+                        <img src="imgs/commonImg/shop_19.jpg" alt="">
+                        <p>得胜(TAKSTAR) XR-210FX 带效果USB调音台</p>
+                        <div class="price">
+                            <p>￥1080</p>
+                            <img src="imgs/section9/guc.jpg" alt="">
+                        </div>
+                    </a>
+                </div>
+                <div class="list-item">
+                    <a href="">
+                        <img src="imgs/commonImg/shop_19.jpg" alt="">
+                        <p>得胜(TAKSTAR) XR-210FX 带效果USB调音台</p>
+                        <div class="price">
+                            <p>￥1080</p>
+                            <img src="imgs/section9/guc.jpg" alt="">
+                        </div>
+                    </a>
+                </div>
+                <div class="list-item">
+                    <a href="">
+                        <img src="imgs/commonImg/shop_19.jpg" alt="">
+                        <p>得胜(TAKSTAR) XR-210FX 带效果USB调音台</p>
+                        <div class="price">
+                            <p>￥1080</p>
+                            <img src="imgs/section9/guc.jpg" alt="">
+                        </div>
+                    </a>
+                </div>
+                <div class="list-item">
+                    <a href="">
+                        <img src="imgs/commonImg/shop_19.jpg" alt="">
+                        <p>得胜(TAKSTAR) XR-210FX 带效果USB调音台</p>
+                        <div class="price">
+                            <p>￥1080</p>
+                            <img src="imgs/section9/guc.jpg" alt="">
+                        </div>
+                    </a>
+                </div> -->
+            </div>
+        </div>
+        <!-- 其他相关产品结束 -->
+    </article>
+    <!-- 主体结束 -->
+
+
+
+    <!-- 底部固定的导航区域开始 -->
+    <aside class="nav-bottom"></aside>
+    <!-- 底部固定的导航区域结束 -->
+
+    <!-- 滚动加载数据模板 -->
+    <script type="text/template" class="tpl">
+        <%for(var i = 0; i<foods.length; i++){%>
+        <a href="">
+            <div class="Mike-box">
+                <div class="img-box"><img src="imgs/commonImg/<%=foods[i].indimg%>" alt=""></div>
+                <div class="details"><span><%=foods[i].info%></span></div>
+                <div class="price"><span>￥<%=foods[i].price%></span></div>
+            </div>
+        </a>
+        <%}%>
+    </script>
+
+    <!-- top切换数据模板 -->
+    <script type="text/template" class="tpl2">
+        <%for(var i = 0; i<foods.length; i++){%>
+        <div class="list-item">
+            <a href="">
+                <img src="imgs/commonImg/<%=foods[i].indimg%>" alt="">
+                <p><%=foods[i].info%></p>
+                <div class="price">
+                    <p>￥<%=foods[i].price%></p>
+                    <img src="imgs/section9/guc.jpg" alt="">
+                </div>
+            </a>
+        </div>
+        <%}%>
+    </script>
+
+    <!-- 引入适配各种手机的js文件 -->
+    <script src="js/lib/adapaMobile.js"></script>
+    <script src="js/lib/zepto.min.js"></script>
+    <script src="js/lib/touch.js"></script>
+    <script src="js/lib/fastclick.js"></script>
+    <script src="js/lib/ejs.js"></script>
+    <script src="js/section9.js"></script>
+</body>
+
+
+</html>

@@ -1,0 +1,125 @@
+var secThreeObj = (function () {
+
+    // 第一个轮播图入口
+    function hotSwiper() {
+        var swiper = new Swiper('#hot-swiper', {
+            pagination: {
+                el: '.move-page1'
+            },
+            autoplay: true,
+            loop: true
+        });
+    }
+
+    // 动态的读取服务器端的轮播区域信息
+    function readServerAD() {
+        var temp = $("#template-ad").html();
+        dataModel();
+        $.post("./api/ad.php", function( data ){
+            if( data.err === 0 ){
+                var res = ejs.render(temp, {list: data.list});
+                $("#hot-swiper .swiper-wrapper").html( res );
+                hotSwiper();
+            }
+        }, "json")
+    }
+
+    // 使用mock模拟服务器端的数据
+    function dataModel() {
+        var arr = ["move1.jpg", "move2.jpg", "move3.jpg", "move3.jpg", "move3.jpg"];
+        Mock.mock("./api/ad.php", {
+            err: 0,
+            "list|5": [{
+                'id|+1': 1,
+                'ad|+1': arr
+            }]
+        });
+    }
+
+
+    // 通用的录播图入口
+    function startMoveCommon() {
+        var swiper = new Swiper('.move-common', {
+            slidesPerView: 2.5,
+            spaceBetween: 5,
+            roundLengths: true
+        });
+    }
+
+    // tab切换
+    function tabHover(){
+        $(".tab-hover .title span").click(function(){
+            $(this).addClass("active").siblings().removeClass("active");
+            var data;
+            if( $(this).html().trim() === "热销推荐" ){
+                data = "网红主播";
+            }else{
+                data = "相关配件";
+            }
+            $.post("./api/tabHandle.php", {data: data}, function( res ){
+                tabEJS( res );
+            }, "json");
+        });
+        autoClickTab();
+    }
+
+    // 页面加载完成时，就触发第一个tab的点击事件
+    function autoClickTab(){
+        $(".tab-hover .title span.active").eq(0).trigger("click");
+    }
+
+    // 处理tab切换的ejs
+    function tabEJS( res ){
+        var temp = $("#tab-ejs").html();
+        var html = ejs.render( temp, {list: res} );
+        $(".tab-hover .swiper-wrapper").html( html );
+        startMoveCommon();
+    }
+
+    // 多行的轮播图入口
+    function startMoreLineMove() {
+        var swiper = new Swiper('.moreLine', {
+            slidesPerView: 4.5,
+            slidesPerColumn: 2,
+            spaceBetween: 5,
+            roundLengths: true
+        });
+    }
+
+    // 热销品牌数据处理函数
+    function handleHotBrand(){
+        var arr = [];
+        var nameArr = ["得胜", "客所思", "艾肯", "ESI", "福克斯特", "RME", "莱维特", "纽曼", "Blue", "森海塞尔", "铁三角", "创新", "罗兰", "舒尔", "魅声", "森然", "屁颠虫", "爱科技", "联想", "ISK", "雅马哈", "拜亚动力"];
+        for( var i = 0; i < 22; i++ ){
+            arr[i] = {
+                brand: "brand" + ( i + 1 ) + ".gif",
+                name: nameArr[i]
+            }
+        }
+
+        var html = ejs.render( $("#hot-brand").html(), {list: arr} );
+        $(".moreLine .swiper-wrapper").html( html );
+    }
+
+    // 红蓝交替区域的轮播入口
+    function changeMove() {
+        var swiper = new Swiper('.box-list', {
+            slidesPerView: 2.5,
+            spaceBetween: 5,
+            roundLengths: true
+        });
+    }
+
+    return {
+        readServerAD: readServerAD,
+        tabHover: tabHover,
+        handleHotBrand: handleHotBrand,
+        startMoreLineMove: startMoreLineMove,
+        changeMove: changeMove
+    };
+})();
+secThreeObj.readServerAD();
+secThreeObj.tabHover();
+secThreeObj.handleHotBrand();
+secThreeObj.startMoreLineMove();
+secThreeObj.changeMove();

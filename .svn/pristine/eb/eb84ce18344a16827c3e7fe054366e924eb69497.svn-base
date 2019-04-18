@@ -1,0 +1,39 @@
+$(function () {
+    var G_myFun = (function () {
+        function first() {
+            window.onload = function () {
+                console.log(111)
+                var pro;
+                $.ajax({
+                    type: "post",
+                    url: "api/brand.php",
+                    data: {
+                        type: pro
+                    },
+                    dataType: 'json',
+                    success: function (data) {
+                        console.log(data)
+                        if (!data.err) {
+                            var html = ejs.render($('.tpl').html(), { data: data["1"]})
+                            $(".content").html(html);
+                        }
+                     }
+                })
+            }
+        }
+        function second(){
+            $(".brand-item h1").click(function(){
+                var all = $(this).html() 
+                console.log(all)
+            })
+
+            
+        }
+        return {
+            first:first,
+            second:second
+        }
+    })();
+    G_myFun.first();
+    G_myFun.second();
+})

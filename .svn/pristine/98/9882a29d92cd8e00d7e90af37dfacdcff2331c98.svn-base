@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,maximum-scale=1.0,minimum-scale=1.0,initial-scale=1.0,user-scalable=no">
+    <title>套装分类</title>
+    <link rel="stylesheet" href="./fonts/iconfont.css">
+    <link rel="stylesheet" href="./css/lib/reset.css">
+    <link rel="stylesheet" href="./css/suit.css">
+</head>
+
+<body>
+
+    <!-- 页面内容区域开始 -->
+    <main class="cont">
+
+        <!-- 头部区域开始 -->
+        <header class="head">
+            <div class="h-left">
+                <div class="aside-nav-toggle iconfont icon-caidan"></div>
+                <div class="logo">
+                    <a href="#">
+                        <img src="./imgs/suit/logo.png" alt="音平商城">
+                    </a>
+                </div>
+            </div>
+            <div class="h-right">
+                <a href="#">
+                    <div class="myicon icon_01"></div>
+                    <span>搜索</span>
+                </a>
+                <a href="#">
+                    <div class="myicon icon_02"></div>
+                    <span>我的</span>
+                </a>
+            </div>
+        </header>
+
+        <!-- 面包屑导航区域 -->
+        <div class="bread">
+            <div class="brand-item">
+                <a href="#">音平商城</a>
+            </div>
+            <div class="brand-item split"></div>
+            <div class="brand-item">
+                <h1>套装分类</h1>
+            </div>
+        </div>
+
+        <!-- 解决方案区域 -->
+        <nav class="solution">
+            <dl>
+                <dt>解决方案</dt>
+                <dd>
+                    <a href="#">
+                        <div class="left-icon">
+                            <i class="iconfont icon-shoujizhibo1"></i>
+                        </div>
+                        <div class="right-info">
+                            <h2>录音编曲</h2>
+                            <p>一站式打造专属录音工作室</p>
+                        </div>
+                    </a>
+                </dd>
+                <dd>
+                    <a href="#">
+                        <div class="left-icon">
+                            <i class="iconfont icon-icon-03"></i>
+                        </div>
+                        <div class="right-info">
+                            <h2>网络主播</h2>
+                            <p>热榜主播御用设备 赠送调试</p>
+                        </div>
+                    </a>
+                </dd>
+                <dd>
+                    <a href="#">
+                        <div class="left-icon">
+                            <i class="iconfont icon-shoujizhibo"></i>
+                        </div>
+                        <div class="right-info">
+                            <h2>手机直播</h2>
+                            <p>直播神器 热卖套装限时优惠</p>
+                        </div>
+                    </a>
+                </dd>
+                <dd>
+                    <a href="#">
+                        <div class="left-icon">
+                            <i class="iconfont icon-icon-09"></i>
+                        </div>
+                        <div class="right-info">
+                            <h2>演出音响</h2>
+                            <p>专业音响设备为舞台演出助力</p>
+                        </div>
+                    </a>
+                </dd>
+                <dd>
+                    <a href="#">
+                        <div class="left-icon">
+                            <i class="iconfont icon-ktv"></i>
+                        </div>
+                        <div class="right-info">
+                            <h2>家庭KTV</h2>
+                            <p>汇聚世界品牌 在家欢唱KTV</p>
+                        </div>
+                    </a>
+                </dd>
+
+                <dd>
+                    <a href="#">
+                        <div class="left-icon">
+                            <i class="iconfont icon-tiaoyintai"></i>
+                        </div>
+                        <div class="right-info">
+                            <h2>影视录音</h2>
+                            <p>专业提供影视录音解决方案</p>
+                        </div>
+                    </a>
+                </dd>
+
+                <dd>
+                    <a href="#">
+                        <div class="left-icon">
+                            <i class="iconfont icon-jita"></i>
+                        </div>
+                        <div class="right-info">
+                            <h2>乐器设备</h2>
+                            <p>精选吉他、贝司等乐器设备</p>
+                        </div>
+                    </a>
+                </dd>
+
+                <dd>
+                    <a href="#">
+                        <div class="left-icon">
+                            <i class="iconfont icon-wujiaoxing"></i>
+                        </div>
+                        <div class="right-info">
+                            <h2>音乐欣赏</h2>
+                            <p>娱乐休闲 随身享受高品质音乐</p>
+                        </div>
+                    </a>
+                </dd>
+
+                <dd>
+                    <a href="#">
+                        <div class="left-icon">
+                            <i class="iconfont icon-icon-08"></i>
+                        </div>
+                        <div class="right-info">
+                            <h2>会议工程</h2>
+                            <p>量身定制 专业会议音响设备</p>
+                        </div>
+                    </a>
+                </dd>
+
+                <dd>
+                    <a href="#">
+                        <div class="left-icon">
+                            <i class="iconfont icon-yingyuan"></i>
+                        </div>
+                        <div class="right-info">
+                            <h2>家庭影院</h2>
+                            <p>把电影院搬回家 轻松看大片</p>
+                        </div>
+                    </a>
+                </dd>
+
+            </dl>
+        </nav>
+
+        <!-- 长按扫码区域 -->
+        <section class="press-scan">
+            <img src="./imgs/suit/press_scan.jpg" alt="长按扫码">
+        </section>
+
+        <!-- 登陆注册链接区域 -->
+        <section class="tip-box">
+            <div class="left-box">
+                <a href="#">登陆</a>
+                <span>|</span>
+                <a href="#">注册</a>
+            </div>
+            <div class="right-box">
+                <a href="#">
+                    客服热线 :
+                    <span>400-700-3683</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- 售后帮助导航区域 -->
+        <section class="help-box">
+            <div class="item">
+                <i>asdf</i>
+                <span>正品保障</span>
+            </div>
+            <div class="item">
+                <i></i>
+                <span>满99包邮</span>
+            </div>
+            <div class="item">
+                <i>asdf</i>
+                <span>七天退换</span>
+            </div>
+            <div class="item">
+                <i></i>
+                <span>售后保障</span>
+            </div>
+        </section>
+
+    </main>
+    <!-- 页面内容区域结束 -->
+    <script src="./js/lib/adapaMobile.js"></script>
+    <script src="./js/lib/zepto.min.js"></script>
+    <script src="./js/lib/touch.js"></script>
+</body>
+
+</html>

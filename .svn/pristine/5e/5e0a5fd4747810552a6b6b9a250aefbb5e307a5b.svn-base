@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/lib/swiper.min.css">
+    <link rel="stylesheet" href="fonts/iconfont.css">
+    <link rel="stylesheet" href="css/lib/reset.css">
+    <link rel="stylesheet" href="css/section1.css">
+    <link rel="stylesheet" href="css/list.css">
+    <script src="js/lib/adapaMobile.js"></script>
+</head>
+<body>
+<div class="all">
+    <!-- 头部开始 -->
+    <header class="clearfix">
+        <div class="left">
+            <div class="home-icon"></div>
+            <img src="imgs/section1/logo.png" class="logo">
+            <img src="imgs/section1/active.gif" class="act">
+        </div>
+        <div class="right">
+            <a href="#">
+                <div class="search"></div>
+                <p>搜索</p>
+            </a>
+            <a href="#">
+                <div class="person"></div>
+                <p>我的</p>
+            </a>
+        </div>
+    </header>
+    <!-- 头部结束 -->
+    <!-- nav开始 -->
+    <nav class="clearfix">
+        <div class="nav-one">
+            <a href="#">音平商城</a>
+        </div>
+        <div class="nav-line"></div>
+        <div class="nav-two">
+            <a href="#">声卡</a>
+        </div>
+    </nav>
+    <!-- nav结束 -->
+    
+
+    <!-- tab开始 -->
+    <div class="detailTab">
+        <ul class="clearfix">
+            <li class="active">综合</li>
+            <li class="count">销量</li>
+            <li class="price">价格 </li>
+            <li>筛选</li>
+        </ul>
+    </div>
+    <!-- tab结束 -->
+    
+    <!-- sort开始 -->
+    <div class="sort-name">
+        <div class="item">
+            <a href="javascript:void(0);" onclick="deleteFilter('attr2')"> 手机声卡</a>
+            <img src="imgs/sort/del.png">
+        </div>
+    </div>
+    <!-- sort结束 -->
+    <!-- list开始 -->
+    <div class="list-item" id="wrapper">
+        <ul data-flag="true"></ul>
+        <script type="text/template" id="listgoods">
+            <% list.forEach(function(data){%>
+            <li class="clearfix" data-id="<%=data.Id%>">
+                <div class="left">
+                    <img src="imgs/commonImg/<%=data.indimg%>">
+                </div>
+                <div class="right">
+                    <p class="pro-name"><%=data.info%></p>
+                    <p class="pro-tip"><%=data.brand%></p>
+                    <p class="price">¥<%=data.price%></p>
+                </div>
+            </li>
+            <% })%>
+        </script>
+    </div>
+    <!-- list结束 -->
+
+
+
+    <nav class='slide'></nav>
+
+    <footer>
+        <div class="foot">
+            <div>
+                <i class="iconfont icon-kefu"></i>
+                <p>客服</p>
+            </div>
+            <div>
+                <i class="iconfont icon-caidan"></i>
+                <p>分类</p>
+            </div>
+            <div>
+                <i class="iconfont icon-jishiben"></i>
+                <p>套装</p>
+            </div>
+            <div>
+                <i class="iconfont icon-tubiaozhizuo--"></i>
+                <p>活动</p>
+            </div>
+            <div>
+                <i class="iconfont icon-gouwuche"></i>
+                <p>我的购物车</p>
+            </div>
+        </div>
+    </footer>
+</div>
+
+    <script src="js/lib/zepto.min.js"></script>
+    <script src="js/lib/iscroll-probe.js"></script>
+    <script src="js/lib/fastclick.js"></script>
+    <script src="js/lib/swiper.min.js"></script>
+    <script src="js/lib/ejs.js"></script>
+    <script src="js/list.js"></script>
+
+    <script>        
+        var mySwiper = new Swiper ('.swiper-container', {
+            loop: true, // 循环模式选项
+        })        
+    </script>
+
+</body>
+</html>

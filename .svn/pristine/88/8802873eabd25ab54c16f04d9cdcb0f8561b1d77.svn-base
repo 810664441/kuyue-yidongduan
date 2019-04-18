@@ -1,0 +1,185 @@
+@charset 'utf-8';
+$container: 7.5rem;
+$themeColor: #ff7f00;
+
+@mixin show-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    font-size: 0.16rem;
+}
+
+// 页面内容区域开始
+.cont{
+    width: $container;
+    margin: 0 auto;
+
+    // 页面的脚注区域
+    .page-foot{
+        height: 8.28rem;
+
+        // 长按扫码区域
+        .press-scan{
+            width: $container;
+            padding: 0.20rem 0;
+            background-color: #EEEEEE;
+
+            img{
+                width: 100%;
+                height: 2.14rem;
+            }
+        }
+
+        // 登陆注册链接区域
+        .tip-box{
+            height: 1rem;
+            line-height: 1rem;
+            font-size: 0.28rem;
+            padding:  0 0.40rem;
+            display: flex;
+            justify-content: space-between;
+
+            .left-box{
+
+                a{
+                    color: #333;
+                }
+
+                span{
+                    margin: 0 5px;
+                    color: #ccc;
+                }
+            }
+
+            .right-box{
+                a{
+                    color: #333;
+
+                    span{
+                        font-size: 0.36rem;
+                        color: $themeColor;
+                    }
+                }
+            }
+
+        }
+
+        // 售后帮助导航区域
+        .help-box{
+            height: 0.30rem;
+            padding: 0.20rem;
+            line-height: 0.30rem;
+            font-size: 0.24rem;
+            color: #666666;
+            border-bottom: 0.02rem #ebeced solid;
+            border-top: 0.02rem #ebeced solid;
+
+            .item{
+                float: left;
+                width: 1.76rem;
+                text-align: center;
+                border-right: 0.02rem solid #ddd;
+            i{
+                display: inline-block;
+                width: 0.28rem;
+                height: 0.28rem;
+                background: url("../imgs/section3/icon-footer.png") no-repeat;
+                background-size: 1.12rem;
+                vertical-align: bottom;
+            }
+
+            .item1{
+                background-position: -0.84rem 0;
+            }
+            .item2{
+                background-position: -0.26rem 0;
+            }
+            .item3{
+                background-position: 0 0;
+            }
+            .item4{
+                background-position: -0.56rem 0;
+            }
+        }
+            .item4{
+                border: none;
+            }
+        }
+
+        // img信息提示区域
+        .img-info-box{
+            width: 6.10rem;
+            color: #666;
+            padding: 0.40rem 0.70rem;
+            display: flex;
+            justify-content: space-around;
+            figure{
+                width: 1.26rem;
+                font-size: 0.26rem;
+                margin: 0;
+                text-align: center;
+
+                img{
+                    width: 0.84rem;
+                    height: auto;
+                }
+
+                span{
+                    display: inline-block;
+                    margin-top: 0.08rem;
+                }
+            }
+        }
+
+        // 许可证区域
+        .license{
+            width: $container;
+            height: 0.72rem;
+            padding: 0.10rem 0 0.16rem;
+            color: #888888;
+            font-size: 0.24rem;
+
+            p{
+                text-align: center;
+            }
+        }
+    }
+
+    // 底部固定的导航区域
+    .fixed-bottom{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: $container;
+        height: 1rem;
+        background-color: #000;
+        opacity: 0.8;
+        z-index: 100;
+        a{
+            float: left;
+            width: 1.50rem;
+            height: 1rem;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: center;
+
+            i{
+                font-size: 0.44rem;
+            }
+
+            span{
+                width: 100%;
+                display: block;
+                text-align: center;
+                font-size: 0.26rem;
+            }
+        }
+    }
+}
+// 页面内容区域结束

@@ -1,0 +1,283 @@
+@charset 'utf-8';
+$container: 7.5rem;
+@import "./header.scss";
+@import "./footer.scss";
+body{
+    font-size: 0.16rem;
+}
+.item-common{
+    margin-top: 0.30rem;
+    background: #ccf6e6;
+    padding: 0.30rem 0;
+    border-radius: 0.16rem;
+
+    a{
+        .big{
+            width: 7.05rem; 
+            height: 7.05rem;
+        }
+
+        p{
+            width: 6rem;
+            height: 0.84rem;
+            margin: 0.20rem auto;
+            color: #fff;
+            line-height: 0.84rem;
+            display: flex;
+            justify-content: space-around;
+
+            span{
+                font-size: 0.48rem;
+            }
+
+            b{
+                font-size: 0.24rem;
+            }
+        }
+    }
+
+    a.video1{
+        display: block;
+        padding: 0 0.20rem;
+    }
+}
+.cont{
+    // 5个品牌
+    .brand{
+        height: 1.4rem;
+        background: #980035;
+        display: flex;
+        justify-content:space-around;
+        align-items:content;
+        align-content:content;
+        border-left: 0.1rem solid #980035;
+        border-right: 0.1rem solid #980035;
+        img{
+            margin-top:0.2rem; 
+            width: 1.2826rem;
+            height: 1.0184rem;
+        }
+    }
+    .taozhuang{
+        .taozhuang-x{
+            position: relative;
+            .taozhuang-pic{
+                position: absolute;
+                bottom: 1rem;
+                right: 0.15rem;
+                display: flex;
+                justify-content: space-around;
+                flex-wrap: wrap;
+                align-items: center;
+                width: 2.17rem;
+                height: 1.6rem;
+                // border: 1px solid #000;
+                p{
+                    font-size: 0.21rem;
+                    color: #ffff00;
+                    span{
+                        font-size: 0.4rem;
+                        font-weight: 700;
+                    }
+                }
+                div{
+                    
+                    background: #ff0066;
+                    border-radius: 0.3rem;
+                    width: 2.12rem;
+                    height: 0.66rem;
+                    text-align: center;
+                    line-height: 0.66rem;
+                    a{
+                        color: #fff;
+                        font-size: 0.3rem;
+                    }       
+                }
+            }
+        }
+    }
+    // 精选音响
+    .plate2{
+        .plate2-2{
+            background: #e9e9e9;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            .plate2-2-1{
+                display: flex;
+                background: #fff;
+                width: 2.4196rem;
+                height: 4.1996rem;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                margin-top: 0.08rem;
+                border: 0.01rem solid #e9e9e9;
+                img{
+                    width: 2.3796rem;
+                    height: 2.3796rem;
+                }
+                div{
+                overflow: hidden;
+                height: 0.6rem;
+                    p{
+                        cursor: pointer; 
+                        color: #000;
+                        font-size: 0.28rem;
+                        line-height: 0.32rem;
+                        margin-left:0.2rem; 
+                    }
+                }
+                .piace{
+                    border-top: 0.02rem solid #e9e9e9;
+                    width: 2.1rem;
+                    height: 0.5rem;
+                    span{
+                        color:#f60;
+                        font-size: 0.28rem;
+                        line-height: 0.5rem;
+                    }
+                }
+            }
+        }
+        .plate2-3{
+            border-top: 0.05rem solid #e9e9e9;
+            border-bottom: 0.01rem solid #e9e9e9;
+            // height: 3.16rem;
+            display: flex;
+            flex-wrap: wrap;
+            .plate2-3-1{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                width: 1.875rem;
+                height: 1.5412rem;
+               border:0.01rem solid #e9e9e9;
+                img{
+                    width: 1.4926rem;
+                    height: 0.6066rem;
+                    margin-top: 0.2rem;
+                }
+                div{
+                    width: 1.4926rem;
+                    height: 0.5rem;
+                    // border: 1px solid #000;
+                   border-top: 0.01rem solid #e9e9e9; 
+                   p{
+                       text-align: center;
+                       line-height: 0.5rem;
+                       color: #666;
+                   }
+                }
+            }
+        }
+    }
+    .plate3{
+        .plate3-1{
+            background: #8802e1;
+            color: #999;
+            display: flex;
+            justify-content: space-around;
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+            padding-bottom: 0.3rem;
+            a{
+                color: #fff;
+            }
+        }
+        .news-list{
+            padding:0 0.04rem;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            background: #ff0066;
+            // height:2.9rem;
+            padding-bottom:0.03rem;  
+            li{
+                overflow:hidden;
+                .plate2-2-1{
+                    display: flex;
+                    background: #fff;
+                    width: 2.4196rem;
+                    height: 4.1996rem;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    align-items: center;
+                    margin-top: 0.08rem;
+                    border: 0.01rem solid #e9e9e9;
+    
+                    img{
+                        width: 2.3796rem;
+                        height: 2.3796rem;
+                    }
+                    div{
+                    overflow: hidden;
+                    height: 0.6rem;
+                        p{
+                            cursor: pointer; 
+                            color: #000;
+                            font-size: 0.28rem;
+                            line-height: 0.32rem;
+                            margin-left:0.2rem; 
+                        }
+                    }
+                    .piace{
+                        border-top: 0.02rem solid #e9e9e9;
+                        width: 2.1rem;
+                        height: 0.5rem;
+                        span{
+                            color:#f60;
+                            font-size: 0.28rem;
+                            line-height: 0.5rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    //更多主题专场
+    .more{
+        .thematic-special{
+            margin: .48rem auto;
+            width: 94%;
+            height: .02rem;
+            border-top: .03rem solid #d4d4d4;
+            text-align: center;
+            span{
+                position: relative;
+                top: -0.28rem;
+                background: #f3f3f3;
+                padding: 0 .4rem;
+                font-size: .32rem;
+                color: #333;
+            }
+        }
+        .thematic-special-list{
+            padding: .4rem 0 .4rem 0;
+            background: #fff;
+            display: flex;
+            flex-wrap:wrap;
+            .thematic-special-list1{
+                width: 20%;
+                margin-bottom: .6rem;
+                border: 0;
+                a{
+                    margin-top: .4rem;
+                    text-align: center;
+                    img{
+                        margin-top: .4rem;
+                        width: 40px;
+                        height: 40px;
+                        margin: 0 .36rem;
+                    }
+                    p{
+                        margin-top: .08rem;
+                        font-size: .24rem;
+                        color: #333; 
+                    }
+                }
+            }
+        }
+    }
+    //更多主题专场结束
+}

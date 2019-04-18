@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width,maximum-scale=1.0,minimum-scale=1.0,initial-scale=1.0,user-scalable=no">
+    <title>套装分类</title>
+    <link rel="stylesheet" href="./fonts/iconfont.css">
+    <link rel="stylesheet" href="./css/lib/reset.css">
+    <link rel="stylesheet" href="./css/header.css">
+</head>
+
+<body>
+
+    <div class="all-box clearfix">
+
+        <!-- 网站左侧的导航 -->
+        <aside class="aside-nav">
+
+            <dl class="nav">
+                <dt>网站导航</dt>
+                <dd>
+                    <a href="#">首页</a>
+                </dd>
+                <dd>
+                    <a href="#">品牌专区</a>
+                </dd>
+                <dd>
+                    <a href="#">套装分类</a>
+                </dd>
+                <dd>
+                    <a href="#">商品分类</a>
+                </dd>
+                <dd>
+                    <a href="#">活动专场</a>
+                </dd>
+                <dd>
+                    <a href="#">我的音平</a>
+                </dd>
+                <dd>
+                    <a href="#">帮助中心</a>
+                </dd>
+                <dd>
+                    <a href="#">商城广告</a>
+                </dd>
+            </dl>
+
+            <dl class="server">
+                <dt>特色服务</dt>
+                <dd>
+                    <a href="#">
+                        <img src="./imgs/section3/server1.jpg" alt="">
+                    </a>
+                </dd>
+                <dd>
+                    <a href="#">
+                        <img src="./imgs/section3/server2.jpg" alt="">
+                    </a>
+                </dd>
+                <dd>
+                    <a href="#">
+                        <img src="./imgs/section3/server3.jpg" alt="">
+                    </a>
+                </dd>
+            </dl>
+
+            <dl class="other">
+                <dd>
+                    <a href="#">
+                        <img src="./imgs/section3/ot1.jpg" alt="" class="ot">
+                        订单查询
+                    </a>
+                </dd>
+                <dd>
+                    <a href="#">
+                        <img src="./imgs/section3/ot2.png" alt="" class="ot">
+                        投诉建议
+                    </a>
+                </dd>
+            </dl>
+
+            <dl>
+                <dd>
+                    <a href="javascript:void(0);" class="phone-box">
+                        <img src="./imgs/section3/phone.jpg" alt="" class="phone">
+                        400-700-3638
+                    </a>
+                </dd>
+            </dl>
+
+            <dl>
+                <dd class="heart-info">
+                    <a href="javascript:void(0);">
+                        正品保障
+                    </a>
+                </dd>
+                <dd class="heart-info">
+                    <a href="javascript:void(0);">
+                        售后无忧
+                    </a>
+                </dd>
+                <dd class="heart-info">
+                    <a href="javascript:void(0);">
+                        货到付款
+                    </a>
+                </dd>
+                <dd class="heart-info">
+                    <a href="javascript:void(0);">
+                        闪电发货
+                    </a>
+                </dd>
+            </dl>
+
+        </aside>
+
+        <!-- 页面内容区域开始 -->
+        <main class="cont">
+            <header class="head">
+                <div class="h-left">
+                    <div class="aside-nav-toggle iconfont icon-caidan" data-flag="true"></div>
+                    <div class="logo">
+                        <a href="#">
+                            <img src="./imgs/suit/logo.png" alt="音平商城">
+                        </a>
+                    </div>
+                </div>
+                <div class="h-right">
+                    <a href="#">
+                        <div class="myicon icon_01"></div>
+                        <span>搜索</span>
+                    </a>
+                    <a href="#">
+                        <div class="myicon icon_02"></div>
+                        <span>我的</span>
+                    </a>
+                </div>
+            </header>
+
+            <div class="bread">
+                <div class="brand-item">
+                    <a href="#">音平商城</a>
+                </div>
+                <div class="brand-item split"></div>
+                <div class="brand-item">
+                    <h1>套装分类</h1>
+                </div>
+            </div>
+
+        </main>
+        <!-- 页面内容区域结束 -->
+    </div>
+
+    <script src="./js/lib/adapaMobile.js"></script>
+    <script src="./js/lib/zepto.min.js"></script>
+    <script src="./js/lib/touch.js"></script>
+    <script src="./js/lib/fx_methods.js"></script>
+    <script src="./js/lib/fastclick.js"></script>
+    <script src="./js/header.js"></script>
+</body>
+
+</html>

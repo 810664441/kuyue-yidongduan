@@ -1,0 +1,8 @@
+@charset 'utf-8';
+.header{
+   
+    width:8.28rem;
+    height: 0.94rem;
+    // border: 0.02 solid #000;
+    background: #000;
+}

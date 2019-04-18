@@ -1,0 +1,90 @@
+@charset 'utf-8';
+@import "./header.scss";
+@import "./footer.scss";
+$container: 7.5rem;
+$themeColor: #ff7f00;
+
+@mixin show-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    font-size: 0.16rem;
+}
+
+// 页面内容区域开始
+.cont{
+    width: $container;
+    margin: 0 auto;
+
+   
+
+    // 解决方案区域
+    .solution{
+        width: $container;
+
+        dl{
+            margin: 0 0.20rem;
+
+            dt{
+                height: 0.92rem;
+                font-size: 0.32rem;
+                line-height: 0.90rem;
+                border-bottom: 0.02rem solid #ddd;
+            }
+
+            dd{
+                height: 1.42rem;
+                border-bottom: 0.02rem solid #eee;
+               
+                a{
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    color: #000;
+
+                    .left-icon{
+                        width: 0.90rem;
+                        height: 0.90rem;
+                        background-color: #FFE7F8;
+                        border-radius: 50%;
+                        text-align: center;
+                        line-height: 0.90rem;
+    
+                        i{
+                            color: #FF10A2;
+                            font-size: 0.45rem;
+                        }
+                    }
+    
+                    .right-info{
+                        margin-left: 0.10rem;
+                        height: 0.90rem;
+                        display: flex;
+                        align-content: space-around;
+                        flex-wrap: wrap;
+    
+                        h2{
+                            width: 100%;
+                            font-weight: normal;
+                            font-size: 0.30rem;
+                        }
+    
+                        p{
+                            width: 100%;
+                            font-size: 0.24rem;
+                            color: #999999;
+                        }
+    
+                    }
+
+                }
+
+            }
+        }
+    }
+
+}
+// 页面内容区域结束

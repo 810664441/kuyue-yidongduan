@@ -1,0 +1,527 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/lib/swiper.min.css">
+    <link rel="stylesheet" href="fonts/iconfont.css">
+    <link rel="stylesheet" href="css/lib/reset.css">
+    <link rel="stylesheet" href="css/section1.css">
+    <link rel="stylesheet" href="css/section2.css">
+    <script src="js/lib/adapaMobile.js"></script>
+</head>
+<body>
+<div class="all">
+    <!-- 头部开始 -->
+    <header class="clearfix">
+        <div class="left">
+            <div class="home-icon"></div>
+            <img src="imgs/section1/logo.png" class="logo">
+            <img src="imgs/section1/active.gif" class="act">
+        </div>
+        <div class="right">
+            <a href="#">
+                <div class="search"></div>
+                <p>搜索</p>
+            </a>
+            <a href="#">
+                <div class="person"></div>
+                <p>我的</p>
+            </a>
+        </div>
+    </header>
+    <!-- 头部结束 -->
+    <!-- nav开始 -->
+    <nav class="clearfix">
+        <div class="nav-one">
+            <a href="#">音平商城</a>
+        </div>
+        <div class="nav-line"></div>
+        <div class="nav-two">
+            <a href="#">主题商城</a>
+        </div>
+        <div class="nav-line"></div>
+        <div class="nav-three">
+            <h1>家庭KTV设备专场</h1>    
+        </div>
+    </nav>
+    <!-- nav结束 -->
+
+    <!-- banner开始 -->
+    <div class="banner">
+        <div class="swiper-container bannerImg">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="imgs/section1/banner1.jpg">
+                </div>
+                <div class="swiper-slide">
+                    <img src="imgs/section1/banner2.jpg">
+                </div>
+                <div class="swiper-slide">
+                    <img src="imgs/section1/banner3.jpg">
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <!-- banner结束 -->
+
+    <!-- floormenu-list开始 -->
+    <div class="floor">
+        <ul class="clearfix">
+            <li>
+                <a href="#"><img src="imgs/section1/floorMenu-01.jpg"></a>
+            </li>
+            <li class="mid">
+                <a href="#"><img src="imgs/section1/floorMenu-02.jpg"></a>
+            </li>
+            <li>
+                <a href="#"><img src="imgs/section1/floorMenu-03.jpg"></a>
+            </li>
+        </ul>
+    </div>
+    <!-- floormenu-list结束 -->
+
+    <!-- 影K一体专区开始 -->
+    <div class="list1">
+        <div class="list-title">
+            <img src="imgs/section1/sec2-f1.jpg">
+        </div>
+        <div class="info">
+            <img src="imgs/section1/sec2-f2.jpg">
+            <div class="suit-bottom">
+                <div class="suit-video">
+                    <img src="imgs/section1/sec2-f3.jpg">
+                </div>
+                <div class="suit-price"><small>￥</small> 14200</div>
+                <div class="buyBtn"><a href="#">立即选购</a></div>
+            </div>
+        </div>
+        <div class="info2">
+            <img src="imgs/section1/load.jpg" data-original="imgs/section1/sec2-f11.jpg" class="lazy">
+            <div class="suit-bottom">
+                <div class="suit-video">
+                    <img src="imgs/section1/sec2-f3.jpg">
+                </div>
+                <div class="suit-price"><small>￥</small> 14200</div>
+                <div class="buyBtn"><a href="#">立即选购</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="tablist">
+        <ul class="one">
+            <li class="active">热门品牌</li>
+            <li class="mid">热门配件</li>
+            <li>相关分类</li>
+        </ul>
+        <ul class="hidlist">
+            <li class="on">
+                <span>惠威</span>
+                <span>JBL</span>
+                <span>天逸</span>
+                <span>天龙</span>
+                <span>得胜</span>
+                <span>雷客</span>
+                <span>优视加</span>
+            </li>
+            <li>
+                <span>5.1声道功效</span>
+                <span>家庭影院</span>
+                <span>低音炮</span>
+                <span>演出麦克风</span>
+                <span>触摸屏</span>
+                <span>点歌机</span>
+                <span>一体点歌机</span>
+                <span>播放器</span>
+            </li>
+            <li>
+                <span>音箱支架</span>
+                <span>音箱线材</span>
+                <span>喇叭线</span>
+                <span>HDNI线</span>
+                <span>麦克风支架</span>
+                <span>防风棉</span>
+                <span>麦克风线材</span>
+                <span>转换头</span>
+            </li>
+        </ul>
+    </div>
+    <div class="goods-list">
+        <div class="swiper-container goods">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide active">精选功放/音箱</div>
+                <div class="swiper-slide">麦克风</div>
+                <div class="swiper-slide">点歌机</div>
+                <div class="swiper-slide">相关配件</div>
+                <div class="swiper-slide">更多套装</div>
+            </div>
+           
+        </div>
+        <div class="swiper-container info " data-num="0">
+            <div class="swiper-wrapper" data-flag="true"></div>
+           
+        </div>
+    </div>
+
+    <script type="text/template" id="tabData">
+        <% list.forEach(function(data){%>
+            <div class="swiper-slide">
+                <div class="item">
+                    <a href="detail.html?id=<%=data.Id%>">
+                        <div class="item-img">
+                            <img src="imgs/commonImg/<%=data.indimg%>">
+                        </div>
+                        <div class="intro">
+                            <p><%=data.info%></p>
+                        </div>
+                        <div class="priceBtn"><small>￥</small><%=data.price%></div>
+                    </a>
+                </div>
+            </div>
+        <%})%>
+    </script>
+    
+    <!-- 影K一体专区结束 -->
+
+
+    <div class="list1 two">
+        <div class="list-title">
+            <img src="imgs/section1/ktv1.jpg">
+        </div>
+        <div class="info">
+            <img src="imgs/section1/load.jpg" data-original="imgs/section1/ktv2.jpg" class="lazy">
+            <div class="suit-bottom">
+                <div class="suit-video">
+                    <img src="imgs/section1/sec2-f3.jpg">
+                </div>
+                <div class="suit-price"><small>￥</small> 14200</div>
+                <div class="buyBtn"><a href="#">立即选购</a></div>
+            </div>
+        </div>
+        <div class="info2">
+            <img src="imgs/section1/load.jpg" data-original="imgs/section1/ktv3.jpg" class="lazy">
+            <div class="suit-bottom">
+                <div class="suit-video">
+                    <img src="imgs/section1/sec2-f3.jpg">
+                </div>
+                <div class="suit-price"><small>￥</small> 14200</div>
+                <div class="buyBtn"><a href="#">立即选购</a></div>
+            </div>
+        </div>
+        <div class="info2">
+            <img src="imgs/section1/load.jpg" data-original="imgs/section1/ktv4.jpg" class="lazy">
+            <div class="suit-bottom">
+                <div class="suit-video">
+                    <img src="imgs/section1/sec2-f3.jpg">
+                </div>
+                <div class="suit-price"><small>￥</small> 14200</div>
+                <div class="buyBtn"><a href="#">立即选购</a></div>
+            </div>
+        </div>
+        <div class="info2">
+            <img src="imgs/section1/load.jpg" data-original="imgs/section1/ktv5.jpg" class="lazy">
+            <div class="suit-bottom">
+                <div class="suit-video">
+                    <img src="imgs/section1/sec2-f3.jpg">
+                </div>
+                <div class="suit-price"><small>￥</small> 14200</div>
+                <div class="buyBtn"><a href="#">立即选购</a></div>
+            </div>
+        </div>
+        <div class="info2">
+            <img src="imgs/section1/load.jpg" data-original="imgs/section1/ktv6.jpg" class="lazy">
+            <div class="suit-bottom">
+                <div class="suit-video">
+                    <img src="imgs/section1/sec2-f3.jpg">
+                </div>
+                <div class="suit-price"><small>￥</small> 14200</div>
+                <div class="buyBtn"><a href="#">立即选购</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="tablist">
+        <ul class="one">
+            <li class="active">热门品牌</li>
+            <li class="mid">热门配件</li>
+            <li>相关分类</li>
+        </ul>
+        <ul class="hidlist">
+            <li class="on">
+                <span>惠威</span>
+                <span>JBL</span>
+                <span>天逸</span>
+                <span>天龙</span>
+                <span>得胜</span>
+                <span>雷客</span>
+                <span>优视加</span>
+            </li>
+            <li>
+                <span>5.1声道功效</span>
+                <span>家庭影院</span>
+                <span>低音炮</span>
+                <span>演出麦克风</span>
+                <span>触摸屏</span>
+                <span>点歌机</span>
+                <span>一体点歌机</span>
+                <span>播放器</span>
+            </li>
+            <li>
+                <span>音箱支架</span>
+                <span>音箱线材</span>
+                <span>喇叭线</span>
+                <span>HDNI线</span>
+                <span>麦克风支架</span>
+                <span>防风棉</span>
+                <span>麦克风线材</span>
+                <span>转换头</span>
+            </li>
+        </ul>
+    </div>
+    <div class="goods-list">
+        <div class="swiper-container goods">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide active">精选功放</div>
+                <div class="swiper-slide">精选音箱</div>
+                <div class="swiper-slide">点歌机</div>
+                <div class="swiper-slide">麦克风</div>
+                <div class="swiper-slide">相关配件</div>
+                <div class="swiper-slide">更多套装</div>
+            </div>
+           
+        </div>
+        <div class="swiper-container info" data-num="1">
+            <div class="swiper-wrapper" data-flag="true"></div>
+           
+        </div>
+    </div>
+
+
+
+    <div class="list1 three">
+        <div class="list-title">
+            <img src="imgs/section1/yingyuan1.jpg">
+        </div>
+        <div class="info">
+            <img src="imgs/section1/load.jpg" data-original="imgs/section1/yingyuan2.jpg" class="lazy">
+            <div class="suit-bottom">
+                <div class="suit-video">
+                    <img src="imgs/section1/sec2-f3.jpg">
+                </div>
+                <div class="suit-price"><small>￥</small> 14200</div>
+                <div class="buyBtn"><a href="#">立即选购</a></div>
+            </div>
+        </div>
+        <div class="info2">
+            <img src="imgs/section1/load.jpg" data-original="imgs/section1/yingyuan3.jpg" class="lazy">
+            <div class="suit-bottom">
+                <div class="suit-video">
+                    <img src="imgs/section1/sec2-f3.jpg">
+                </div>
+                <div class="suit-price"><small>￥</small> 14200</div>
+                <div class="buyBtn"><a href="#">立即选购</a></div>
+            </div>
+        </div>
+        <div class="info2">
+            <img src="imgs/section1/load.jpg" data-original="imgs/section1/yingyuan4.jpg" class="lazy">
+            <div class="suit-bottom">
+                <div class="suit-video">
+                    <img src="imgs/section1/sec2-f3.jpg">
+                </div>
+                <div class="suit-price"><small>￥</small> 14200</div>
+                <div class="buyBtn"><a href="#">立即选购</a></div>
+            </div>
+        </div>
+        <div class="info2">
+            <img src="imgs/section1/load.jpg" data-original="imgs/section1/yingyuan5.jpg" class="lazy">
+            <div class="suit-bottom">
+                <div class="suit-video">
+                    <img src="imgs/section1/sec2-f3.jpg">
+                </div>
+                <div class="suit-price"><small>￥</small> 14200</div>
+                <div class="buyBtn"><a href="#">立即选购</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="tablist">
+        <ul class="one">
+            <li class="active">热门品牌</li>
+            <li class="mid">热门配件</li>
+            <li>相关分类</li>
+        </ul>
+        <ul class="hidlist">
+            <li class="on">
+                <span>惠威</span>
+                <span>JBL</span>
+                <span>天逸</span>
+                <span>天龙</span>
+                <span>得胜</span>
+                <span>雷客</span>
+                <span>优视加</span>
+            </li>
+            <li>
+                <span>5.1声道功效</span>
+                <span>家庭影院</span>
+                <span>低音炮</span>
+                <span>演出麦克风</span>
+                <span>触摸屏</span>
+                <span>点歌机</span>
+                <span>一体点歌机</span>
+                <span>播放器</span>
+            </li>
+            <li>
+                <span>音箱支架</span>
+                <span>音箱线材</span>
+                <span>喇叭线</span>
+                <span>HDNI线</span>
+                <span>麦克风支架</span>
+                <span>防风棉</span>
+                <span>麦克风线材</span>
+                <span>转换头</span>
+            </li>
+        </ul>
+    </div>
+    <div class="goods-list">
+        <div class="swiper-container goods">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide active">精选音箱</div>
+                <div class="swiper-slide">精选功放</div>
+                <div class="swiper-slide">低音炮</div>
+                <div class="swiper-slide">播放机</div>
+                <div class="swiper-slide">相关配件</div>
+                <div class="swiper-slide">更多套装</div>
+            </div>
+           
+        </div>
+        <div class="swiper-container info" data-num="2">
+            <div class="swiper-wrapper" data-flag="true"></div>
+           
+        </div>
+    </div>
+
+
+
+
+    <div class="ft">
+        <img src="imgs/section1/ft.jpg">
+        <div class="block"></div>
+    </div>
+</div>
+
+    <nav class="slide">
+        <div class="mm-panel mm-opened mm-current">
+            <p class="til"><b>网站导航</b></p>
+            <ul class="mm-list">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="brand.html">品牌专区</a></li>
+                <li><a href="suit.html">套装分类</a></li>
+                <li><a href="sort.html">商品分类</a></li>
+                <li><a href="active.html">活动专场</a></li>
+                <li><a href="">我的音平</a></li>
+                <li><a href="">帮助中心</a></li>
+                <li><a href="" target="_blank">商城公告</a></li>
+            </ul>
+            <p class="tese"><b>特色服务</b></p>
+            <ul class="mm-list">
+                <li><a href=""><img  src="imgs/section1/ad-01.jpg"></a></li>
+                <li><a href=""><img  src="imgs/section1/ad-02.jpg"></a></li>
+                <li><a href=""><img src="imgs/section1/ad-03.jpg"></a></li>
+            </ul>
+            <ul class="mm-list">
+                <li><a href=""><img class="img_ico" src="imgs/section1/css.jpg">订单查询</a></li>
+                <li><a href=""><img class="img_ico" src="imgs/section1/css2.png">投诉建议</a></li>
+            </ul>
+            <ul  class="mm-list">
+                <li><a href="">400-700-3638</a></li>
+            </ul>
+            <div class="pro-table">
+                <dl>
+                    <dd>正品保障</dd>
+                    <dd>售后无忧</dd>
+                    <dd>货到付款</dd>
+                    <dd>闪电发货</dd>
+                </dl>
+            </div>
+        </div>
+    </nav>
+     <div class="gotop">
+        <img src="imgs/sort/gotop.png">
+    </div>
+    <footer>
+        <div class="foot">
+            <div>
+                <a href="">
+                    <i class="iconfont icon-kefu"></i>
+                    <p>客服</p>
+                </a>
+            </div>
+            <div>
+                <a href="sort.html">
+                    <i class="iconfont icon-caidan"></i>
+                    <p>分类</p>
+                </a>
+            </div>
+            <div>
+                <a href="suit.html">
+                    <i class="iconfont icon-jishiben"></i>
+                    <p>套装</p>
+                </a>
+            </div>
+            <div>
+                <a href="active.html">
+                    <i class="iconfont icon-tubiaozhizuo--"></i>
+                    <p>活动</p>
+                </a>
+            </div>
+            <div>
+                <a href="cart.html">
+                    <i class="iconfont icon-gouwuche"></i>
+                    <p>我的购物车</p>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/lib/zepto.min.js"></script>
+    <script src="js/lib/fastclick.js"></script>
+    <script src="js/lib/swiper.min.js"></script>
+    <script src="js/lib/ejs.js"></script>
+    <script src="js/lib/lazyload.js"></script>
+    <script src="js/section2.js"></script>
+    <script src="js/header1.js"></script>
+
+    <script>             
+        var mySwiper = new Swiper ('.bannerImg', {
+        // direction: 'vertical', // 垂直切换选项
+            loop: true, // 循环模式选项
+    
+        // 如果需要分页器
+            pagination: {
+                el: '.swiper-pagination',
+                clickable :true,
+            }
+        });
+        var mySwiper = new Swiper ('.goods', {
+            // loop: true,
+            slidesPerView : 3.5,
+            freeMode : true,
+
+
+        });
+        var mySwiper = new Swiper ('.info', {
+            // loop: true,
+            slidesPerView : 2.6,
+            freeMode : true,
+
+
+        }) 
+         $(".lazy").picLazyLoad({
+            threshold: 50,
+        });      
+  </script>       
+
+
+</body>
+</html>

@@ -1,0 +1,134 @@
+@charset 'utf-8';
+$container: 7.5rem;
+
+html, body{
+    font-size: 0.16rem;
+    background: #eee;
+    width: 100%;
+    height: 100%;
+
+    touch-action: manipulation;
+}
+
+.cont{
+    width: $container;
+    header{
+        display: flex;
+        border-bottom: solid #D1D1D1 1px;
+        height: 0.88rem;
+        padding: 0 0.20rem;
+        justify-content: space-between;
+        align-items: center;
+        .left{
+            width: 0.40rem;
+            height: 0.80rem;
+            text-align: center;
+            a{
+                display: inline-block;
+                width: 0.40rem;
+                height: 0.40rem;
+                margin-top: 0.20rem;
+                background: url("../imgs/search/icon.png") no-repeat;
+                background-size: 4rem 4rem;
+                background-position: -0.80rem 0.02rem;
+            }
+        }
+
+        form{
+            background: #fff;
+            margin-top: 0.10rem;
+            margin-left: 0.10rem;
+            width: 100%;
+            border-radius: 0.08rem;
+            overflow: hidden;
+            font-size: 0.28rem;
+            border: 0.02rem solid #bfbfbf;
+            height: 0.60rem;
+            border-right: 0;
+            overflow: hidden;
+            display: flex;
+            justify-content: space-between;
+
+            input{
+                border: none;
+                outline: none;
+                width: 100%;
+                padding-left: 0.20rem;
+            }
+
+            div{
+                width: 0.60rem;
+                height: 0.60rem;
+                border-radius: 0 0.08rem 0.08rem 0;
+                border: 0.02rem solid #bfbfbf;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+               
+                span{
+                    width: 0.40rem;
+                    height: 0.60rem;
+                    background: url("../imgs/search/icon.png") no-repeat;
+                    background-size: 4.2rem 4.2rem;
+                    background-position: -1.70rem 0.14rem;
+                }
+            }
+        }
+    }
+
+    .hot-search{
+        background-color: #fff;
+        .hot-search-head{
+            padding: 0.20rem 0.30rem;
+            p{
+                float: left;
+                font-size: 0.28rem;
+                color: #999;
+                padding-left: 0.02rem;
+            }
+            span{
+                float: right;
+                width: 0.38rem;
+                height: 0.38rem;
+                background: url("../imgs/search/del-icon.png") no-repeat;
+                background-size: 1rem 1rem;
+                background-position: -0.7rem 0.04rem;
+            }
+        }
+        .items{
+            padding: 0.10rem 0.30rem;
+            a{  
+                height: 0.52rem;
+                line-height: 0.52rem;
+                float: left;
+                width: 30%;
+                color: #666;
+                font-size: 0.24rem;
+                border: 0.02rem solid #eee;
+                background-color: #eee;
+                border-radius: 1.5625rem;
+                margin-right: 0.20rem;
+                margin-bottom: 0.10rem;
+                text-align: center;
+                overflow: hidden;
+            }
+        }
+    }
+
+    .hot-history{
+        margin-top: 0.20rem;
+    }
+
+    .tip-items-box{
+        background-color: #fff;
+        display: none;
+        a{
+            display: block;
+            padding: 0 0.24rem;
+            height: 0.84rem;
+            line-height: 0.84rem;
+            color: #333333;
+            font-size: 0.24rem;
+        }
+    }
+}

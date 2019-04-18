@@ -1,0 +1,416 @@
+@charset 'utf-8';
+$container: 7.5rem;
+@import "./header.scss";
+@import "./footer.scss";
+body{
+    font-size: 0.16rem;
+}
+.item-common{
+    margin-top: 0.30rem;
+    background: #ccf6e6;
+    padding: 0.30rem 0;
+    border-radius: 0.16rem;
+
+    a{
+        .big{
+            width: 7.05rem; 
+            height: 7.05rem;
+        }
+
+        p{
+            width: 6rem;
+            height: 0.84rem;
+            margin: 0.20rem auto;
+            color: #fff;
+            line-height: 0.84rem;
+            display: flex;
+            justify-content: space-around;
+
+            span{
+                font-size: 0.48rem;
+            }
+
+            b{
+                font-size: 0.24rem;
+            }
+        }
+    }
+
+    a.video1{
+        display: block;
+        padding: 0 0.20rem;
+    }
+}
+.cont{
+    // 四大类
+    .classify{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        background: #980035;
+        a{
+            width: 3.68rem;
+            height: 1.621rem;
+            padding: 0.1rem;
+        }
+        a:nth-child(1){
+            padding-top:0.2rem;            
+        }
+        a:nth-child(2){
+            padding-top:0.2rem;
+        }
+        a:nth-child(3){
+            padding-bottom:0.2rem;
+        }
+        a:nth-child(4){
+            padding-bottom:0.2rem;
+        }
+    }
+    // 热卖排行
+    .plate1{
+        .plate1-1{
+            border-top: 0.3rem solid #7500f4;
+            border-bottom: 0.2rem solid #7500f4;
+        }
+        ul{
+            
+            li{
+                display: flex;
+                align-items: center;
+                height: 2.02rem;
+                border-top: 0.02rem solid #e0e0e0;
+                .plate1-2-1{
+                    color: #fff;
+                    width: 0.975rem;
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    height: 2rem;
+                    justify-content: center;
+                    p{
+                        font-size: 0.1rem;
+                        text-align: center; 
+                    }
+                    h2{
+                        font-size: 0.48rem;
+                        font-weight: 100;
+                    }
+                    
+                }
+                .color1{
+                    background: #f25455; 
+                }
+                .color2{
+                    background: #fbaa51; 
+                }
+                .color3{
+                    background: #80dcd1; 
+                }
+                .color4{
+                    background: #50d9eb; 
+                }
+                .color5{
+                    background: #9675ce; 
+                }
+                img{
+                    width:1.7rem;
+                    height: 1.7rem;
+                }
+                .plate1-2-2{
+                    margin-top:-0.12rem; 
+                    height: 1.8rem;
+                    width: 4.9432rem;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    .wen{
+                        font-size: 0.3rem;
+                        color: #666;
+                        margin-top: 0.2rem;
+                    }
+                    .plate1-2-3{
+                        width: 4.6rem;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                       p{
+                           color: #ff6600;
+                           span{
+                               background: #957bff;
+                               color: #fff;
+                               margin-left:0.2rem; 
+                               border-radius: 0.05rem;
+                               padding: 0.03rem;
+                           }
+                       }
+                        img{
+                          width: 0.52rem;
+                          height: 0.52rem; 
+                          display:flex;
+                            justify-content:flex-end;
+                        }
+                    }
+                  
+                }
+            }
+        }
+    }
+    //热卖排行结束
+    //演出麦克风
+    .plate2{
+        .plate2-1{
+            border-top: 0.3rem solid #7500f4;
+            border-bottom: 0.2rem solid #7500f4;
+        }
+        .plate2-2{
+            background: #e9e9e9;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            .plate2-2-1{
+                display: flex;
+                background: #fff;
+                width: 2.4196rem;
+                height: 4.1996rem;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                margin-top: 0.08rem;
+                border: 0.01rem solid #e9e9e9;
+
+                img{
+                    width: 2.3796rem;
+                    height: 2.3796rem;
+                }
+                div{
+                overflow: hidden;
+                height: 0.6rem;
+                    p{
+                        cursor: pointer; 
+                        color: #000;
+                        font-size: 0.28rem;
+                        line-height: 0.32rem;
+                        margin-left:0.2rem; 
+                    }
+                }
+                .piace{
+                    border-top: 0.02rem solid #e9e9e9;
+                    width: 2.1rem;
+                    height: 0.5rem;
+                    span{
+                        color:#f60;
+                        font-size: 0.28rem;
+                        line-height: 0.5rem;
+                    }
+                }
+            }
+        }
+        .plate2-3{
+            border-top: 0.05rem solid #e9e9e9;
+            border-bottom: 0.01rem solid #e9e9e9;
+            height: 3.16rem;
+            display: flex;
+            flex-wrap: wrap;
+            .plate2-3-1{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                width: 1.875rem;
+                height: 1.5412rem;
+               border:0.01rem solid #e9e9e9;
+                img{
+                    width: 1.4926rem;
+                    height: 0.7462rem;
+                    margin-top: 0.2rem;
+                }
+                div{
+                    width: 1.4926rem;
+                    height: 0.5rem;
+                    // border: 1px solid #000;
+                   border-top: 0.01rem solid #e9e9e9; 
+                   p{
+                       text-align: center;
+                       line-height: 0.5rem;
+                       color: #666;
+                   }
+                }
+            }
+        }
+    }
+    //演出麦克风结束
+    // 演出音响套装
+    .plate3{
+        .bc1{
+            background: #1093e1 ;
+        }
+        .bc2{
+            background: #187aff ;
+        }
+        .bc3{
+            background: #510087 ;
+        }
+        .bc4{
+            background: #005961 ;
+        }
+        .bc5{
+            background: #800087 ;
+        }
+        .plate3-3{
+            display: flex;
+           
+            height: 3rem;
+            justify-content: space-between;
+            
+            img{
+                width: 4.9468rem;
+                height: 2.6294rem;
+            }
+            .plate3-3-1{
+                display: flex;
+                justify-content: space-around;
+                flex-wrap: wrap;
+                align-items: center;
+                width: 2.17rem;
+                height: 1.6rem;
+                // border: 1px solid #000;
+                p{
+                    font-size: 0.21rem;
+                    color: #ffff00;
+                    span{
+                        font-size: 0.4rem;
+                        font-weight: 700;
+                    }
+                }
+                div{
+                    background: #ff0066;
+                    border-radius: 0.3rem;
+                    width: 2.12rem;
+                    height: 0.66rem;
+                    text-align: center;
+                    line-height: 0.66rem;
+                    a{
+                        color: #fff;
+                        font-size: 0.3rem;
+                    }
+                    
+                }
+            }
+        }
+    }
+    // 演出音箱套装结束
+    // 相关产品
+    .plate4{
+        overflow: hidden;
+        .plate4-1{
+            border-top: 0.3rem solid #7500f4;
+            border-bottom: 0.2rem solid #7500f4;
+        }
+        .tabs{
+            
+	        background-size:auto 100%;
+	        // width:13rem;
+	        height:0.81rem;
+            overflow:hidden;
+            background: #4d4d4d;
+            display: flex;
+                a{
+                font-weight:normal;
+	            text-align:center;
+	            font-size: 0.25rem;
+	            width:2.2rem;
+	            height:0.8rem;
+	            line-height:0.8rem;
+	            color:#2a70be;
+                text-decoration:none;
+                color: #fff;
+                }
+            .active{ 
+	            background-repeat:no-repeat;
+	            -webkit-background-size:2.2rem 0.8rem;
+                -moz-background-size:2.2rem 0.8rem;
+	            -o-background-size:2.2rem 0.8rem;
+	            background-size:2.2rem 0.8rem;
+	            background-position:left top;
+                // color:#c14545;
+                background: #ff0066;
+            }
+        }
+        #tabs-container{
+            // height:9rem;
+            .news-list{
+                padding:0 0.04rem;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                background: #ff0066;
+                // height:2.9rem;
+                padding-bottom:0.03rem; 
+                 
+                li{
+                    overflow:hidden;
+                    // border-bottom:0.02rem solid #eceef0;
+                    // box-shadow:0 0.02rem 0.02rem #fff;
+                    // font-weight:normal;
+                    // height:3rem;
+                    // line-height:35px;
+                    // font-size:80%; 
+                    .plate2-2-1{
+                        display: flex;
+                        background: #fff;
+                        width: 2.4196rem;
+                        height: 4.1996rem;
+                        flex-direction: column;
+                        justify-content: space-around;
+                        align-items: center;
+                        margin-top: 0.08rem;
+                        border: 0.01rem solid #e9e9e9;
+        
+                        img{
+                            width: 2.3796rem;
+                            height: 2.3796rem;
+                        }
+                        div{
+                        overflow: hidden;
+                        height: 0.6rem;
+                            p{
+                                cursor: pointer; 
+                                color: #000;
+                                font-size: 0.28rem;
+                                line-height: 0.32rem;
+                                margin-left:0.2rem; 
+                            }
+                        }
+                        .piace{
+                            border-top: 0.02rem solid #e9e9e9;
+                            width: 2.1rem;
+                            height: 0.5rem;
+                            span{
+                                color:#f60;
+                                font-size: 0.28rem;
+                                line-height: 0.5rem;
+                            }
+                        }
+                    }
+                }
+            }
+            .gengduo{
+                height: 0.8rem;
+                p{
+                    color: #ff0066;
+                    text-align: center;
+                    line-height: 0.8rem;
+                    font-size: 0.26rem;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+    // 相关产品结束
+    // ad2
+    .zhengpin{
+        height: 4.3rem;
+        background: #002d8d;
+    }
+    // ad2结束
+    
+}

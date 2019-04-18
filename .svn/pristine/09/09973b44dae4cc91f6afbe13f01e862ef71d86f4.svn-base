@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>音乐欣赏</title>
+    <link rel="stylesheet" href="fonts/iconfont.css">
+    <link rel="stylesheet" href="css/lib/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="css/section10.css">
+</head>
+
+<body>
+
+    <div class="all-box clearfix">
+        <!-- 页面左侧隐藏的侧边栏导航区域开始 -->
+        <aside class="aside-nav">
+
+            <dl class="nav">
+                <dt>网站导航</dt>
+                <dd>
+                    <a href="#">首页</a>
+                </dd>
+                <dd>
+                    <a href="#">品牌专区</a>
+                </dd>
+                <dd>
+                    <a href="#">套装分类</a>
+                </dd>
+                <dd>
+                    <a href="#">商品分类</a>
+                </dd>
+                <dd>
+                    <a href="#">活动专场</a>
+                </dd>
+                <dd>
+                    <a href="#">我的音平</a>
+                </dd>
+                <dd>
+                    <a href="#">帮助中心</a>
+                </dd>
+                <dd>
+                    <a href="#">商城广告</a>
+                </dd>
+            </dl>
+
+            <dl class="server">
+                <dt>特色服务</dt>
+                <dd>
+                    <a href="#">
+                        <img src="./imgs/section3/server1.jpg" alt="">
+                    </a>
+                </dd>
+                <dd>
+                    <a href="#">
+                        <img src="./imgs/section3/server2.jpg" alt="">
+                    </a>
+                </dd>
+                <dd>
+                    <a href="#">
+                        <img src="./imgs/section3/server3.jpg" alt="">
+                    </a>
+                </dd>
+            </dl>
+
+            <dl class="other">
+                <dd>
+                    <a href="#">
+                        <img src="./imgs/section3/ot1.jpg" alt="" class="ot">
+                        订单查询
+                    </a>
+                </dd>
+                <dd>
+                    <a href="#">
+                        <img src="./imgs/section3/ot2.png" alt="" class="ot">
+                        投诉建议
+                    </a>
+                </dd>
+            </dl>
+
+            <dl>
+                <dd>
+                    <a href="javascript:void(0);" class="phone-box">
+                        <img src="./imgs/section3/phone.jpg" alt="" class="phone">
+                        400-700-3638
+                    </a>
+                </dd>
+            </dl>
+
+            <dl>
+                <dd class="heart-info">
+                    <a href="javascript:void(0);">
+                        正品保障
+                    </a>
+                </dd>
+                <dd class="heart-info">
+                    <a href="javascript:void(0);">
+                        售后无忧
+                    </a>
+                </dd>
+                <dd class="heart-info">
+                    <a href="javascript:void(0);">
+                        货到付款
+                    </a>
+                </dd>
+                <dd class="heart-info">
+                    <a href="javascript:void(0);">
+                        闪电发货
+                    </a>
+                </dd>
+            </dl>
+
+        </aside>
+        <!-- 页面左侧隐藏的侧边栏导航区域结束 -->
+        <!-- 主体开始 -->
+        <article class="cont">
+            <!-- 头部开始 -->
+            <header class="head">
+                <div class="h-left">
+                    <div class="aside-nav-toggle iconfont icon-caidan" data-flag="true"></div>
+                    <div class="logo">
+                        <a href="#">
+                            <img src="./imgs/section9/logo-v1.0.0.jpg" alt="音平商城">
+                        </a>
+                    </div>
+                </div>
+                <div class="h-right">
+                    <a href="#">
+                        <div class="myicon icon_01"></div>
+                        <span>搜索</span>
+                    </a>
+                    <a href="#">
+                        <div class="myicon icon_02"></div>
+                        <span>我的</span>
+                    </a>
+                </div>
+            </header>
+            <div class="bread">
+                <div class="brand-item">
+                    <a href="#">音平商城</a>
+                </div>
+                <div class="brand-item split"></div>
+                <div class="brand-item">
+                    <h1>主体专场</h1>
+                </div>
+            </div>
+            <!-- 头部结束 -->
+            <!-- 潮流耳机 -->
+            <div class="meeting"></div>
+            <!-- 品牌特卖开始 -->
+            <div class="brand-box">
+                <div class="brand-top">
+                    <span><img src="imgs/section9/rm1.jpg" alt="">品牌特卖</span>
+                </div>
+                <div class="brand-bottom">
+                    <a href="">
+                        <div class="brand-list">
+                            <img src="imgs/section9/pp1.jpg" alt="">
+                            <p>铁三角</p>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="brand-list">
+                            <img src="imgs/section9/pp2.jpg" alt="">
+                            <p>爱科技</p>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="brand-list">
+                            <img src="imgs/section9/pp3.jpg" alt="">
+                            <p>森海尔</p>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="brand-list">
+                            <img src="imgs/section9/pp4.jpg" alt="">
+                            <p>舒尔</p>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="brand-list">
+                            <img src="imgs/section9/pp5.jpg" alt="">
+                            <p>得胜</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- 品牌特卖结束 -->
+            <!-- 热门类型开始 -->
+            <div class="brand-box">
+                <div class="brand-top">
+                    <span><img src="imgs/section9/rm2.jpg" alt="">热门类型</span>
+                </div>
+                <div class="brand-bottom">
+                    <a href="">
+                        <div class="brand-list">
+                            <img class="img2" src="imgs/section9/lis1.jpg" alt="">
+                            <p>音乐耳机</p>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="brand-list">
+                            <img class="img2" src="imgs/section9/lis2.jpg" alt="">
+                            <p>手机耳机</p>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="brand-list">
+                            <img class="img2" src="imgs/section9/lis3.jpg" alt="">
+                            <p> 监听耳机</p>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="brand-list">
+                            <img class="img2" src="imgs/section9/lis4.jpg" alt="">
+                            <p>入耳耳机</p>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="brand-list">
+                            <img class="img2" src="imgs/section9/lis5.jpg" alt="">
+                            <p>头戴耳机</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- 热门类型结束 -->
+
+
+            <!-- 铁三角耳机开始 -->
+            <div class="headset-box" data-list=" 铁三角">
+                <img class="img1" src="imgs/section9/ej1.jpg" alt="">
+                <div class="headset-item">
+                    <img class="img2" src="imgs/section9/ej2.jpg" alt="">
+                    <div class="headset"></div>
+                    <a class="more" href="">点击查看更多铁三角耳机>></a>
+                </div>
+            </div>
+            <!-- 铁三角耳机结束 -->
+            <!-- y50耳机开始 -->
+            <div class="headset-box" data-list=" 爱科技">
+                <img class="img1" src="imgs/section9/ej3.jpg" alt="">
+                <div class="headset-item">
+                    <img class="img2" src="imgs/section9/ej4.jpg" alt="">
+                    <div class="headset"></div>
+                    <a class="more" href="">点击查看更多AKG耳机>></a>
+                </div>
+            </div>
+            <!-- y50耳机结束 -->
+            <!-- HD180耳机开始 -->
+            <div class="headset-box" data-list=" 森海塞尔">
+                <img class="img1" src="imgs/section9/ej5.jpg" alt="">
+                <div class="headset-item">
+                    <img class="img2" src="imgs/section9/ej6.jpg" alt="">
+                    <div class="headset"></div>
+                    <a class="more" href="">点击查看更多森海尔耳机>></a>
+                </div>
+            </div>
+            <!-- HD180耳机结束 -->
+            <!-- 舒尔耳机开始 -->
+            <div class="headset-box" data-list=" 舒尔">
+                <img class="img1" src="imgs/section9/ej7.jpg" alt="">
+                <div class="headset-item">
+                    <img class="img2" src="imgs/section9/ej8.jpg" alt="">
+                    <div class="headset"></div>
+                    <a class="more" href="">点击查看更多舒尔耳机>></a>
+                </div>
+            </div>
+            <!-- 舒尔耳机结束-->
+            <!-- 钹头式耳机开始 -->
+            <div class="headset-box" data-list=" 得胜">
+                <img class="img1" src="imgs/section9/ej1.jpg" alt="">
+                <div class="headset-item">
+                    <img class="img2" src="imgs/section9/ej10.jpg" alt="">
+                   <div class="headset"></div>
+                    <a class="more" href="">点击查看更多得胜耳机>></a>
+                </div>
+            </div>
+            <!-- 钹头式耳机结束-->
+            <!-- 更多品牌列表开始 -->
+            <div class="brands-box">
+                <div class="brands">
+                    <a href=""><img src="imgs/section9/pp6.jpg" alt=""></a>
+                    <a href=""><img src="imgs/section9/pp7.jpg" alt=""></a>
+                    <a href=""><img src="imgs/section9/pp8.jpg" alt=""></a>
+                    <a href=""><img src="imgs/section9/pp9.jpg" alt=""></a>
+                    <a href=""><img src="imgs/section9/pp10.jpg" alt=""></a>
+                    <a href=""><img src="imgs/section9/pp11.jpg" alt=""></a>
+                    <a href=""><img src="imgs/section9/pp12.jpg" alt=""></a>
+                    <a href=""><img src="imgs/section9/pp13.jpg" alt=""></a>
+                </div>
+            </div>
+            <!-- 更多品牌列表结束 -->
+            <!-- 热门耳机类型开始 -->
+            <div class="hot-sale">
+                热买耳机类型
+            </div>
+            <!-- 热门耳机类型结束 -->
+            <!-- 热门耳机按钮开始 -->
+            <div class="hots-btn">
+                <div class="brand-list">
+                    <img class="img2" src="imgs/section9/lis1.jpg" alt="">
+                    <p>音乐耳机</p>
+                </div>
+                <div class="brand-list">
+                    <img class="img2" src="imgs/section9/lis2.jpg" alt="">
+                    <p>手机耳机</p>
+                </div>
+                <div class="brand-list">
+                    <img class="img2" src="imgs/section9/lis3.jpg" alt="">
+                    <p> 监听耳机</p>
+                </div>
+                <div class="brand-list">
+                    <img class="img2" src="imgs/section9/lis4.jpg" alt="">
+                    <p>入耳耳机</p>
+                </div>
+                <div class="brand-list">
+                    <img class="img2" src="imgs/section9/lis5.jpg" alt="">
+                    <p>头戴耳机</p>
+                </div>
+            </div>
+            <!-- 热门耳机按钮结束 -->
+            <!-- 热门耳机列表开始 -->
+            <div class="hots-list"></div>
+            <div class="hots-bottom">
+                <a class="more" href="">查看更多音乐耳机>></a>
+            </div>
+            <!-- 热门耳机列表结束 -->
+
+            <!-- 网站脚注区域 -->
+            <footer class="page-foot">
+                <!-- 长按扫码区域 -->
+                <section class="press-scan">
+                    <img src="./imgs/suit/press_scan.jpg" alt="长按扫码">
+                </section>
+
+                <!-- 登陆注册链接区域 -->
+                <section class="tip-box">
+                    <div class="left-box">
+                        <a href="#">登陆</a>
+                        <span>|</span>
+                        <a href="#">注册</a>
+                    </div>
+                    <div class="right-box">
+                        <a href="#">
+                            客服热线 :
+                            <span>400-700-3683</span>
+                        </a>
+                    </div>
+                </section>
+
+                <!-- 售后帮助导航区域 -->
+                <section class="help-box">
+                    <div class="item">
+                        <i class="item1"></i>
+                        <span>正品保障</span>
+                    </div>
+                    <div class="item">
+                        <i class="item2"></i>
+                        <span>满99包邮</span>
+                    </div>
+                    <div class="item">
+                        <i class="item3"></i>
+                        <span>七天退换</span>
+                    </div>
+                    <div class="item">
+                        <i class="item4"></i>
+                        <span>售后保障</span>
+                    </div>
+                </section>
+
+                <!-- img信息提示区域 -->
+                <section class="img-info-box">
+                    <figure>
+                        <img src="./imgs/suit/img-info1.png" alt="了解音平">
+                        <span>了解音平</span>
+                    </figure>
+                    <figure>
+                        <img src="./imgs/suit/img-info2.png" alt="触屏版">
+                        <span>触屏版</span>
+                    </figure>
+                    <figure>
+                        <img src="./imgs/suit/img-info3.png" alt="电脑版">
+                        <span>电脑版</span>
+                    </figure>
+                    <figure>
+                        <img src="./imgs/suit/img-info4.png" alt="小程序">
+                        <span>小程序</span>
+                    </figure>
+                </section>
+
+                <!-- 许可证信息区域 -->
+                <section class="license">
+                    <p>增值电信业务经营许可证：粤B2-20110237 | 粤ICP备11032710号</p>
+                    <p>© 2011-2019 音平商城</p>
+                </section>
+            </footer>
+
+            <!-- 底部固定的导航区域 -->
+            <nav class="fixed-bottom">
+                <a href="#">
+                    <i class="iconfont icon-kefu"></i>
+                    <span>客服</span>
+                </a>
+                <a href="#">
+                    <i class="iconfont icon-caidan"></i>
+                    <span>分类</span>
+                </a>
+                <a href="#">
+                    <i class="iconfont icon-jishiben"></i>
+                    <span>套装</span>
+                </a>
+                <a href="#">
+                    <i class="iconfont icon-tubiaozhizuo--"></i>
+                    <span>活动</span>
+                </a>
+                <a href="#">
+                    <i class="iconfont icon-gouwuche"></i>
+                    <span>我的购物车</span>
+                </a>
+            </nav>
+        </article>
+        <!-- 主体结束 -->
+    </div>
+    
+    <!-- 滚动加载数据模板 -->
+    <script type="text/template" class="tpl">
+        <%for(var i = 0; i<foods.length; i++){%>
+        <div class="headset-list">
+            <a href="">
+                <img src="imgs/commonImg/<%=foods[i].indimg%>" alt="">
+                <p class="p1"><%=foods[i].info%></p>
+            </a>
+            <div class="price">
+                <p>￥<%=foods[i].price%></p>
+                <a href="">选购</a>
+            </div>
+        </div>
+        <%}%>
+    </script>
+   
+    <!-- top切换请求数据模板 -->
+    <script type="text/template" class="tpl2">
+        <%for(var i = 0; i<foods.length; i++){%>
+        <a href="">
+            <div class="headset-list">
+                <img src="imgs/commonImg/<%=foods[i].indimg%>" alt="">
+                <div class="price">
+                    <p class="p1"><%=foods[i].info%></p>
+                    <p class="p1 p2"><%=foods[i].brief%></p>
+                    <div>
+                        <p>￥<%=foods[i].price%></p>
+                        <a class="xuan" href="">选购</a>
+                    </div>
+
+                </div>
+            </div>
+        </a>
+        <%}%>
+    </script>
+
+    <!-- 引入适配各种手机的js文件 -->
+    <script src="js/lib/adapaMobile.js"></script>
+    <script src="js/lib/zepto.min.js"></script>
+    <script src="js/lib/touch.js"></script>
+    <script src="js/lib/fastclick.js"></script>
+    <script src="js/lib/ejs.js"></script>
+    <script src="./js/lib/fx_methods.js"></script>
+    <script src="./js/header.js"></script>
+    <script src="js/section10.js"></script>
+
+</body>
+
+
+
+
+</html>

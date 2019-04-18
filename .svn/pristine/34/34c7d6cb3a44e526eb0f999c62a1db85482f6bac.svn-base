@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,maximum-scale=1.0,minimum-scale=1.0,initial-scale=1.0,user-scalable=no">
+    <title>家庭影院</title>
+    <link rel="stylesheet" href="./fonts/iconfont.css">
+    <link rel="stylesheet" href="./css/lib/reset.css">
+    <link rel="stylesheet" href="./css/section8.css">
+    <link rel="stylesheet" href="./css/lib/swiper.min.css">
+</head>
+
+<body>
+    <div class="all-box clearfix">
+        <!-- 网站左侧的导航 -->
+        <aside class="aside-nav">
+
+            <dl class="nav">
+                <dt>网站导航</dt>
+                <dd>
+                    <a href="#">首页</a>
+                </dd>
+                <dd>
+                    <a href="#">品牌专区</a>
+                </dd>
+                <dd>
+                    <a href="#">套装分类</a>
+                </dd>
+                <dd>
+                    <a href="#">商品分类</a>
+                </dd>
+                <dd>
+                    <a href="#">活动专场</a>
+                </dd>
+                <dd>
+                    <a href="#">我的音平</a>
+                </dd>
+                <dd>
+                    <a href="#">帮助中心</a>
+                </dd>
+                <dd>
+                    <a href="#">商城广告</a>
+                </dd>
+            </dl>
+
+            <dl class="server">
+                <dt>特色服务</dt>
+                <dd>
+                    <a href="#">
+                        <img src="./imgs/section3/server1.jpg" alt="">
+                    </a>
+                </dd>
+                <dd>
+                    <a href="#">
+                        <img src="./imgs/section3/server2.jpg" alt="">
+                    </a>
+                </dd>
+                <dd>
+                    <a href="#">
+                        <img src="./imgs/section3/server3.jpg" alt="">
+                    </a>
+                </dd>
+            </dl>
+
+            <dl class="other">
+                <dd>
+                    <a href="#">
+                        <img src="./imgs/section7/ot1.jpg" alt="" class="ot">
+                        订单查询
+                    </a>
+                </dd>
+                <dd>
+                    <a href="#">
+                        <img src="./imgs/section7/ot2.png" alt="" class="ot">
+                        投诉建议
+                    </a>
+                </dd>
+            </dl>
+
+            <dl>
+                <dd>
+                    <a href="javascript:void(0);" class="phone-box">
+                        <img src="./imgs/section7/phone.jpg" alt="" class="phone">
+                        400-700-3638
+                    </a>
+                </dd>
+            </dl>
+
+            <dl>
+                <dd class="heart-info">
+                    <a href="javascript:void(0);">
+                        正品保障
+                    </a>
+                </dd>
+                <dd class="heart-info">
+                    <a href="javascript:void(0);">
+                        售后无忧
+                    </a>
+                </dd>
+                <dd class="heart-info">
+                    <a href="javascript:void(0);">
+                        货到付款
+                    </a>
+                </dd>
+                <dd class="heart-info">
+                    <a href="javascript:void(0);">
+                        闪电发货
+                    </a>
+                </dd>
+            </dl>
+
+        </aside>
+        <!-- 页面内容区域开始 -->
+        <main class="cont">
+            <header class="head">
+                <div class="h-left">
+                    <div class="aside-nav-toggle iconfont icon-caidan" data-flag="true"></div>
+                    <div class="logo">
+                        <a href="./index.html">
+                            <img src="./imgs/suit/logo.png" alt="音平商城">
+                        </a>
+                    </div>
+                </div>
+                <div class="h-right">
+                    <a href="#">
+                        <div class="myicon icon_01"></div>
+                        <span>搜索</span>
+                    </a>
+                    <a href="#">
+                        <div class="myicon icon_02"></div>
+                        <span>我的</span>
+                    </a>
+                </div>
+            </header>
+
+            <div class="bread">
+                <div class="brand-item">
+                    <a href="#">音平商城</a>
+                </div>
+                <div class="brand-item split"></div>
+                <div class="brand-item">
+                    <a href="#">主题专场</a>
+                </div>
+                <div class="brand-item split"></div>
+                <div class="brand-item">
+                    <h1>家庭影院设备解决</h1>
+                </div>
+            </div>
+            <!-- ad广告 -->
+            <div class="ad">
+                <img src="./imgs/section8/jiating_header.jpg" alt="">
+            </div>
+            <!-- ad广告结束 -->
+
+            <!-- 5个品牌 -->
+            <div class="brand">
+                <img src="./imgs/section8/brand1.jpg" alt="">
+                <img src="./imgs/section8/brand2.jpg" alt="">
+                <img src="./imgs/section8/brand3.jpg" alt="">
+                <img src="./imgs/section8/brand4.jpg" alt="">
+                <img src="./imgs/section8/brand5.jpg" alt="">
+            </div>
+            <!-- 5个品牌结束 -->
+            <!-- 套装展示 -->
+            <div class="taozhuang">
+                <div class="taozhuang-x">
+                    <img src="./imgs/section8/taozhuang1.jpg" alt="">
+                    <div class="taozhuang-pic">
+                        <p>￥<span>8346</span></p>
+                        <div><a href="#">立即购买</a></div>
+                    </div>
+                </div>
+                <div class="taozhuang-x">
+                    <img src="./imgs/section8/taozhuang2.jpg" alt="">
+                    <div class="taozhuang-pic">
+                        <p>￥<span>9850</span></p>
+                        <div><a href="#">立即购买</a></div>
+                    </div>
+                </div>
+                <div class="taozhuang-x">
+                    <img src="./imgs/section8/taozhuang3.jpg" alt="">
+                    <div class="taozhuang-pic">
+                        <p>￥<span>5499</span></p>
+                        <div><a href="#">立即购买</a></div>
+                    </div>
+                </div>
+                <div class="taozhuang-x">
+                    <img src="./imgs/section8/taozhuang4.jpg" alt="">
+                    <div class="taozhuang-pic">
+                        <p>￥<span>15499</span></p>
+                        <div><a href="#">立即购买</a></div>
+                    </div>
+                </div>
+                <div class="taozhuang-x">
+                    <img src="./imgs/section8/taozhuang5.jpg" alt="">
+                    <div class="taozhuang-pic">
+                        <p>￥<span>19301</span></p>
+                        <div><a href="#">立即购买</a></div>
+                    </div>
+                </div>
+            </div>
+            <!-- 套装展示结束 -->
+            <!-- 认准 -->
+            <div class="renzhun">
+                <img src="./imgs/section8/renzhun.jpg" alt="">
+            </div>
+            <!-- 认准结束 -->
+            <!-- 精选音响 -->
+            <div class="plate2">
+                <img src="./imgs/section8/jingxuanyinxiang.jpg" alt="">
+                <img src="./imgs/section8/ad1-1.jpg" alt="">
+                <div class="plate2-2">
+                    <a href="#">
+                        <div class="plate2-2-1">
+                            <img src="imgs/section8/yx1.jpg" alt="">
+                            <div>
+                                <p>哈曼卡顿(Harman Kardon) HKTS 30BQ 5.1家庭影院音响</p>
+                            </div>
+                            <div class="piace">
+                                <span>￥6188</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="plate2-2-1">
+                            <img src="imgs/section8/yx2.jpg" alt="">
+                            <div>
+                                <p>飞利浦(PHILIPS) CSS6530B/93无线蓝牙5.1套装电视家庭影院</p>
+
+                            </div>
+                            <div class="piace">
+                                <span>￥7388</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="plate2-2-1">
+                            <img src="imgs/section8/yx3.jpg" alt="">
+                            <div>
+                                <p>JBL CINEMA 625无线蓝牙5.1家庭影院音响套装客厅电视音箱低音炮</p>
+
+                            </div>
+                            <div class="piace">
+                                <span>￥5599</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="plate2-2-1">
+                            <img src="imgs/section8/yx4.jpg" alt="">
+                            <div>
+                                <p>惠威(HiVi) D3.2MKII 家庭影院音响 5.0环绕音箱套装</p>
+
+                            </div>
+                            <div class="piace">
+                                <span>￥8499</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="plate2-2-1">
+                            <img src="imgs/section8/yx5.jpg" alt="">
+                            <div>
+                                <p>惠威(HiVi) D600 家庭影院音响套装 5.0家用客厅木质HIFI环绕音箱</p>
+
+                            </div>
+                            <div class="piace">
+                                <span>￥5999</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="plate2-2-1">
+                            <img src="imgs/section8/yx6.jpg" alt="">
+                            <div>
+                                <p>JBL Studio 180套装 5.1声道家庭影院音响 震撼私人定制豪华影院</p>
+
+                            </div>
+                            <div class="piace">
+                                <span>￥12199</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="plate2-3">
+                    <div class="plate2-3-1">
+                        <img src="imgs/section8/logo1.jpg" alt="">
+                        <div>
+                            <p>JBL</p>
+                        </div>
+                    </div>
+                    <div class="plate2-3-1">
+                        <img src="imgs/section8/logo2.jpg" alt="">
+                        <div>
+                            <p>飞利浦</p>
+                        </div>
+                    </div>
+                    <div class="plate2-3-1">
+                        <img src="imgs/section8/logo3.jpg" alt="">
+                        <div>
+                            <p>惠威</p>
+                        </div>
+                    </div>
+                    <div class="plate2-3-1">
+                        <img src="imgs/section8/green_more.png" alt="">
+                        <div>
+                            <p>more></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 精选音响结束 -->
+            <!-- 精选功放 -->
+            <div class="plate2">
+                <img src="./imgs/section8/jingxuangongfang.jpg" alt="">
+                <img src="./imgs/section8/ad1-2.jpg" alt="">
+                <div class="plate2-2">
+                    <a href="#">
+                        <div class="plate2-2-1">
+                            <img src="imgs/section8/gf1.jpg" alt="">
+                            <div>
+                                <p>雅马哈(YAMAHA) RX-v377 5.1家庭影院功放</p>
+                            </div>
+                            <div class="piace">
+                                <span>￥1779</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="plate2-2-1">
+                            <img src="imgs/section8/gf2.jpg" alt="">
+                            <div>
+                                <p>天龙(Denon) AVR-X510 5.2声道AV影院功放 (黑色)</p>
+
+                            </div>
+                            <div class="piace">
+                                <span>￥2099</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="plate2-2-1">
+                            <img src="imgs/section8/gf3.jpg" alt="">
+                            <div>
+                                <p>天龙(Denon) AVR-X520BT 5.2声道AV影院功放</p>
+
+                            </div>
+                            <div class="piace">
+                                <span>￥2099</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="plate2-2-1">
+                            <img src="imgs/section8/gf4.jpg" alt="">
+                            <div>
+                                <p>马兰士(marantz) PM-5005 发烧立体声HIFI功放 无损音质</p>
+
+                            </div>
+                            <div class="piace">
+                                <span>￥2168</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="plate2-2-1">
+                            <img src="imgs/section8/gf5.jpg" alt="">
+                            <div>
+                                <p>哈曼卡顿(Harman Kardon) AVR151S 5.1数字家庭影院AV功放机</p>
+
+                            </div>
+                            <div class="piace">
+                                <span>￥3988</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="plate2-2-1">
+                            <img src="imgs/section8/gf6.jpg" alt="">
+                            <div>
+                                <p>天龙(Denon) AVR-X2300W 7.2声道AV发烧功放机 家庭影院功放</p>
+
+                            </div>
+                            <div class="piace">
+                                <span>￥5399</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="plate2-3">
+                    <div class="plate2-3-1">
+                        <img src="imgs/section8/logo4.jpg" alt="">
+                        <div>
+                            <p>雅马哈</p>
+                        </div>
+                    </div>
+                    <div class="plate2-3-1">
+                        <img src="imgs/section8/logo5.jpg" alt="">
+                        <div>
+                            <p>天龙</p>
+                        </div>
+                    </div>
+                    <div class="plate2-3-1">
+                        <img src="imgs/section8/logo6.jpg" alt="">
+                        <div>
+                            <p>曼哈卡顿</p>
+                        </div>
+                    </div>
+                    <div class="plate2-3-1">
+                        <img src="imgs/section8/blue_more.png" alt="">
+                        <div>
+                            <p>more></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 精选功放结束 -->
+            <!-- 相关配件 -->
+            <div class="plate3">
+                <img src="./imgs/section8/xiangguanpeijian.jpg" alt="">
+                <div class="plate3-1">
+                    <a href="#">DVD碟机</a>
+                    <span>丨</span>
+                    <a href="#">低音炮</a>
+                    <span>丨</span>
+                    <a href="#">音箱线</a>
+                    <span>丨</span>
+                    <a href="#">HDMI线</a>
+                    <span>丨</span>
+                    <a href="#">其他配件</a>
+                </div>
+                <ul class="news-list">
+                    <li>
+                        <a href="#">
+                            <div class="plate2-2-1">
+                                <img src="imgs/section8/xg1.jpg" alt="">
+                                <div>
+                                    <p>百灵达(BEHRINGER) MDX2600 压限器 限幅器</p>
+                                </div>
+                                <div class="piace">
+                                    <span>￥1159</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="plate2-2-1">
+                                <img src="imgs/section8/xg2.jpg" alt="">
+                                <div>
+                                    <p>dbx AFS2 20点双通道反馈抑制器 先进的反馈抑制模块</p>
+                                </div>
+                                <div class="piace">
+                                    <span>￥3599</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="plate2-2-1">
+                                <img src="imgs/section8/xg3.jpg" alt="">
+                                <div>
+                                    <p>三基(3G Audio) DCM-2X 双核前级效果处理器</p>
+                                </div>
+                                <div class="piace">
+                                    <span>￥1699</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="plate2-2-1">
+                                <img src="imgs/section8/xg4.jpg" alt="">
+                                <div>
+                                    <p>TC Electronic M2000专业数字效果器</p>
+                                </div>
+                                <div class="piace">
+                                    <span>￥7199</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="plate2-2-1">
+                                <img src="imgs/section8/xg5.jpg" alt="">
+                                <div>
+                                    <p>TC Helicon VOICELIVE Touch 2 触控人声效果器</p>
+                                </div>
+                                <div class="piace">
+                                    <span>￥3999</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="plate2-2-1">
+                                <img src="imgs/section8/xg6.jpg" alt="">
+                                <div>
+                                    <p>dbx 231 舞台演出 双31段均衡器</p>
+                                </div>
+                                <div class="piace">
+                                    <span>￥1799</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="plate2-2-1">
+                                <img src="imgs/section8/xg7.jpg" alt="">
+                                <div>
+                                    <p>dbx 231 舞台演出 双31段均衡器</p>
+                                </div>
+                                <div class="piace">
+                                    <span>￥1799</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="plate2-2-1">
+                                <img src="imgs/section8/xg8.jpg" alt="">
+                                <div>
+                                    <p>dbx 231 舞台演出 双31段均衡器</p>
+                                </div>
+                                <div class="piace">
+                                    <span>￥1799</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="plate2-2-1">
+                                <img src="imgs/section8/xg9.jpg" alt="">
+                                <div>
+                                    <p>dbx 231 舞台演出 双31段均衡器</p>
+                                </div>
+                                <div class="piace">
+                                    <span>￥1799</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="plate2-2-1">
+                                <img src="imgs/section8/xg10.jpg" alt="">
+                                <div>
+                                    <p>dbx 231 舞台演出 双31段均衡器</p>
+                                </div>
+                                <div class="piace">
+                                    <span>￥1799</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="plate2-2-1">
+                                <img src="imgs/section8/xg11.jpg" alt="">
+                                <div>
+                                    <p>dbx 231 舞台演出 双31段均衡器</p>
+                                </div>
+                                <div class="piace">
+                                    <span>￥1799</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="plate2-2-1">
+                                <img src="imgs/section8/xg12.jpg" alt="">
+                                <div>
+                                    <p>dbx 231 舞台演出 双31段均衡器</p>
+                                </div>
+                                <div class="piace">
+                                    <span>￥1799</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="plate2-2-1">
+                                <img src="imgs/section8/xg13.jpg" alt="">
+                                <div>
+                                    <p>dbx 231 舞台演出 双31段均衡器</p>
+                                </div>
+                                <div class="piace">
+                                    <span>￥1799</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="plate2-2-1">
+                                <img src="imgs/section8/xg14.jpg" alt="">
+                                <div>
+                                    <p>dbx 231 舞台演出 双31段均衡器</p>
+                                </div>
+                                <div class="piace">
+                                    <span>￥1799</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="plate2-2-1">
+                                <img src="imgs/section8/xg15.jpg" alt="">
+                                <div>
+                                    <p>dbx 231 舞台演出 双31段均衡器</p>
+                                </div>
+                                <div class="piace">
+                                    <span>￥1799</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <img src="./imgs/section8/jiatingKTV.jpg" alt="">
+            </div>
+            <!-- 相关配件结束 -->
+            <!-- 更多主题专场 -->
+            <div class="more">
+                    <div class="thematic-special">
+                        <span>
+                            更多主题专场
+                        </span>
+                    </div>
+                    <div class="thematic-special-list">
+                        <div class="thematic-special-list1">
+                            <a href="#">
+                                <img src="imgs/section5/028.jpg" alt="">
+                                <p>录音编曲</p>
+                            </a>
+                        </div>
+                        <div class="thematic-special-list1">
+                            <a href="#">
+                                <img src="imgs/section5/029.jpg" alt="">
+                                <p>网络主播</p>
+                            </a>
+                        </div>
+                        <div class="thematic-special-list1">
+                            <a href="#">
+                                <img src="imgs/section5/030.jpg" alt="">
+                                <p>手机直播</p>
+                            </a>
+                        </div>
+                        <div class="thematic-special-list1">
+                            <a href="#">
+                                <img src="imgs/section5/031.jpg" alt="">
+                                <p>演出音响</p>
+                            </a>
+                        </div>
+                        <div class="thematic-special-list1">
+                            <a href="#">
+                                <img src="imgs/section5/032.jpg" alt="">
+                                <p>家庭ktv</p>
+                            </a>
+                        </div>
+                        <div class="thematic-special-list1">
+                            <a href="#">
+                                <img src="imgs/section5/033.jpg" alt="">
+                                <p>吉他乐器</p>
+                            </a>
+                        </div>
+                        <div class="thematic-special-list1">
+                            <a href="#">
+                                <img src="imgs/section5/034.jpg" alt="">
+                                <p>影视录音</p>
+                            </a>
+                        </div>
+                        <div class="thematic-special-list1">
+                            <a href="#">
+                                <img src="imgs/section5/035.jpg" alt="">
+                                <p>音乐欣赏</p>
+                            </a>
+                        </div>
+                        <div class="thematic-special-list1">
+                            <a href="#">
+                                <img src="imgs/section5/036.jpg" alt="">
+                                <p>家庭影院</p>
+                            </a>
+                        </div>
+                        <div class="thematic-special-list1">
+                            <a href="#">
+                                <img src="imgs/section5/037.jpg" alt="">
+                                <p>会议工程</p>
+                            </a>
+                        </div>
+        
+                    </div>
+            </div>
+            <!-- 更多主题专场结束 -->
+
+
+            <!-- 网站脚注区域 -->
+            <footer class="page-foot">
+                <!-- 长按扫码区域 -->
+                <section class="press-scan">
+                    <img src="./imgs/suit/press_scan.jpg" alt="长按扫码">
+                </section>
+
+                <!-- 登陆注册链接区域 -->
+                <section class="tip-box">
+                    <div class="left-box">
+                        <a href="#">登陆</a>
+                        <span>|</span>
+                        <a href="#">注册</a>
+                    </div>
+                    <div class="right-box">
+                        <a href="#">
+                            客服热线 :
+                            <span>400-700-3683</span>
+                        </a>
+                    </div>
+                </section>
+
+                <!-- 售后帮助导航区域 -->
+                <section class="help-box">
+                    <div class="item">
+                        <i>f</i>
+                        <span>正品保障</span>
+                    </div>
+                    <div class="item">
+                        <i>g</i>
+                        <span>满99包邮</span>
+                    </div>
+                    <div class="item">
+                        <i>a</i>
+                        <span>七天退换</span>
+                    </div>
+                    <div class="item">
+                        <i>a</i>
+                        <span>售后保障</span>
+                    </div>
+                </section>
+
+                <!-- img信息提示区域 -->
+                <section class="img-info-box">
+                    <figure>
+                        <img src="./imgs/suit/img-info1.png" alt="了解音平">
+                        <span>了解音平</span>
+                    </figure>
+                    <figure>
+                        <img src="./imgs/suit/img-info2.png" alt="触屏版">
+                        <span>触屏版</span>
+                    </figure>
+                    <figure>
+                        <img src="./imgs/suit/img-info3.png" alt="电脑版">
+                        <span>电脑版</span>
+                    </figure>
+                    <figure>
+                        <img src="./imgs/suit/img-info4.png" alt="小程序">
+                        <span>小程序</span>
+                    </figure>
+                </section>
+
+                <!-- 许可证信息区域 -->
+                <section class="license">
+                    <p>增值电信业务经营许可证：粤B2-20110237 | 粤ICP备11032710号</p>
+                    <p>© 2011-2019 音平商城</p>
+                </section>
+            </footer>
+
+            <!-- 底部固定的导航区域 -->
+            <nav class="fixed-bottom">
+                <a href="#">
+                    <i class="iconfont icon-kefu"></i>
+                    <span>客服</span>
+                </a>
+                <a href="#">
+                    <i class="iconfont icon-caidan"></i>
+                    <span>分类</span>
+                </a>
+                <a href="#">
+                    <i class="iconfont icon-jishiben"></i>
+                    <span>套装</span>
+                </a>
+                <a href="#">
+                    <i class="iconfont icon-tubiaozhizuo--"></i>
+                    <span>活动</span>
+                </a>
+                <a href="#">
+                    <i class="iconfont icon-wujiaoxing"></i>
+                    <span>我的购物车</span>
+                </a>
+            </nav>
+
+        </main>
+        <!-- 页面内容区域结束 -->
+    </div>
+    <script src="./js/lib/jquery-1.8.3.js"></script>
+    <script src="./js/lib/adapaMobile.js"></script>
+    <script src="./js/lib/zepto.min.js"></script>
+    <script src="./js/lib/fx_methods.js"></script>
+    <script src="./js/lib/fastclick.js"></script>
+    <script src="./js/lib/touch.js"></script>
+    <script src="./js/lib/swiper.min.js"></script>
+    <script src="./js/section8.js"></script>
+    <script src="./js/header.js"></script>
+</body>
+
+</html>

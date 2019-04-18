@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车</title>
+    <link rel="stylesheet" href="fonts/iconfont.css">
+    <link rel="stylesheet" href="css/lib/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="css/cart.css">
+</head>
+
+<body>
+
+    <div class="all-box clearfix">
+        <!-- 页面左侧隐藏的侧边栏导航区域开始 -->
+        <aside class="aside-nav">
+
+            <dl class="nav">
+                <dt>网站导航</dt>
+                <dd>
+                    <a href="#">首页</a>
+                </dd>
+                <dd>
+                    <a href="#">品牌专区</a>
+                </dd>
+                <dd>
+                    <a href="#">套装分类</a>
+                </dd>
+                <dd>
+                    <a href="#">商品分类</a>
+                </dd>
+                <dd>
+                    <a href="#">活动专场</a>
+                </dd>
+                <dd>
+                    <a href="#">我的音平</a>
+                </dd>
+                <dd>
+                    <a href="#">帮助中心</a>
+                </dd>
+                <dd>
+                    <a href="#">商城广告</a>
+                </dd>
+            </dl>
+
+            <dl class="server">
+                <dt>特色服务</dt>
+                <dd>
+                    <a href="#">
+                        <img src="./imgs/section3/server1.jpg" alt="">
+                    </a>
+                </dd>
+                <dd>
+                    <a href="#">
+                        <img src="./imgs/section3/server2.jpg" alt="">
+                    </a>
+                </dd>
+                <dd>
+                    <a href="#">
+                        <img src="./imgs/section3/server3.jpg" alt="">
+                    </a>
+                </dd>
+            </dl>
+
+            <dl class="other">
+                <dd>
+                    <a href="#">
+                        <img src="./imgs/section3/ot1.jpg" alt="" class="ot">
+                        订单查询
+                    </a>
+                </dd>
+                <dd>
+                    <a href="#">
+                        <img src="./imgs/section3/ot2.png" alt="" class="ot">
+                        投诉建议
+                    </a>
+                </dd>
+            </dl>
+
+            <dl>
+                <dd>
+                    <a href="javascript:void(0);" class="phone-box">
+                        <img src="./imgs/section3/phone.jpg" alt="" class="phone">
+                        400-700-3638
+                    </a>
+                </dd>
+            </dl>
+
+            <dl>
+                <dd class="heart-info">
+                    <a href="javascript:void(0);">
+                        正品保障
+                    </a>
+                </dd>
+                <dd class="heart-info">
+                    <a href="javascript:void(0);">
+                        售后无忧
+                    </a>
+                </dd>
+                <dd class="heart-info">
+                    <a href="javascript:void(0);">
+                        货到付款
+                    </a>
+                </dd>
+                <dd class="heart-info">
+                    <a href="javascript:void(0);">
+                        闪电发货
+                    </a>
+                </dd>
+            </dl>
+
+        </aside>
+        <!-- 页面左侧隐藏的侧边栏导航区域结束 -->
+        <!-- 主体开始 -->
+        <article class="cont">
+            <!-- 头部开始 -->
+            <header class="head">
+                <div class="h-left">
+                    <div class="aside-nav-toggle iconfont icon-caidan" data-flag="true"></div>
+                    <div class="logo">
+                        <a href="#">
+                            <img src="./imgs/section9/logo-v1.0.0.jpg" alt="音平商城">
+                        </a>
+                    </div>
+                </div>
+                <div class="h-right">
+                    <a href="search.html">
+                        <div class="myicon icon_01"></div>
+                        <span>搜索</span>
+                    </a>
+                    <a href="#">
+                        <div class="myicon icon_02"></div>
+                        <span>我的</span>
+                    </a>
+                </div>
+            </header>
+            <div class="bread">
+                <div class="brand-item">
+                    <a href="#">音平商城</a>
+                </div>
+                <div class="brand-item split"></div>
+                <div class="brand-item">
+                    <h1>主体专场</h1>
+                </div>
+            </div>
+            <!-- 头部结束 -->
+            <!-- 购物车内容开始 -->
+            <div class="cart-box">
+                <div class="cart-top">
+                    <img src="imgs/section9/k- cart.jpg" alt="">
+                    <p>
+                        您的购物车空空如也
+                    </p>
+                </div>
+                <a class="cart-stroll" href="">
+                    <p>去逛逛</p>
+                </a>
+            </div>
+            <!-- 动态内容 -->
+            <div class="carts-box">
+                <div class="carts-top">
+                    <a href="">
+                        <span class="span1">继续购物</span>
+                    </a>
+                    <a href="">
+                        <span class="span2">编辑产品</span>
+                    </a>
+                </div>
+
+                <div class="carts-middle">
+                    <input class="dx" type="text"  readonly>
+                    <div class="img1">
+                        <a href="">
+                            <img src="imgs/section9/spe.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="carts-right">
+                        <div class="carts-details">
+                            <a href="">
+                                百灵达(BEHRINGER) X3232路数字调音台 IPAD控制带WIFI功能 大型调音台
+                            </a>
+                        </div>
+                        <div class="no-format"></div>
+                        <div class="carts-price">
+                            <p class="mt25">
+                                <span class="ypPrice"><small>¥</small>17799.00</span>
+                            </p>
+                            <div class="list-opra">
+                                <a href="JavaScript:;" class="min" title="减一">-</a>
+                                <input class="number" type="text" name="number" value="1">
+                                <a href="" class="add" title="加一">+</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carts-bottom">
+                    <p class="">省钱小提示</p>
+                    <div>1.在线支付可使用积分抵现金</div>
+                    <div>2.在线支付可获赠等额积分</div>
+                    <div>3.晒单成功可领取微信红包</div>
+                    <div>4.评论可获取积分</div>
+                </div>
+                
+                <div class="carts-fiexd">
+                    <div class="carts">
+                        <input class="qx" type="text" readonly>
+                        <span>全选</span>
+                    </div>
+                    <div class="sum-box">
+                        <span>不含运费&nbsp;</span>
+                        <span>总计：</span>
+                        <span>￥</span>
+                        <span class="sum">100</span>
+                    </div>
+                    <a href="">
+                        <div class="settle">结算(<span>2</span>)</div>
+                    </a>
+                </div>
+            </div>
+            <!-- 购物车内容结束 -->
+        </article>
+        <!-- 主体结束 -->
+    </div>
+
+
+    <!-- top切换请求数据模板 -->
+    <script type="text/template" class="tpl2">
+        <%for(var i = 0; i<foods.length; i++){%>
+        <a href="">
+            <div class="headset-list">
+                <img src="imgs/commonImg/<%=foods[i].indimg%>" alt="">
+                <div class="price">
+                    <p class="p1"><%=foods[i].info%></p>
+                    <p class="p1 p2"><%=foods[i].brief%></p>
+                    <div>
+                        <p>￥<%=foods[i].price%></p>
+                        <a class="xuan" href="">选购</a>
+                    </div>
+
+                </div>
+            </div>
+        </a>
+        <%}%>
+    </script>
+
+    <!-- 引入适配各种手机的js文件 -->
+    <script src="js/lib/adapaMobile.js"></script>
+    <script src="js/lib/zepto.min.js"></script>
+    <script src="js/lib/touch.js"></script>
+    <script src="js/lib/fastclick.js"></script>
+    <script src="js/lib/ejs.js"></script>
+    <script src="./js/lib/fx_methods.js"></script>
+    <script src="./js/header.js"></script>
+    <script src="js/section10.js"></script>
+
+</body>
+
+
+
+
+</html>

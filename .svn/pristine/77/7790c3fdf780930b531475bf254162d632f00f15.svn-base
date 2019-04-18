@@ -1,0 +1,25 @@
+$(function(){
+    var section2=(function(){
+
+        function tabList(){
+            $(".tablist ul.one li").click(function(){
+                console.log($(this).index());
+                $(this).addClass("active").siblings(".active").removeClass("active");
+                $(this).parent().next().children("li").eq($(this).index()).addClass("on").siblings(".on").removeClass("on");
+            })
+        }
+
+
+
+
+
+
+        return {
+            tabList:tabList,
+        }
+    })()
+
+
+
+    section2.tabList();
+})

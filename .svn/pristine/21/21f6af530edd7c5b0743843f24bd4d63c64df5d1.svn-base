@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,maximum-scale=1.0,minimum-scale=1.0,initial-scale=1.0,user-scalable=no">
+    <title>套装分类</title>
+    <link rel="stylesheet" href="./fonts/iconfont.css">
+    <link rel="stylesheet" href="./css/lib/reset.css">
+    <link rel="stylesheet" href="./css/lib/ft-slider.css">
+    <link rel="stylesheet" href="./css/regist.css">
+</head>
+
+<body>
+
+    <!-- 页面内容区域开始 -->
+    <main class="cont">
+        <header class="head">
+            <div class="h-left">
+                <div class="logo">
+                    <a href="#">
+                        <img src="./imgs/suit/logo.png" alt="音平商城">
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <!-- 面包屑导航区域 -->
+        <div class="bread">
+            <div class="brand-item">
+                <a href="#">账号注册</a>
+            </div>
+            <div class="brand-item split"></div>
+            <div class="brand-item">
+                <h1>商城注册</h1>
+            </div>
+        </div>
+
+        <!-- 登录盒子区域 -->
+        <div class="login-box">
+            <div class="ipt-item">
+                <input type="text" placeholder="请输入您的手机号码" autofocus>
+            </div>
+            <div class="ipt-item scroll-box" id="slider2"></div>
+            <!-- <div class="ipt-item scroll-box">
+                <div class="label" id="slider2">请向右滑动验证</div>
+                <div class="btn">
+                    <i class="iconfont icon-shuangyoujiantou-"></i>
+                </div>
+                <div class="suc-info">验证成功</div>
+            </div> -->
+            <button type="button">下一步</button>
+            <p>
+                <a href="./login.html">已有账号，去登录</a>
+            </p>
+        </div>
+
+        <!-- 网站脚注区域 -->
+        <footer class="page-foot">
+            <!-- img信息提示区域 -->
+            <section class="img-info-box">
+                <figure>
+                    <img src="./imgs/suit/img-info1.png" alt="了解音平">
+                    <span>了解音平</span>
+                </figure>
+                <figure>
+                    <img src="./imgs/suit/img-info2.png" alt="触屏版">
+                    <span>触屏版</span>
+                </figure>
+                <figure>
+                    <img src="./imgs/suit/img-info3.png" alt="电脑版">
+                    <span>电脑版</span>
+                </figure>
+            </section>
+
+            <!-- 许可证信息区域 -->
+            <section class="license">
+                <p>增值电信业务经营许可证：粤B2-20110237 | 粤ICP备11032710号</p>
+                <p>© 2011-2019 音平商城</p>
+            </section>
+        </footer>
+
+    </main>
+    <!-- 页面内容区域结束 -->
+    <script src="./js/lib/adapaMobile.js"></script>
+    <script src="./js/lib/zepto.min.js"></script>
+    <script src="./js/lib/touch.js"></script>
+    <script src="./js/lib/ft-slider.min.js"></script>
+    <script src="./js/regist.js"></script>
+</body>
+
+</html>

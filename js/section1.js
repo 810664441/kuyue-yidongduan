@@ -1,0 +1,165 @@
+$(function(){
+    var section1=(function(){
+
+        function init(){
+            var Rem=parseInt($("html").css("fontSize").split("px")[0]);
+            var navHeight=$(window).height()/Rem;
+            $("nav.slide").css({"height":navHeight+"rem"});
+            $(".all").css({"height":navHeight+"rem"});
+        }
+        function tab(){
+            $(".hot .tab .top li").first().addClass("color");
+            $(".hot .tab .top").on("click","li",function(){
+                $(".tab-list").eq($(this).index()).show().siblings(".tab-list").hide();
+                $(".hot .tab .top li").eq($(this).index()).addClass("color").siblings().removeClass("color");
+            })
+        } 
+        function menuClick(){
+            var flag=true;
+            $(".home-icon").click(function(){
+                if(flag){
+                    $(".all").css({marginLeft:2.3+"rem",overflow:"hidden"})
+                    $("footer").css({marginLeft:2.3+"rem"})
+                    $("nav.slide").show();
+                    flag=false;
+                }else{
+                    $(".all").css({marginLeft:0,overflow:"auto"}).children("nav.slide").hide();
+                    $("footer").css({marginLeft:0})
+                    $("nav.slide").hide();
+                    flag=true;
+                }
+            })
+        }
+
+        function hotTab(){
+            $("div.tab ul.top li").click(function(){
+                var num=$(this).index();
+                var flag=$(".hot-list").eq($(this).index()).data("req"); 
+                if(flag){
+                    $.ajax({
+                        type:"get",
+                        url:"api/section1.php",
+                        data:{
+                            page:$(this).index()
+                        },
+                        dataType:"json",
+                        success:function(data){
+                            $(".hot-list").eq(num).show().siblings().hide(); 
+                            var tpl=$("#hotData").html();
+                            var html=ejs.render(tpl,{list:data});
+                            $(".hot-list").eq(num).html(html);
+                            $(".hot-list").eq(num).data("req","false");
+                        }
+                    })
+                }else{
+                    $(".hot-list").eq(num).show().siblings().hide();
+                }            
+            })
+        }
+
+        function scrollAddHot(){
+            $(window).scroll(function(){
+                var offT = $("section.hot").offset().top;
+                var scroll = $(window).scrollTop();
+                var winH = $(window).height();
+                var flag = $("section.hot").data("flag");
+                if(scroll + winH + 100 >= offT){
+                    if(flag){
+                        $("section.hot").data("flag","false");
+                        var time=setTimeout(function(){
+                            $.ajax({
+                                type:"get",
+                                url:"api/section1.php",
+                                data:{
+                                    page:0
+                                },
+                                dataType:"json",
+                                success:function(data){
+                                    // console.log(data);
+                                    $(".hot-list").eq(0).show().siblings().hide(); 
+                                    var tpl=$("#hotData").html();
+                                    var html=ejs.render(tpl,{list:data});
+                                    $(".hot-list").eq(0).html(html);
+                                    $(".hot-list").eq(0).data("req","false");
+                                }
+                            })
+                        },300);                      
+                    }
+                }
+            })
+        }
+
+        function jingxuanData(obj){
+            var num=0;
+            console.log(obj.eq(num).data("flag"))
+            $(window).scroll(function(){
+                if(obj.eq(num).data("flag")){
+                    var offT = obj.eq(num).offset().top;
+                    var scroll = $(window).scrollTop();
+                    var winH = $(window).height();
+                    if(scroll + winH + 100 >= offT){
+                        obj.eq(num).data("flag","false");
+                        var time=setTimeout(function(){
+                            $.ajax({
+                                type:"get",
+                                url:"api/section1-2.php",
+                                data:{
+                                    type:obj.eq(num).data("type")
+                                         },
+                                dataType:"json",
+                                success:function(data){
+                                    var tpl=$("#jingxuan").html();
+                                    var html=ejs.render(tpl,{list:data});
+                                    obj.eq(num).html(html);
+                                    obj.eq(num).children().eq(1).addClass("mid");
+                                    obj.eq(num).children().eq(4).addClass("mid");       
+                                    num++;
+                                }
+                            })
+                        },300)
+                    }
+                }
+            })
+        }
+
+        function goTop(){
+            $(window).scroll(function(){
+                var scroll=$(window).scrollTop();
+                if(scroll>300){
+                    $(".gotop").show();
+                }else{
+                    $(".gotop").hide();
+                }
+            })
+             $(".gotop").click(function(){
+                $(window).scrollTop(0);
+            })
+
+            
+        }
+
+
+
+
+
+        return{
+            init:init,
+            tab:tab,
+            menuClick:menuClick,
+            hotTab:hotTab,
+            scrollAddHot:scrollAddHot,
+            jingxuanData:jingxuanData,
+            goTop:goTop
+        }
+    })()
+
+
+    section1.init();
+    section1.tab();
+    section1.menuClick();
+    section1.hotTab();
+    section1.scrollAddHot();
+    section1.jingxuanData($(".jingxuan .list"));
+    section1.jingxuanData($(".swiper-slide .list"));
+    section1.goTop();
+})

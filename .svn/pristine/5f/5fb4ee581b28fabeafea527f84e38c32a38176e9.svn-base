@@ -1,0 +1,101 @@
+nav.left{
+    width: 1.87rem;
+    border:none;
+    float:left;
+    overflow-y: scroll;
+}
+nav.left::-webkit-scrollbar {display:none}
+nav.left .list li{
+    list-style: none;
+    width: 1.87rem; 
+    height: .9rem;
+    padding: .26rem 0;
+    font-size: .28rem;
+    text-align: center;
+    color:#333;
+    background-color:#F6F6F9;
+}
+nav.left .list li.active{
+    background-color:white;
+}
+/*公用部分*/
+section.right  a:link{
+    color:#333;
+}
+section.right  a:visited{
+    color:#333;
+}
+section.right  a:hover{
+    color:#333;
+}
+/*公用部分*/
+section.right  a:active{
+    color:#333;
+}
+div.bottom{
+    background-color:white;
+}
+section.right{
+    width: 5.63rem;
+    float:left;
+    overflow-y: scroll;
+}
+section.right .title{
+    height: .9rem;
+    border-bottom: .02rem solid #ddd;
+    line-height: .9rem;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: .3rem;
+    font-size: 
+}
+section.right .title span{
+    float: left;
+    font-size: .32rem;
+    color: #333;
+}
+section.right .title b{
+    font-size: .28rem;
+    float: right;
+    font-weight: normal;
+    position: relative;
+    top: .01rem;
+}
+section.right h5{
+    font-size: .3rem;
+    line-height: .3rem;
+    font-weight: normal;
+    color: #666;
+    margin-bottom: 2%;
+    padding-left: 3%;
+    border-left: .06rem solid #f60;
+    margin-left: 5%;
+}
+section.right ul {
+    margin-bottom: 4%;
+    padding: 2% 5%;
+}
+section.right ul li{
+    width: 33.33%;
+    float: left;
+    padding: 1%;
+    /*position: relative;*/
+}
+section.right ul li span {
+    display: block;
+    height: .7rem;
+    line-height: .7rem;
+    overflow: hidden;
+    text-align: center;
+    font-size: .28rem;
+}
+section.right ul li a{
+    display: block;
+    font-size: .24rem;
+    text-align: center;
+}
+section.right ul li img{
+    border:none;
+    width: 1rem;
+    height: auto;
+}

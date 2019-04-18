@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,maximum-scale=1.0,minimum-scale=1.0,initial-scale=1.0,user-scalable=no">
+    <title>套装分类</title>
+    <link rel="stylesheet" href="./fonts/iconfont.css">
+    <link rel="stylesheet" href="./css/lib/reset.css">
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+
+<body>
+
+    <!-- 页面内容区域开始 -->
+    <main class="cont">
+        <header class="head">
+            <div class="h-left">
+                <div class="logo">
+                    <a href="#">
+                        <img src="./imgs/suit/logo.png" alt="音平商城">
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <!-- 面包屑导航区域 -->
+        <div class="bread">
+            <div class="brand-item">
+                <a href="#">账号登录</a>
+            </div>
+            <div class="brand-item split"></div>
+            <div class="brand-item">
+                <h1>商城登录</h1>
+            </div>
+        </div>
+
+        <!-- 登录盒子区域 -->
+        <div class="login-box">
+            <div class="ipt-item">
+                <div class="left-box">
+                    <i class="iconfont icon-yonghu"></i>
+                    <span>账 号</span>
+                </div>
+                <div class="right-box">
+                    <input type="text" name="username" placeholder="邮箱/会员账号/手机号" autofocus>
+                </div>
+            </div>
+            <div class="ipt-item">
+                <div class="left-box">
+                    <i class="iconfont icon-mima"></i>
+                    <span>密 码</span>
+                </div>
+                <div class="right-box">
+                    <input type="password" name="pass" placeholder="密码">
+                </div>
+            </div>
+            <button type="button">登录</button>
+        </div>
+
+        <!-- 其它登录方式 -->
+        <div class="other-method">
+            <p class="info">使用合作网站账号登录 : </p>
+            <div class="img-nav">
+                <a href="#">
+                    <img src="./imgs/suit/login_method1.png" alt="支付宝登录">
+                </a>
+                <a href="#">
+                    <img src="./imgs/suit/login_method2.png" alt="QQ登录">
+                </a>
+                <a href="#">
+                    <img src="./imgs/suit/login_method3.png" alt="微博登录">
+                </a>
+            </div>
+            <p class="info-link">
+                <a href="#">忘记密码 ?</a>
+                <span>|</span>
+                <a href="./regist.html">快速注册</a>
+            </p>
+        </div>
+
+        <!-- 网站脚注区域 -->
+        <footer class="page-foot">
+            <!-- img信息提示区域 -->
+            <section class="img-info-box">
+                <figure>
+                    <img src="./imgs/suit/img-info1.png" alt="了解音平">
+                    <span>了解音平</span>
+                </figure>
+                <figure>
+                    <img src="./imgs/suit/img-info2.png" alt="触屏版">
+                    <span>触屏版</span>
+                </figure>
+                <figure>
+                    <img src="./imgs/suit/img-info3.png" alt="电脑版">
+                    <span>电脑版</span>
+                </figure>
+            </section>
+
+            <!-- 许可证信息区域 -->
+            <section class="license">
+                <p>增值电信业务经营许可证：粤B2-20110237 | 粤ICP备11032710号</p>
+                <p>© 2011-2019 音平商城</p>
+            </section>
+        </footer>
+
+
+        <!-- 登录信息提示弹窗 -->
+        <div class="login-msg-tip">
+            请输入您的用户名或者密码
+        </div>
+
+    </main>
+    <!-- 页面内容区域结束 -->
+    <script src="./js/lib/adapaMobile.js"></script>
+    <script src="./js/lib/zepto.min.js"></script>
+    <script src="./js/lib/fx_methods.js"></script>
+    <script src="./js/lib/touch.js"></script>
+    <script src="./js/login.js"></script>
+</body>
+
+</html>

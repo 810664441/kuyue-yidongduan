@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/lib/reset.css">
+    <link rel="stylesheet" href="./css/active.css">
+    <link rel="stylesheet" href="./css/lib/swiper.min.css">
+    <link rel="stylesheet" href="./fonts/iconfont.css">
+    <script src="./js/lib/html5shiv.min.js"></script>
+</head>
+<body>
+    <!-- 主体 -->
+    <div class="flow">
+        <main>
+            <!-- 页面头部 -->
+            <header class="m-head">
+                <div class="header-left">
+                    <div class="h-ico"></div>
+                    <a href="javascript:;" class="h-logo">
+                        <div></div>
+                    </a>
+                </div>
+                <div class="header-right">
+                    <a href="javascript:;" class="header-a">
+                        <div class="h-icon"></div>
+                        <p>搜索</p>
+                    </a>
+                    <a href="javascript:;" class="header-a">
+                        <div class="h-icon"></div>
+                        <p>我的</p>
+                    </a>
+                </div>
+            </header>
+            <!-- 页面头部/ -->
+            <!-- 导航音平商城 -->
+            <nav class="b-nav">
+                <div class="n-title1">
+                    <a href="index.html">音平商城</a>
+                </div>
+                <div></div>
+                <div class="n-title2"> 
+                    <h1>主题专场</h1>
+                </div>
+            </nav>
+            <!-- 导航音平商城/ -->
+            <!-- 主题导航 -->
+            <nav class="m-nav">
+              <div>
+                  <a href="section1.html">
+                      <img src="./imgs/active/soundrecording.png" alt="">
+                      <p>录音编曲</p>
+                  </a>
+              </div>
+              <div>
+                  <a href="section3.html">
+                      <img src="./imgs/active/wangluozhubo-1.0.0.png" alt="">
+                      <p>网络主播</p>
+                  </a>
+              </div>
+              <div>
+                  <a href="section5.html">
+                      <img src="./imgs/active/shoujiKge-1.0.0.png" alt="">
+                      <p>手机直播</p>
+                  </a>
+              </div>
+              <div>
+                  <a href="section7.html">
+                      <img src="./imgs/active/yanchuyinxiang-1.0.0.png" alt="">
+                      <p>演出音响</p>
+                  </a>
+              </div>
+              <div>
+                  <a href="section2.html">
+                      <img src="./imgs/active/jiatingKTV-1.0.0.png" alt="">
+                      <p>家庭KTV</p>
+                  </a>
+              </div>
+              <div>
+                  <a href="section4.html">
+                      <img src="./imgs/active/jitayueqi-1.0.0.png" alt="">
+                      <p>吉他乐器</p>
+                  </a>
+              </div>
+              <div>
+                  <a href="section6.html">
+                      <img src="./imgs/active/yingshiluyin-1.0.0.png" alt="">
+                      <p>影视录音</p>
+                  </a>
+              </div>
+              <div>
+                  <a href="section10.html">
+                      <img src="./imgs/active//yinyuexinshang-1.0.0.png" alt="">
+                      <p>音乐欣赏</p>
+                  </a>
+              </div>
+              <div>
+                  <a href="section8.html">
+                      <img src="./imgs/active/jiatingyingyuan-1.0.0.png" alt="">
+                      <p>家庭院线</p>
+                  </a>
+              </div>
+              <div>
+                  <a href="section9.html">
+                      <img src="./imgs/active/meeting.png" alt="">
+                      <p>会议工程</p>
+                  </a>
+              </div>
+            </nav>
+            <!-- 主题导航/ -->
+            <!-- 模块分割条 -->
+            <div class="gray-holder"></div>
+            <!-- 模块分隔条/ -->
+            <!-- 当前主体、最新商品导航 -->
+            <aside class="active-warp">
+                <div class="active-gray">
+                    <!-- <a href="javascript:;">新近促销</a> -->
+                    <a href="javascript:;">主题专场</a>
+                    <a href="javascript:;">新品发布</a>
+                </div>
+            </aside>
+            <!-- 当前主体、最新商品导航/ -->
+            <!-- 主题专场 -->
+            <section class="subject ">
+                <div class="link-holder"></div>
+                <header class="s-head">
+                    <div class="solid"></div>
+                    <p class="s-title">主题专场</p>
+                    <div class="solid"></div>
+                </header>
+                <ul class="s-warp" data-flag="true">
+                </ul>
+                <script type="text/template" id="tpl1">
+                    <% goods.forEach(function(good){ %>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="./imgs/active/<%=good.imgs %>" alt="">
+                            </a>
+                            <p><%=good.brief %></p>
+                            <div class="gray-holder"></div>
+                        </li>
+                    <% }) %>
+                </script>
+            </section>
+            <!-- 主题专场/ -->
+            <!-- 新品发布 -->
+            <section class="product">
+                <div class="link-holder"></div>
+                <header class="s-head">
+                    <div class="solid"></div>
+                    <p class="p-title">新品发布</p>
+                    <div class="solid"></div>
+                </header>
+                <ul class="p-warp" data-flag="true">
+                </ul>
+                <script type="text/template" id="tpl2">
+                    <% goods.forEach(function(good){ %>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="./imgs/active/<%=good.imgs %>" alt="">
+                            </a>
+                            <p><%=good.brief %></p>
+                            <div class="gray-holder"></div>
+                        </li>
+                    <% }) %>
+                </script>
+            </section>
+            <!-- 新品发布/ -->
+            <!-- 更多主题列表 -->
+            <div class="more-head">
+                <div></div>
+                <p>更多主题专场</p>
+                <div></div>
+            </div>
+            <nav class="m-nav">
+                <div>
+                    <a href="section1.html">
+                        <img src="./imgs/active/soundrecording.png" alt="">
+                        <p>录音编曲</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="section3.html">
+                        <img src="./imgs/active/wangluozhubo-1.0.0.png" alt="">
+                        <p>网络主播</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="section5.html">
+                        <img src="./imgs/active/shoujiKge-1.0.0.png" alt="">
+                        <p>手机直播</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="section7.html">
+                        <img src="./imgs/active/yanchuyinxiang-1.0.0.png" alt="">
+                        <p>演出音响</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="section2.html">
+                        <img src="./imgs/active/jiatingKTV-1.0.0.png" alt="">
+                        <p>家庭KTV</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="section4.html">
+                        <img src="./imgs/active/jitayueqi-1.0.0.png" alt="">
+                        <p>吉他乐器</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="section6.html">
+                        <img src="./imgs/active/yingshiluyin-1.0.0.png" alt="">
+                        <p>影视录音</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="section10.html">
+                        <img src="./imgs/active//yinyuexinshang-1.0.0.png" alt="">
+                        <p>音乐欣赏</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="section8.html">
+                        <img src="./imgs/active/jiatingyingyuan-1.0.0.png" alt="">
+                        <p>家庭院线</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="section9.html">
+                        <img src="./imgs/active/meeting.png" alt="">
+                        <p>会议工程</p>
+                    </a>
+                </div>
+              </nav>
+            <!-- 更多主题列表/ -->
+            <!-- 微信二维码 -->
+            <div class="advert">
+                <img src="./imgs/active/press_scan.jpg" alt="">
+            </div>
+            <div class="gray-holder"></div>
+            <!-- 微信二维/ -->
+            <!-- 页脚 -->
+            <footer>
+                <div class="login-box">
+                    <div class="login-left">
+                        <a href="login.html">登陆</a>
+                        <span>|</span>  
+                        <a href="regist.html">注册</a>
+                    </div>
+                    <div class="login-right">
+                        <span>客服热线：
+                            <i>400-700-3638</i>
+                        </span>
+                    </div>
+                </div>
+                <div class="ftr-list1">
+                    <a href="javascript:;" >
+                        <div class="bor-foot">
+                            <i class="iconfont icon-zhengpinbaozheng"></i>
+                            正品保障
+                        </div>
+                    </a>
+                    <a href="javascript:;" >
+                        <div class="bor-foot">
+                            <i class="iconfont icon-baoyou"></i>
+                            满99包邮
+                        </div>
+                    </a>
+                    <a href="javascript:;" >
+                        <div class="bor-foot">
+                            <i class="iconfont icon-qitiantuihuan"></i>
+                            七天退换
+                        </div>
+                    </a>
+                    <a href="javascript:;" >
+                        <div >
+                            <i class="iconfont icon-m-customer"></i>
+                            售后保障
+                        </div>
+                    </a>
+                </div>
+                <div class="ftr-list2">
+                    <a href="javascript:;">
+                        <img src="./imgs/active/img-info1.png" alt="">
+                        <p>了解音平</p>
+                    </a>
+                    <a href="javascript:;">
+                        <img src="./imgs/active/img-info2.png" alt="">
+                        <p class="ftr-color">触屏版</p>
+                    </a>
+                    <a href="javascript:;">
+                        <img src="./imgs/active/img-info3.png" alt="">
+                        <p>电脑版</p>
+                    </a>
+                    <a href="javascript:;">
+                        <img src="./imgs/active/img-info4.png" alt="">
+                        <p>小程序</p>
+                    </a>
+                </div>
+                <p class="ftr-p1">增值电信业务经营许可证：粤B2-20110237 | 粤ICP备11032710号</p>
+                <p class="ftr-p2">© 2011-2019 音平商城</p>
+                <div class="ftr-holder"></div>
+            </footer>
+            <!-- 页脚/ -->
+            
+        </main>
+        
+        <!-- 左侧隐藏导航 -->
+        <nav class="menu">
+            <div class="menu-box">
+                <p class="menu-p1">
+                    <b>网站导航</b>
+                </p>
+                <ul class="menu-list">
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="brand.html">品牌专区</a></li>
+                    <li><a href="suit.html">套装分类</a></li>
+                    <li><a href="sort.html">商品分类</a></li>
+                    <li><a href="active.html">活动专场</a></li>
+                    <li><a href="personal.html">我的音平</a></li>
+                    <li><a href="javascript:;">帮助中心</a></li>
+                    <li><a href="javascript:;">商城公告</a></li>
+                </ul>
+                <p class="menu-p2">
+                    <b>特色服务</b>
+                </p>
+                <ul class="menu-list">
+                    <li><a href=""><img src="./imgs/active/lx_logo-v1.0.0.jpg" alt=""></a></li>
+                    <li><a href=""><img src="./imgs/active/ysf_logo-v1.0.0.jpg" alt=""></a></li>
+                    <li><a href=""><img src="./imgs/active/zx_logo-v1.0.0.jpg" alt=""></a></li>
+                </ul>
+                <ul class="menu-list">
+                    <li><a href="">
+                        <img src="./imgs/active/ico_02-v1.0.0.jpg" alt="" class="menu-img">订单查询
+                    </a></li>
+                    <li><a href="">
+                        <img src="./imgs/active/edit_index-1.0.0.png" alt="" class="menu-img">投诉建议
+                    </a></li>
+                </ul>
+                <ul class="menu-list">
+                    <li><a href="" class="menu-color"><img src="./imgs/active/ico_03-v1.0.0.jpg" alt="" class="menu-img">400-700-3638</a></li>
+                </ul>
+                <ul class="menu-list1">
+                    <li><a href="javascript:;"><img src="./imgs/active/duihao.jpg" alt="" class="menu-img1">正品保障</a></li>
+                    <li><a href="javascript:;"><img src="./imgs/active/duihao.jpg" alt="" class="menu-img1">售后无忧</a></li>
+                    <li><a href="javascript:;"><img src="./imgs/active/duihao.jpg" alt="" class="menu-img1">货到付款</a></li>
+                    <li><a href="javascript:;"><img src="./imgs/active/duihao.jpg" alt="" class="menu-img1">闪电发货</a></li>
+                </ui>
+            </div>
+        </nav>
+        <!-- 左侧隐藏导航/ -->
+        <!-- 主体/ -->
+    </div>
+    <!-- 下部固定导航栏 -->
+    <aside class="fix-bottom">
+            <a href="javascript:;">
+                <div class="iconfont icon-kefu"></div>
+                <p>客服</p>
+            </a>
+            <a href="sort.html">
+                <div class="iconfont icon-caidan"></div>
+                <p>分类</p>
+            </a>
+            <a href="suit.html">
+                <div class="iconfont icon-jishiben"></div>
+                <p>套装</p>
+            </a>
+            <a href="active.html">
+                <div class="iconfont icon-tubiaozhizuo--"></div>
+                <p>活动</p>
+            </a>
+            <a href="cart.html">
+                <div class="iconfont icon-gouwuche fix-post">
+                    <span class="fix-span">0</span>
+                </div>
+                <p>我的购物车</p>
+            </a>
+        
+    </aside>
+    <!-- 下部固定导航栏/ -->
+    <!-- 回到顶部 -->
+    <div class="ftr-top">
+        <div class="iconfont icon-jiantou"></div>
+    </div>
+    <!-- 回到顶部/ -->
+    <!-- 遮罩层 -->
+    <div class="blocker"></div>
+    <!-- 遮罩层/ -->    
+
+    <script src="./js/lib/zepto.min.js"></script>
+    <script src="./js/lib/ejs.js"></script>
+    <script src="./js/lib/adapaMobile.js"></script>
+    <script src="./js/lib/fastclick.js"></script>
+    <script src="./js/lib/touch.js"></script>
+    <script src="./js/active.js"></script>
+</body>
+</html>

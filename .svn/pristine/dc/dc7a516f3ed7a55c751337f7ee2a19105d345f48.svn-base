@@ -1,0 +1,377 @@
+$color1: rgb(255, 102, 0);
+$color2: red;
+$color3: rgb(204, 204, 204);
+
+.cont {
+
+    //  潮流耳机 
+    .meeting {
+        width: 7.5rem;
+        height: 1.875rem;
+        background: url(../imgs/section9/clej.jpg) no-repeat;
+        background-size: 100%;
+    }
+
+    // 品牌热卖开始
+    .brand-box {
+        width: 7.5rem;
+
+        .brand-top {
+            width: 7.05rem;
+            height: .04rem;
+            background: $color3;
+            margin: .3rem auto;
+            position: relative;
+
+            span {
+                display: block;
+                width: 1.92rem;
+                height: .38rem;
+                background: white;
+                padding: 0 .04rem;
+                position: absolute;
+                top: 0;
+                left: 50%;
+                margin-top: -0.19rem;
+                margin-left: -0.96rem;
+                text-align: center;
+                font-size: .28rem;
+                color: gray;
+
+                img {
+                    width: .3rem;
+                    height: .3rem;
+                }
+            }
+        }
+
+        .brand-bottom {
+            width: .15rem;
+            display: flex;
+
+            .brand-list {
+                width: 1.5rem;
+                height: 1.45rem;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                img {
+                    width: 1.5rem;
+                    height: .75rem;
+                    margin-top: .16rem;
+                }
+
+                .img2 {
+                    width: .7rem;
+                    height: .7rem;
+                    margin-bottom: .14rem;
+                }
+
+                p {
+                    width: 1.5rem;
+                    height: .24rem;
+                    text-align: center;
+                    color: gray;
+                    margin-bottom: .3rem;
+                }
+            }
+        }
+    }
+
+    // 铁三角耳机...开始
+    .headset-box {
+        width: 7.5rem;
+
+        .img1 {
+            width: 7.5rem;
+            height: 1.7578rem;
+        }
+
+        .headset-item {
+            width: 7.5rem;
+            padding: .14rem;
+
+            .img2 {
+                width: 7.22rem;
+                height: 2.47156rem;
+            }
+
+            .headset {
+                width: 7.22rem;
+                margin-top: .12rem;
+                display: flex;
+                justify-content: space-between;
+
+                .headset-list {
+                    width: 2.3266rem;
+                    height: 3.4668rem;
+                    border: 1px solid $color3;
+                    box-sizing: border-box;
+                    padding: .12rem;
+                    margin-right: .06rem;
+
+                    img {
+                        width: 2.0466rem;
+                        height: 2.0466rem;
+                    }
+
+                    .p1 {
+                        width: 2.0466rem;
+                        height: .72rem;
+                        overflow: hidden;
+                        line-height: .36rem;
+                        color: black;
+                    }
+
+                    .price {
+                        width: 2.0466rem;
+                        display: flex;
+                        justify-content: space-between;
+
+                        p {
+                            width: .6625rem;
+                            height: .24rem;
+                            color: $color1;
+                            font-size: .24rem;
+                            margin-top: .08rem;
+                        }
+
+                        a {
+                            display: block;
+                            margin-right: -0.06rem;
+                            width: .9rem;
+                            height: .4rem;
+                            color: #fff;
+                            background: #f04649;
+                            text-align: center;
+                            border-radius: .08rem;
+                            font-size: .24rem;
+                            line-height: .4rem;
+                        }
+                    }
+                }
+
+                .headset-list:last-of-type {
+                    margin-right: 0;
+                }
+            }
+
+            .more {
+                width: 7.22rem;
+                height: .7rem;
+                display: block;
+                margin-top: .12rem;
+                margin-bottom: .16rem;
+                line-height: .7rem;
+                background: #f5f5f5;
+                text-decoration: none;
+                text-align: center;
+                font-size: .24rem;
+                color: $color1;
+                border-radius: .08rem;
+                border: .02rem solid #e4e4e4;
+            }
+        }
+
+    }
+
+    // 铁三角耳机...结束
+    // 更多品牌列表开始
+    .brands-box {
+        width: 7.5rem;
+
+        .brands {
+            width: 7.5rem;
+            border-top: .02rem solid $color3;
+            border-left: .02rem solid $color3;
+            display: flex;
+            flex-wrap: wrap;
+
+            a {
+                display: block;
+                width: 1.87rem;
+                height: .5916rem;
+                border-bottom: .02rem solid $color3;
+                border-right: .02rem solid $color3;
+                text-align: center;
+
+                img {
+                    width: .9996rem;
+                    height: .5rem;
+                    margin-top: .02rem;
+                    margin-bottom: .02rem;
+                }
+            }
+        }
+    }
+
+    // 更多品牌列表结束
+    // 热门耳机类型开始
+    .hot-sale {
+        width: 7.5rem;
+        height: .8rem;
+        border: .02rem solid $color3;
+        margin-top: .3rem;
+        border-left: .1rem solid $color1;
+        border-top: .02rem solid $color3;
+        border-bottom: .02rem solid $color3;
+        font-size: .32rem;
+        color: $color1;
+        line-height: .8rem;
+        padding-left: .2rem;
+    }
+
+    // 热门耳机类型结束
+    // 热门耳机按钮开始
+    .hots-btn {
+        width: 7.5rem;
+        border-bottom: .04rem solid $color3;
+        display: flex;
+
+        .brand-list {
+            width: 1.5rem;
+            height: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            img {
+                width: 1.5rem;
+                height: .75rem;
+                margin-top: .16rem;
+            }
+
+            .img2 {
+                width: .7rem;
+                height: .7rem;
+                margin-bottom: .14rem;
+            }
+
+            p {
+                width: 1.5rem;
+                height: .24rem;
+                text-align: center;
+                color: gray;
+                margin-bottom: .3rem;
+            }
+
+            &:after {
+                border-left: .1rem solid transparent;
+                border-right: .1rem solid transparent;
+                border-bottom: .1rem solid #ff6600;
+                content: " ";
+                display: none;
+                width: 0;
+                height: 0;
+                position: relative;
+                left: 0;
+                bottom: .15rem;
+            }
+
+        }
+
+        .brand-list2,
+        .brand-list:first-of-type {
+            position: relative;
+            left: 0;
+            bottom: -.04rem;
+            border-bottom: .04rem solid $color1;
+
+            &:after {
+                display: block;
+            }
+        }
+
+    }
+
+    // 热门耳机按钮结束
+    // 热门耳机列表开始
+    .hots-list {
+        width: 7.5rem;
+
+        .headset-list {
+            width: 7.5rem;
+            height: 2.2rem;
+            border-bottom: 1px solid $color3;
+            box-sizing: border-box;
+            margin-right: .06rem;
+            display: flex;
+
+            img {
+                width: 2.4rem;
+                height: 2.22rem;
+                padding: .1rem;
+            }
+
+            .price {
+                width: 4.9rem;
+                display: flex;
+                justify-content: space-between;
+                margin-right: .2rem;
+                display: flex;
+                flex-direction: column;
+                .p1 {
+                    width: 4.86rem;
+                    height: .72rem;
+                    overflow: hidden;
+                    line-height: .36rem;
+                    font-size: .28rem;
+                    color: black;
+                }
+                .p2{
+                    margin-top: .16rem;
+                    white-space: nowrap;
+                    color: gray;
+                    font-size: .24rem;
+                }
+                div {
+                    width: 4.88rem;
+                    height: .72rem;
+                    // margin-top: .24rem;
+                    display: flex;
+                    justify-content: space-between;
+                    p {
+                        width: .8rem;
+                        height: .38rem;
+                        color: $color1;
+                        font-size: .28rem;
+                        margin-top: .08rem;
+                    }
+
+                    .xuan {
+                        display: block;
+                        margin-right: -0.06rem;
+                        width: .9rem;
+                        height: .4rem;
+                        color: #fff;
+                        background: rgb(255,0,120);
+                        text-align: center;
+                        border-radius: .08rem;
+                        font-size: .24rem;
+                        line-height: .4rem;
+                    }
+                }
+
+            }
+        }
+    }
+    .hots-bottom {
+        .more {
+            width: 7.22rem;
+            height: .7rem;
+            display: block;
+            margin-top: .12rem;
+            margin-bottom: .16rem;
+            line-height: .7rem;
+            background: #f5f5f5;
+            text-decoration: none;
+            text-align: center;
+            font-size: .24rem;
+            color: $color1;
+            border-radius: .08rem;
+            border: .02rem solid #e4e4e4;
+        }
+    }
+    // 热门耳机列表结束
+}

@@ -1,0 +1,59 @@
+$(function () {
+    var G_myFun = (function () {
+        function first() {
+            console.log(111)
+            var pro;
+            $.ajax({
+                type: "post",
+                url: "api/brand.php",
+                data: {
+                    type: pro
+                },
+                dataType: 'json',
+                success: function (data) {
+                    console.log(data)
+                    if (!data.err) {
+                        var html = ejs.render($('.tpl').html(), { data: data["1"] })
+                        $(".content").html(html);
+                        // second();
+                        autoClickTab();
+                    }
+                }
+            })
+        }
+
+        function second() {
+            FastClick.attach(document.body);
+            $(".content").on("click", "span", function () {
+                var all = $(this).html()
+                console.log(all)
+                $.ajax({
+                    type: "post",
+                    url: "api/brand-1.php",
+                    data: {
+                        type: all
+                    },
+                    dataType: 'json',
+                    success: function (data) {
+                        console.log(data)
+                        var html1 = ejs.render($('.tpl1').html(), { data: data["1"] })
+                        $(".brand-list-down").html(html1);
+
+                    }
+                })
+            })
+        }
+        function autoClickTab() {
+            $(".content .brand-list .brand-list-top span").trigger("click");
+            console.log($(".content .brand-list .brand-list-top span"))
+        }
+        return {
+            first: first,
+            second: second,
+            // autoClickTab: autoClickTab
+        }
+    })();
+    G_myFun.first();
+    G_myFun.second();
+    // G_myFun.autoClickTab();
+})

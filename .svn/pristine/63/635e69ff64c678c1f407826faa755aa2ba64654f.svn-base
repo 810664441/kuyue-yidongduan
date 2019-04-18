@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width,maximum-scale=1.0,minimum-scale=1.0,initial-scale=1.0,user-scalable=no">
+    <title>音平商城搜索</title>
+    <link rel="stylesheet" href="./css/lib/reset.css">
+    <link rel="stylesheet" href="./css/seach.css">
+</head>
+
+<body>
+    <div class="cont">
+        <header>
+            <div class="left">
+                <a href="./index.html" class="close"></a>
+            </div>
+            <form action="https://m.ingping.com/search">
+                <input type="search" placeholder="搜索商品" name="kw" autocomplete="off">
+                <div class="sub">
+                    <span></span>
+                </div>
+            </form>
+        </header>
+
+        <div class="hot-search">
+            <div class="hot-search-head clearfix">
+                <p>热门搜索</p>
+            </div>
+            <div class="items hot-items clearfix">
+                <!-- <a href="#">手机麦克风</a> -->
+            </div>
+        </div>
+
+        <div class="hot-search hot-history">
+            <div class="hot-search-head clearfix">
+                <p>历史搜索</p>
+                <span class="del-btn"></span>
+            </div>
+            <div class="items hist-items clearfix">
+                <!-- <a href="#">asdf</a> -->
+            </div>
+        </div>
+
+        <ul class="tip-items-box">
+            <!-- <li>
+                <a href="#">asdf</a>
+            </li> -->
+        </ul>
+
+    </div>
+
+
+    <script src="./js/lib/adapaMobile.js"></script>
+    <script src="./js/lib/zepto.min.js"></script>
+    <script src="./js/lib/touch.js"></script>
+    <script src="./js/lib/fx.js"></script>
+    <script src="./js/lib/fastclick.js"></script>
+    <script src="./js/search.js"></script>
+</body>
+
+</html>

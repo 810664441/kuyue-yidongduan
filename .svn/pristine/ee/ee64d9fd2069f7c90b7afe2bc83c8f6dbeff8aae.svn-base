@@ -1,0 +1,131 @@
+@import "./header.scss";
+@import "./footer.scss";
+
+body, html{
+    background-color: #EEEEEE;
+}
+.cont{
+
+    // 面包屑导航区域
+    .bread{
+        .brand-item{
+            a{
+                color: #333;
+            }
+        }
+        
+    }
+
+    // 登录区域
+    .login-box{
+        width: $container;
+        padding: 0.30rem 0.20rem 0 0.20rem;
+
+        .ipt-item{
+            height: 0.76rem;
+            line-height: 0.76rem;
+            border-bottom: 0.04rem solid #dcdcdc;
+            display: flex;
+            background-color: #fff;
+            font-size: 0.24rem;
+            color: #333;
+
+            .left-box{
+                width: 1.72rem;
+                text-align: center;
+                border-right: 0.04rem solid #dcdcdc;
+                i{
+                    font-size: 0.48rem;
+                    vertical-align: middle;
+                }
+            }
+
+            .right-box{
+                padding-left: 0.20rem;
+                input{
+                    border: none;
+                    outline: none;
+                    width: 5.0rem;
+                }
+            }
+
+        }
+
+        button{
+            width: 100%;
+            height: 0.70rem;
+            background-color: #fd7d26;;
+            border: none;
+            border-radius: 0.08rem;
+            color: #fff;
+            margin-top: 0.20rem;
+        }
+    }
+
+    // 其它登录方式区域
+    .other-method{
+        width: $container;
+        padding: 0.90rem 0.20rem;
+        font-size: 0.24rem;
+        color: #333;
+
+        .img-nav{
+            display: flex;
+            justify-content: center;
+
+            a{
+                width: 0.80rem;
+                height: 0.80rem;
+                margin: 0.20rem;
+                border-radius: 50%;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+
+        .info-link{
+            text-align: center;
+            height: 0.36rem;
+            line-height: 0.36rem;
+            a{
+                color: #06c;
+            }
+
+            span{
+                margin: 0 0.50rem;
+                color: #cecece;
+            }
+        }
+    }
+
+    // 登录页面脚注区域
+    .page-foot{
+        .img-info-box{
+            background-color: #fff;
+        }
+
+        .license{
+            background-color: #fff;
+        }
+    }
+
+    // 登录信息提示弹窗
+    .login-msg-tip{
+        position: absolute;
+        left: 50%;
+        top: 30%;
+        width: 0;
+        height: 0;
+        margin-left: -3.25rem;
+        border-radius: 0.16rem;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        font-size: 0.32rem;
+        text-align: center;
+        line-height: 1.5rem;
+        opacity: 0;
+    }
+}
+

@@ -1,0 +1,704 @@
+@charset 'utf-8';
+body{
+    font-size: 0.16rem;
+}
+// 广告
+.neirong{
+    background: #f3f3f3;
+    width: 100%;
+    // 红包区域
+    .o-banner{
+        width: 100vw;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .t-banner{
+        padding: .2rem;
+        background: #febc27;
+        box-sizing: border-box;
+        .banner-list{
+            overflow: hidden;
+            margin-left: -2%;
+            .banner-list1{
+                box-sizing: border-box;
+                width: 48%;
+                margin-left: 2%;
+                float: left;
+                margin-bottom: .1rem;
+            }
+        }
+        .banner-p{
+            color: red;
+            margin-top:.2rem; 
+            
+        }
+    }
+    // 红包区域结束
+    // 产品分类
+    .f-banner{
+        padding: .2rem;
+        padding-bottom:0rem; 
+        background: #980035;
+        box-sizing: border-box;
+        .banner-list{
+            overflow: hidden;
+            margin-left: -2%;
+            .banner-list1{
+                box-sizing: border-box;
+                width: 48%;
+                margin-left: 2%;
+                float: left;
+                margin-bottom: .2rem;
+            }
+        }
+    }
+    // 产品分类结束
+    // 热卖精选
+    .hot-sale{
+        width: 100%;
+        background: #692ae7;
+        .h-sale{
+            width: 100%;
+            padding: 15px 0 8px 0;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    .h-sale-tab{
+        width: 100%;
+        height: .8rem;
+        display: flex;
+        justify-content:center;
+        .left-sale{
+            width: 50%;
+            height: 100%;
+            background: #ff3076;
+            font-size: .32rem;
+            text-align: center;
+            line-height: .8rem;
+            color: #fff;
+        }
+        .right-sale{
+            width: 50%;
+            height: 100%;
+            background:#666;
+            font-size: .32rem;
+            text-align: center;
+            line-height: .8rem;
+            color: #fff;
+
+        }
+    }
+    .suit-div{
+        width: 100%;
+        border-top:.01rem solid white ;
+        border-bottom: .01rem solid white ;
+        .suit-div-list{
+            display: none;
+        }
+        .suit-one{
+            width: 100%;
+            display: flex;
+            justify-content: flex-start;
+            border-top:.01rem solid white ;
+            border-bottom: .01rem solid white ;
+            .left-suit{
+                width: 13%;
+                text-align: center;
+                height: 1.9rem;
+                line-height: .48rem;
+                padding-top: .2rem;
+                color: #fff;
+                background-color: #f25455;
+                .number{
+                    font-size: .48rem;
+                }
+            }
+            .right-suit{
+                width: 87%;
+                display: flex;
+                justify-content: flex-start;
+                .right-suit-one{
+                    box-sizing: border-box;
+                    padding: .1rem;
+                    width: 1.9rem;
+                    height: 1.9rem;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .right-suit-two{
+                    width: 5rem;
+                    box-sizing: border-box;
+                    padding: .1rem;
+                    .right-suit-two-a{
+                        font-size: .28rem;
+                        color: #333;
+                        height: .38rem;
+                        overflow: hidden;
+                        line-height: .34rem;
+                        height:.7rem;
+                        text-overflow: ellipsis;
+                        -webkit-line-clamp: 2;
+                        -webkit-box-orient: vertical;
+                        word-break: break-all;
+                        margin-top:.2rem;
+
+                        a{
+                            color: #333;
+                        }
+                    }
+                    .price{
+                        color:red;
+                        margin-top:.2rem; 
+                        display: flex;
+                        justify-content:space-between;
+                        .left-price{
+                            box-sizing: border-box;
+                            padding-top: .1rem;
+                            .ranklable{
+                                background-color: #957bff;
+                                color: #fff;
+                                font-size: .2rem;
+                                padding: 0 .04rem 0 .04rem;
+                                margin-left: .1rem;
+                                border-radius: .04rem;
+                                margin-top:.2rem; 
+                            }
+                        }
+                        .right-price{
+                            width: .52rem;
+                            height: .52rem;
+                            margin-right:.2rem;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+    // 热卖精选结束
+    // 热卖精选产品介绍
+    .product-introduction-top{
+        width: 100%;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .product-introduction-down{
+        width: 100%;
+        .product-introduction{
+            width: 100%;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+            .product-pic{
+                width: 100%;
+                position: relative;
+                a{
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .product-pic-right{
+                    width: 1.4rem;
+                    height: 1rem;
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    background: #ffff00;
+                    color: #e5004f;
+                    font-size: .2rem;
+                    text-align: center;
+                    line-height: .32rem;
+                    z-index: 2;
+                    .tehui{
+                        background: #cc00cc;
+                        color: #fff;
+                        font-size: .24rem;
+                        font-weight: 700;
+                        height: .32rem;
+                        line-height:.32rem;
+                        overflow: hidden;
+                    }
+                    .youhui-price{
+                        font-size: .32rem;
+                        font-family: Arial;
+                        font-weight: 100;
+                    }
+                }
+            }
+            .product-price{
+                background-color: #005961;
+                padding-top: .3rem;
+                padding-bottom: .3rem;
+                .product-price-box{
+                    box-sizing: border-box;
+                    width: 31.333333333333332%;
+                    margin-left: 2%;  
+                    padding: .3rem;
+                    text-align: center;  
+                    .product-price-box1{
+                        color: #ffff00;
+                        .new{
+                            font-size: .42rem;
+                            color: #ffff00;
+                            line-height: .36rem;
+                            font-weight: bold;
+                        }
+                    }
+                    a{
+                        display: block;
+                        background: #ff0066;
+                        width: 2.12rem;
+                        padding: .12rem 0px .12rem 0px;
+                        text-align: center;
+                        color: #fff;
+                        font-size: .28rem;
+                        border-radius: .6rem;
+                        text-decoration: none;
+                        margin: .2rem 0 0 0;
+                    }
+                }
+            }
+        }
+    }
+    
+    // 热卖精选产品介绍结束
+    // 便携式K歌
+    .K-song{
+        width: 100%;
+        .top-K-song{
+            width: 100%;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .down-k-song{
+            width: 100%;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .K-song-list{
+            background: #eee;
+            display: flex;
+            flex-wrap:wrap;
+            margin: 0.5% 0;
+            width: 100%;
+            padding-right: .04rem;
+            .K-list{
+                width: 33.33%;
+                background-color: #fff;
+                color: #333;
+                border: .02rem solid #eee;
+                .K-list-pic{
+                    padding:.1rem 0 0 0;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        vertical-align: middle;
+                    }
+                }
+                .K-list-jianjie{
+                    color: #333;
+                    font-size:.26rem;
+                    display: block;
+                    overflow: hidden;
+                    height: .8rem;
+                    line-height: .32rem;
+                    padding:.16rem .16rem 0 .16rem;
+                }
+                .K-list-price{
+                    color: #333;
+                    padding: 0px .16rem;
+                    height: .64rem;
+                    .K-list-price1{
+                        color: #f60;
+                        font-size: .28rem;
+                        line-height: .58rem;
+                        height: .48rem;
+                        margin-top: .24rem;
+                        text-align: left;
+                        border-top: .02rem solid #eee;
+                    }
+                }
+            }
+        }
+    }
+    
+    // 精选麦可风
+    .maikefeng{
+        .top-MKF{
+            background: #544add;
+            padding: .3rem 0 .16rem 0;
+
+        }
+        .MKF-brand{
+            
+            display: flex;
+            flex-wrap:wrap;
+            margin-left: -2%;
+            .brand-list{
+                box-sizing: border-box;
+                margin: 0;
+                width: 25%;
+                // border-top:.02rem solid #eee;
+                border-right:.02rem solid #eee;
+                a{
+                    color: #333;
+                    .brand-list-top{
+                        padding: .2rem .2rem 0 .2rem;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                    .brand-list-down{
+                        height: .56rem;
+                        padding: 0px .16rem;
+                        .brandname{
+                            border-top: .02rem solid #eee;
+                            text-align: center;
+                            font-size: .24rem;
+                            line-height: .56rem;
+                        }
+                    }
+                }
+            }
+        }
+        .down-k-song{
+            width: 100%;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .K-song-list{
+            background: #eee;
+            display: flex;
+            flex-wrap:wrap;
+            margin: 0.5% 0;
+            width: 100%;
+            padding-right: .04rem;
+            .K-list{
+                width: 33.33%;
+                background-color: #fff;
+                color: #333;
+                border: .02rem solid #eee;
+                .K-list-pic{
+                    padding:.1rem 0 0 0;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        vertical-align: middle;
+                    }
+                }
+                .K-list-jianjie{
+                    color: #333;
+                    font-size:.26rem;
+                    display: block;
+                    overflow: hidden;
+                    height: .8rem;
+                    line-height: .32rem;
+                    padding:.16rem .16rem 0 .16rem;
+                }
+                .K-list-price{
+                    color: #333;
+                    padding: 0px .16rem;
+                    height: .64rem;
+                    .K-list-price1{
+                        color: #f60;
+                        font-size: .28rem;
+                        line-height: .58rem;
+                        height: .48rem;
+                        margin-top: .24rem;
+                        text-align: left;
+                        border-top: .02rem solid #eee;
+                    }
+                }
+            }
+        }
+    }
+    // 精选麦可风结束
+    // 手机直播相关设备
+        .live-equipment{
+            background-color: #692ae7;
+            .live-equipment-top{
+                .live-equipment-box{
+                    padding: .3rem 0 .16rem 0;
+                }
+            }
+            .live-equipment-list{
+                width: 100%;
+                height: .8rem;
+                background-color: #4d4d4d;
+                color: #fff;
+                display: flex;
+                .equipment-list{
+                    width: 1.656rem;
+                    height: .8rem;
+                    font-size: .32rem;
+                    line-height: .8rem;
+                    text-align: center;
+                    background-color: #ff3076;
+                    font-weight: bold;
+                }
+                div{
+                    width: 1.656rem;
+                    height: .8rem;
+                    font-size: .32rem;
+                    line-height: .8rem;
+                    text-align: center;
+                    background-color: #4d4d4d;;
+                    font-weight: bold;
+                }
+            }
+            .live-equipment-down{
+                width: 100%;
+                // height: 9.9rem;
+                box-sizing: border-box; 
+                padding: 0px .06rem 0 .06rem;
+                display: flex;
+                flex-wrap:wrap;
+                background: #ff3076;
+                .live-equipment-down-list{
+                    background-color: #fff;
+                    margin: 0.5% 0;
+                    width: 33.33%;
+                    padding-right: .04rem ;
+                    border-right: .04rem solid #ff3076;
+                    a{
+                        color: #333;
+                        border: .02rem solid #eee;
+                        background-color: #fff;
+                        .equipment-list-top{                   
+                            padding: .1rem 0 0 0;
+                            img{
+                                width: 100%;
+                                height: 100%;
+                            }
+                        }
+                        .equipment-list-middle{
+                            color: #333;
+                            font-size: .26rem;
+                            overflow: hidden;
+                            height: .8rem;
+                            line-height: .32rem;
+                            padding: .16rem .16rem 0 .16rem;
+                        }
+                        .equipment-list-down{
+                            padding: 0px .16rem;
+                            // height: .64rem;
+                            .equipment-list-price{
+                                color: #f60;
+                                font-size: .28rem;
+                                line-height: .78rem;
+                                height: .48rem;
+                                margin-top:.24rem;
+                                text-align: left;
+                                border-top: .02rem solid #eee;
+                                font-weight: bold;
+                            }
+                        }
+                    }
+                }
+            }
+            .gengduo{
+                background-color: #fff;
+                a{
+                    
+                    color: #ff0066;
+                    line-height: .8rem;
+                    text-align: center;
+                    font-size: .28rem;
+                    display: block;
+                    font-weight: bold;
+                }
+            }
+        } 
+    // 手机直播相关设备结束
+    // 免费测试
+    // 
+    .tiaoshi{
+        width: 100%;
+        background-color: #0090e5;
+        .tiaoshi-top{
+            width: 100%;
+            height: 1.08rem;
+            padding: .3rem 0 .16rem 0;
+        }
+        .tiaoshi-service{
+            border-radius: .16rem;
+            margin: .2rem;
+            background-color: #0041a2;
+            padding: .2rem;
+            color: #fff;
+            font-size: 0.6rem;
+            line-height: 1.5;
+            .tiaoshi-service-top{
+                img{
+                    width: 100%;
+                    vertical-align: middle;
+                }
+            }
+            .tiaoshi-service-down{
+                a{
+                    text-align: center;
+                    background-color: #ff7d00;
+                    width: 1.9rem;
+                    height: .56rem;
+                    color: #fff;
+                    border-radius: .3rem;
+                    line-height: .56rem;
+                    display: block;
+                    margin: 0 auto;
+                    margin-top: .3rem;
+                    margin-bottom: .2rem;
+                    font-size: .30rem;
+                }
+            }
+            
+        }
+    .live-equipment-down{
+        width: 100%;
+        // height: 9.9rem;
+        box-sizing: border-box; 
+        padding: 0px .06rem 0 .06rem;
+        display: flex;
+        flex-wrap:wrap;
+        background: #0090e5;
+        .live-equipment-down-list{
+            background-color: #fff;
+            margin: 0.5% 0;
+            width: 33.33%;
+            padding-right: .04rem ;
+            border-right: .04rem solid #0090e5;
+            a{
+                color: #333;
+                border: .02rem solid #eee;
+                background-color: #fff;
+                .equipment-list-top{                   
+                    padding: .1rem 0 0 0;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .equipment-list-middle{
+                    color: #333;
+                    font-size: .26rem;
+                    overflow: hidden;
+                    height: .8rem;
+                    line-height: .32rem;
+                    padding: .16rem .16rem 0 .16rem;
+                }
+                .equipment-list-down{
+                    padding: 0px .16rem;
+                    // height: .64rem;
+                    .equipment-list-price{
+                        color: #f60;
+                        font-size: .28rem;
+                        line-height: .78rem;
+                        height: .48rem;
+                        margin-top:.24rem;
+                        text-align: left;
+                        border-top: .02rem solid #eee;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+    .gengduo{
+        background-color: #fff;
+        a{
+            
+            color: #ff0066;
+            line-height: .8rem;
+            text-align: center;
+            font-size: .28rem;
+            display: block;
+            font-weight: bold;
+        }
+    }
+} 
+// 免费测试结束
+// 售后
+    .after-sale{
+        background-color: #002d8d;
+        .after-sale1{
+            padding: .3rem 0 .16rem 0;
+            img{
+                width: 100%;
+                vertical-align: middle;
+            }
+        }
+    }
+// 售后结束
+// 网络主播设备专场
+    .anchor{
+        img{
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            vertical-align: middle;
+        }
+    }
+// 网络主播设备专场结束
+// 页脚
+    footer{
+        .thematic-special{
+            margin: .48rem auto;
+            width: 94%;
+            height: .02rem;
+            border-top: .03rem solid #d4d4d4;
+            text-align: center;
+            span{
+                position: relative;
+                top: -0.28rem;
+                background: #f3f3f3;
+                padding: 0 .4rem;
+                font-size: .32rem;
+                color: #333;
+            }
+        }
+        .thematic-special-list{
+            padding: .4rem 0 .4rem 0;
+            background: #fff;
+            display: flex;
+            flex-wrap:wrap;
+            .thematic-special-list1{
+                width: 20%;
+                margin-bottom: .6rem;
+                border: 0;
+                a{
+                    margin-top: .4rem;
+                    text-align: center;
+                    img{
+                        margin-top: .4rem;
+                        width: 40px;
+                        height: 40px;
+                        margin: 0 .36rem;
+                    }
+                    p{
+                        margin-top: .08rem;
+                        font-size: .24rem;
+                        color: #333; 
+                    }
+                }
+            }
+        }
+    }
+// 页脚结束
+}

@@ -1,0 +1,238 @@
+/*bannwe开始*/
+.banner .swiper-container {
+    width: 7.5rem;
+    font-size:.16rem;
+} 
+.banner .swiper-container img{
+    width: 7.5rem;
+    height: 3.75rem;
+} 
+.banner .swiper-container .swiper-pagination{
+    position: absolute;
+    bottom: 0.1rem !important;
+}
+.banner .swiper-container .swiper-pagination span.swiper-pagination-bullet  {
+    width: .84rem;
+    border-radius: 0;
+    background: white;
+    height: .1rem;
+    margin-top: .44rem !important;
+}
+
+/*banner结束*/
+
+/*floor开始*/
+.floor{
+    width: 7.5rem;
+    font-size: .16rem;
+}
+.floor ul{
+    width: 7.5rem;
+    background-color: #4F32C1;
+    padding:.2rem;
+}
+.floor ul li{
+    list-style:none;
+    float:left;
+}
+.floor ul li.mid{
+    margin:0 0.08rem;
+}
+.floor img{
+    width: 2.31rem;
+}
+/*floor结束*/
+
+/*影视专区*/
+.lazy{
+    width: 7.5rem;
+    height:10rem;
+}
+.list1{
+    width: 7.5rem;
+    font-size: .16rem;
+    background-color: #FF3062;
+}
+.list1 .list-title{
+    background-color: #FF3062;
+    padding-top:.5rem;
+    padding-bottom:.2rem;
+    text-align: center;
+}
+.list1 .list-title img{
+    width: 4.5rem;
+}
+.list1 .info,
+ .list1 .info2{
+    position: relative;
+    width: 7.125rem;
+    margin:0 auto;
+    padding-bottom:.4rem;
+}
+.list1 .info .suit-video img,
+.list1 .info2 .suit-video img{
+    width: 2.28rem;
+}
+.list1 .info .suit-bottom,
+.list1 .info2 .suit-bottom{
+    position: absolute;
+    bottom:.45rem;
+    right:.15rem;
+}
+.list1 .info .suit-bottom .suit-price,
+.list1 .info2 .suit-bottom .suit-price {
+    color: #fff;
+    font-size: .48rem;
+    text-align: center;
+    margin-top:.2rem;
+}
+.list1 .info .suit-bottom .buyBtn,
+.list1 .info2 .suit-bottom .buyBtn{
+    width: 2rem;
+    line-height: .6rem;
+    background: #ffff00;
+    color: #ff0066;
+    border-radius: 2rem;
+    text-align: center;
+    font-size: .28rem;
+    margin: .1rem auto;
+}
+/*tablist开始*/
+.tablist{
+    width: 7.5rem;
+    font-size: .16rem;
+}
+.tablist ul.one{
+    width: 7.5rem;
+    display: flex;
+    justify-content:start;
+
+}
+.tablist ul.one li{
+    width: 2.49rem;
+    list-style:none;
+    background-color: #7EC0FF;
+    font-size: .3rem;
+    color:white;
+    height: .9rem;
+    line-height: .9rem;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+}
+.tablist ul.one li.mid{
+    margin:0 .02rem;
+}
+.tablist ul.one li.active{
+    background-color: #633EF1;
+}
+.tablist ul.one li.active::after,
+.goods-list .goods .swiper-wrapper .active::after{
+    position: absolute;
+    bottom:0;
+    left:50%;
+    margin-left:-.075rem;
+    content: "";
+    border:.15rem solid transparent;
+    border-bottom:.15rem solid white;
+}
+.tablist .hidlist{
+    width: 7.5rem;
+    padding:0.37rem;
+}
+.tablist .hidlist li{
+    list-style:none;
+    display: none;
+
+}
+.tablist .hidlist li span{
+    font-size: .26rem;
+    color: #666666;
+    display: inline-block;
+    width: 1.55rem;
+    line-height: .6rem;
+    text-align: center;
+    border:.02rem solid #F6C9BB;
+    border-radius: .5rem;
+    margin-bottom: .25rem;
+    margin-right: .08rem;
+}
+.tablist .hidlist li.on{
+    display: block;
+}
+.goods-list .goods{
+    background-color: #7EC0FF;
+    font-size: .3rem;
+    color:white;
+    height: .9rem;
+    line-height: .9rem;
+    font-weight: bold;
+    text-align: center;
+}
+.goods-list .goods .swiper-wrapper .swiper-slide{
+    /*width: 2.1rem !!important;*/
+    list-style:none;
+    background-color: #7EC0FF;
+    font-size: .3rem;
+    color:white;
+    height: .9rem;
+    line-height: .9rem;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    border-right:.01rem solid white;
+}
+.goods-list .info{
+    background-color:#E5E5E5;
+    height:4.44rem;
+}
+.goods-list .info .swiper-wrapper .swiper-slide .item{
+    width: 2.76rem;
+    background-color: white;
+    font-size: .3rem;
+   
+}
+.goods-list .info .swiper-wrapper .swiper-slide .item-img{
+    text-align: center;
+}
+.goods-list .info .swiper-wrapper .swiper-slide .item-img img{
+    width:2.59rem;
+    height: 2.59rem;
+   
+}
+.goods-list .info .item .intro p{
+    font-size: .26rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    line-height: .36rem;
+    height: .72rem;
+    padding: 0 8%;
+    margin: 3% 0;
+    color: #666666;
+}
+.goods-list .info .item .priceBtn{
+    width: 92%;
+    margin: 10% 4% 6% 4%;
+    line-height: .6rem;
+    background: #633ef1;
+    color: #fff;
+    border-radius: .1rem;
+    text-align: center;
+    font-size: .28rem;
+}
+.two,.two .list-title{
+    background-color: #FFB124;
+}
+.three,.three .list-title{
+    background-color: #11E3D2;
+}
+.ft img{
+    width: 7.5rem;
+}
+.blocker1{
+    width:7.5rem;
+    height:1rem;
+}

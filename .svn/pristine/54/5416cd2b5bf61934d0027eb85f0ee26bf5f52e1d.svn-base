@@ -1,0 +1,83 @@
+$(function(){
+    var active = (function(){
+        //ajax通用函数
+        function ajax(x,y){
+            $.ajax({
+                type:'post',
+                url:'../api/active.php',
+                data: {
+                    type: x,
+                    page:y
+                },
+                dataType: 'json',
+                success: function (data) {
+                    addList(data);
+                    page++;
+                },
+                error: function (xhr, status, error) {
+                    console.log(xhr, status, error)
+                }
+            })
+        }
+        //首页加载数据
+        function onready(){
+            var flag=true;
+            $(document).ready(function(){
+                if(flag){
+                    flag=false;
+                    $.ajax({
+                        type:'post',
+                        url:'../api/active.php',
+                        data: {
+                            type: '专场',
+                            page:0
+                        },
+                        dataType: 'json',
+                        success: function (data) {
+                            addList(data)
+                        },
+                        error: function (xhr, status, error) {
+                            console.log(xhr, status, error)
+                        }
+                    })
+                }
+            })
+        }
+        //ejs数据添加
+        function addList(data){
+            var html = ejs.render($('#tpl').html(),{goods:data});
+            $('.s-warp').append(html);
+        }
+        //触底动态ajax加载数据
+        function downmost(){
+            var page = 1;
+            $(window).scroll(function(){
+                var scrollT = $('body,html').scrollTop(),
+                winH = $(window).height(),
+                listT = $('.s-warp').offset().top + $('.s-warp').height();
+                if(winH + scrollT >= listT){
+                    ajax('专场',page);
+                    // page++
+                    }
+
+                
+                
+            })
+        }
+
+
+
+
+
+
+
+
+        return {
+            onready:onready,
+            downmost:downmost
+        }
+
+    })()
+    active.onready();
+    active.downmost();
+})

@@ -1,0 +1,196 @@
+@import "./header.scss";
+@import "./footer.scss";
+
+.cont{
+    .top-ad{
+        height: 2.46rem;
+
+        img{
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    .top-img2{
+        background-color: #e24000;
+        padding: 0.20rem 0.10rem;
+
+        a{
+            display: inline-block;
+            height: 1.22rem
+        }
+
+        .top{
+            margin-bottom: 0.20rem;
+            img{
+                width: 3.6rem;
+                height: 100%;
+            }
+        }
+
+        .bot{
+            img{
+                height: 100%;
+                width: 2.38rem;
+            }
+        }
+    }
+
+    // 精选推荐区域
+    .hot-tuijian{
+        header{
+            height: 2rem;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .tuijian-item{
+            .top{
+                height: 5.9rem;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .bot{
+                background-color: #a400b8;
+                padding: 0.20rem 0 0.40rem 0;
+                display: flex;
+
+                img{
+                    height: 2.4rem;
+                    width: 6rem;
+                }
+
+                .info{
+                    display: flex;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                    align-content: center;
+
+                    p{
+                        font-size: 0.32rem;
+                        color: #ffff00;
+                        text-align: center;
+                        line-height: 0.60rem;
+                    }
+
+                    a{
+                        width: 1.29rem;
+                        background-color: #ff0033;
+                        height: 0.56rem;
+                        line-height: 0.56rem;
+                        color: #fff;
+                        font-size: 0.24rem;
+                        border-radius: 0.60rem;
+                        text-align: center;
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+
+    // 快速导航区域
+    .fast-nav{
+        background-color: #e85116;
+        padding: 0.40rem 0.10rem;
+
+        .head-img{
+            width: 100%;
+            height: 0.54rem;
+        }
+
+        .brand-info, .nav-info{
+            margin-top: 0.25rem;
+            display: flex;
+            flex-wrap: wrap;
+            align-content: space-between;
+            a{
+                width: 1.75rem;
+                height: 1.2rem; 
+                margin-bottom: 0.10rem;
+                margin-right: 0.07rem;
+            }
+        }
+
+        .nav-info{
+            a{
+                width: 2.34rem;
+                height: 0.97rem;
+                margin-right: 0.08rem;
+            }
+        }
+    }
+
+    // 初学到成神部分
+    .order-item{
+        background-color: #00cabe;
+        padding: 0.40rem 0.10rem 0.20rem 0.10rem;
+
+        .header-img{
+            height: 0.55rem;
+        }
+
+        .big-img-nav{
+            display: block;
+            height: 2.73rem;
+            margin-top: 0.20rem;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .shop-box{
+            .shop-item{
+                float: left;
+                margin-right: 0.043rem;
+                padding: 0.10rem 0.10rem 0 0.10rem;
+                background-color: white;
+                margin-top: 0.043rem;
+                a{
+                    display: block;
+                    
+                    img{
+                        width: 2.19rem;
+                        height: auto;
+                    }
+
+                    p{
+                        width: 2.19rem;
+                        color: #333;
+                        font-size: 0.26rem;
+                        overflow: hidden;
+                        height: 0.60rem;
+                        line-height: 0.30rem;
+                        text-overflow: ellipsis;
+                        margin: 0.20rem 0;
+                    }
+
+                    .price-box{
+                        width: 2.19rem;
+                        color: #ff6600;
+                        line-height: 0.72rem;
+                        border-top: 0.02rem solid #eee;
+                        margin-top: 0.20rem;
+                        font-size: 0.28rem;
+                    }
+                }
+            }
+        }
+
+        a.more-info{
+            height: 0.80rem;
+            line-height: 0.80rem;
+            width: 100%;
+            margin-top: 0.043rem;
+            background-color: #fff;
+            color: #08c254;
+            display: block;
+            text-align: center;
+            font-size: 0.26rem;
+        }
+    }
+}

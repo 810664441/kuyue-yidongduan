@@ -1,0 +1,501 @@
+@charset 'utf-8';
+body{
+    font-size: 0.16rem;
+}
+.neirong{
+    background: #f3f3f3;
+    width: 100%;
+    // 红包区域
+    .o-banner{
+        width: 100vw;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .t-banner{
+        padding: .2rem;
+        background: #febc27;
+        box-sizing: border-box;
+        .banner-list{
+            overflow: hidden;
+            margin-left: -2%;
+            .banner-list1{
+                box-sizing: border-box;
+                width: 48%;
+                margin-left: 2%;
+                float: left;
+                margin-bottom: .1rem;
+            }
+        }
+        .banner-p{
+            color: red;
+            margin-top:.2rem; 
+            
+        }
+    }
+    // 红包区域结束
+    .space{
+        img{
+            width: 100%;
+        }
+    }
+    // 热卖爆品
+    .hot{
+        width: 100%;
+        margin: 0 auto;
+        background-color: #f2f2f2;
+        padding: 8% 0;
+        .hot-one{
+            width: 94%;
+            margin: 0 auto;
+            position: relative;
+            .hot-two{
+                width: 100%;
+                font-size: .4rem;
+                position: absolute;
+                text-align: center;
+                margin-top: -0.26rem;
+                .hot-three{
+                    padding-left: 3.5%;
+                    padding-right: 3.5%;
+                    color: #000;
+                    background-color: #f2f2f2;
+                    display: inline;
+                }
+            }
+            .hot-four{
+                width: 100%;
+                background: url(../imgs/section6/003.jpg) repeat-x;
+                background-position: center center;
+                height: .04rem;
+            }
+        }
+    }
+    // 热卖爆品结束
+    // 热卖爆品分类
+    .hot-list{
+        font-size: .1rem;
+        background-color: #f2f2f2;
+        .hot-list-top{
+            display: flex;
+            flex-wrap:wrap;
+            height: .74rem;
+            line-height: .74rem;
+            div{
+                color: #666;
+                background-color: #fff;
+                width: 50%;
+                margin-bottom: .04rem;
+                text-align: center;
+                font-size: .28rem;
+               
+                
+            }
+            .hot-list-left{
+                color: #fff;
+                background-color: #f46f6f;
+                width: 50%;
+                margin-bottom: .04rem;
+                text-align: center;
+                font-size: .28rem;
+                
+            }
+            
+        }
+        .hot-list-down{
+            background-color: #fff;
+            width: 100%;
+            padding: .15rem 0;
+            .hot-list-down-one{
+                width: 100%;
+                display:flex;
+                div{
+                    margin:0 .2rem;
+                    margin-right: 0!important;
+                    .hot-list-down-one-top{
+                        a{
+                            
+                            color: #333;
+                            p{
+                                overflow: hidden;
+                                height:.4rem; 
+                                line-height: .4rem;
+                                text-align: left;
+                                font-size: .06rem;
+                                span{
+                                    overflow:hidden; 
+                                    text-overflow:ellipsis;
+                                    display:-webkit-box; 
+                                    box-orient:vertical;
+                                    line-clamp:2; 
+                                }
+                            }
+                        }
+                    }
+                    .hot-list-down-one-down{
+                        margin-top: .05rem;
+                        overflow: hidden;
+                        display:flex;
+                        justify-content:space-between;
+                        .hot-list-price-left{
+                            color: #ff6600;
+                            margin-top:.12rem;
+                            font-size: .07rem;   
+                        }
+                        .hot-list-price-right{
+                            width: 24%;
+                            a{
+                                img{
+                                    width: 70%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+    // 热卖爆品分类结束
+    // 专业录音
+    .ly-hot-list{
+        width: 100%;
+        .voice-pro{
+            width: 100%;
+            position: relative;
+            .voice-pro-top{
+                a{
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+            .voice-pro-down{
+                width: 25%;
+                margin-left: 1%;
+                position: absolute;
+                right: 2%;
+                top: 78%;
+                .voice-pro-down-list{
+                    width: 100%;
+                    height: .42rem;
+                    font-size: .09rem;
+                    color: #ffff00;
+                    .voice-pro-one{
+                        font-size: .42rem;
+                        color: #ffff00;
+                        line-height: .09rem;
+                        font-weight: bold;
+                    }
+                    
+                }
+                a{
+                    width: 85%;
+                    height: .5rem;
+                    line-height: .5rem;
+                    font-size: .07rem;
+                    display: block;
+                    background: #ff0066;
+                    text-align: center;
+                    color: #fff;
+                    border-radius: .3rem;
+                    margin: .05rem 0 0 0;
+                }
+            }
+        }
+        .more-pro{
+            a{
+                display: block;
+                text-decoration: none;
+                width: 45%;
+                height: .5rem;
+                line-height: .5rem;
+                text-align: center;
+                background: #ff3385;
+                color: #fff;
+                border-radius: .3rem;
+                font-size: .06rem;
+                margin: 3% auto;
+                font-weight: bold;
+            }
+        }
+    }
+    .voice-pro{
+        width: 100%;
+        position: relative;
+        .voice-pro-top{
+            a{
+                img{
+                    width: 100%;
+                }
+            }
+        }
+        .voice-pro-down{
+            width: 25%;
+            margin-left: 1%;
+            position: absolute;
+            right: 2%;
+            top: 78%;
+            .voice-pro-down-list{
+                width: 100%;
+                height: .42rem;
+                font-size: .09rem;
+                color: #ffff00;
+                .voice-pro-one{
+                    font-size: .42rem;
+                    color: #ffff00;
+                    line-height: .09rem;
+                    font-weight: bold;
+                }
+                
+            }
+            a{
+                width: 85%;
+                height: .5rem;
+                line-height: .5rem;
+                font-size: .07rem;
+                display: block;
+                background: #ff0066;
+                text-align: center;
+                color: #fff;
+                border-radius: .3rem;
+                margin: .05rem 0 0 0;
+            }
+        }
+    }
+    .more-pro{
+        a{
+            display: block;
+            text-decoration: none;
+            width: 45%;
+            height: .5rem;
+            line-height: .5rem;
+            text-align: center;
+            background: #ff3385;
+            color: #fff;
+            border-radius: .3rem;
+            font-size: .06rem;
+            margin: 3% auto;
+            font-weight: bold;
+        }
+    }
+    // 专业录音结束
+    // 热门品牌推荐
+    .MKF-brand{
+            
+        display: flex;
+        flex-wrap:wrap;
+        margin-left: -2%;
+        .brand-list{
+            box-sizing: border-box;
+            margin: 0;
+            width: 25%;
+            // border-top:.02rem solid #eee;
+            border-right:.02rem solid #eee;
+            a{
+                color: #333;
+                .brand-list-top{
+                    padding: .2rem .2rem 0 .2rem;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .brand-list-down{
+                    height: .56rem;
+                    padding: 0px .16rem;
+                    .brandname{
+                        border-top: .02rem solid #eee;
+                        text-align: center;
+                        font-size: .24rem;
+                        line-height: .56rem;
+                    }
+                }
+            }
+        }
+    }
+    // 热门品牌推荐结束
+    // 影视录音机 
+    .down-k-song{
+        width: 100%;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .Video-recording{
+        background: #eee;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0.5% 0;
+        width: 100%;
+        padding-right: .04rem;
+        .Video-recording-list{
+            width: 30%;
+            margin:0 .2rem;
+            margin-right: 0!important;
+            margin-bottom: .3rem;
+            .hot-list-down-one-top{
+                a{
+                    color: #333;
+                    p{
+                        overflow: hidden;
+                        height:.8rem; 
+                        line-height: .4rem;
+                        text-align: left;
+                        font-size: .06rem;
+                        span{
+                            display: -webkit-box !important;
+                            text-overflow: ellipsis;
+                            overflow: hidden;
+                            -webkit-line-clamp: 2;
+                            -webkit-box-orient: vertical;
+                        }
+                    }
+                }
+            }
+            .hot-list-down-one-down{
+                margin-top: .05rem;
+                overflow: hidden;
+                display:flex;
+                justify-content:space-between;
+                .hot-list-price-left{
+                    color: #ff6600;
+                    margin-top:.12rem;
+                    font-size: .07rem;   
+                }
+                .hot-list-price-right{
+                    width: 24%;
+                    a{
+                        img{
+                            width: 70%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .more-sound-list{
+        .more-sound{
+            display: block;
+            text-decoration: none;
+            width: 45%;
+            height: .5rem;
+            line-height: .5rem;
+            text-align: center;          
+            color:  #ff3385;
+            font-size: .06rem;
+            margin: 3% auto;
+            font-weight: bold;
+        }
+    }
+    // 影视录音机结束
+    // 相关产品
+    .related-products{
+        font-size: .1rem;
+        background-color: #f2f2f2;
+        .hot-list-top{
+            display: flex;
+            flex-wrap:wrap;
+            height: .74rem;
+            line-height: .74rem;
+            .hot-list-left{
+                color: #fff;
+                background-color: #f46f6f;
+                width: 33.3%;
+                margin-bottom: .04rem;
+                text-align: center;
+                span{
+                    font-size: .28rem;
+                    position: relative;
+                    top: -0.08rem;
+                }
+            }
+            div{
+                color: #666;
+                background-color: #fff;
+                width: 33.3%;
+                margin-bottom: .04rem;
+                text-align: center;
+                span{
+                    font-size: .28rem;
+                    position: relative;
+                    top: -0.08rem;
+                }
+                
+            }
+        }
+    }
+    // 相关产品结束
+    .last-one{
+        width: 100%;
+        img{
+            width: 100%;
+        }
+    }
+    .last-two{
+        width: 94%;
+        margin: 0 auto;
+        img{
+            width: 100%;
+        } 
+    }
+    .last-three{
+        padding: .25rem 0;
+        width: 94%;
+        margin: 0 auto;
+        a{
+            img{
+                width: 100%;
+            } 
+        }
+        
+    }
+    // 页脚
+    footer{
+        .thematic-special{
+            margin: .48rem auto;
+            width: 94%;
+            height: .02rem;
+            border-top: .03rem solid #d4d4d4;
+            text-align: center;
+            span{
+                position: relative;
+                top: -0.28rem;
+                background: #f3f3f3;
+                padding: 0 .4rem;
+                font-size: .32rem;
+                color: #333;
+            }
+        }
+        .thematic-special-list{
+            padding: .4rem 0 .4rem 0;
+            background: #fff;
+            display: flex;
+            flex-wrap:wrap;
+            .thematic-special-list1{
+                width: 20%;
+                margin-bottom: .6rem;
+                border: 0;
+                a{
+                    margin-top: .4rem;
+                    text-align: center;
+                    img{
+                        margin-top: .4rem;
+                        width: 40px;
+                        height: 40px;
+                        margin: 0 .36rem;
+                    }
+                    p{
+                        margin-top: .08rem;
+                        font-size: .24rem;
+                        color: #333; 
+                    }
+                }
+            }
+        }
+    }
+// 页脚结束
+}
+

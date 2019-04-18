@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,maximum-scale=1.0,minimum-scale=1.0,initial-scale=1.0,user-scalable=no">
+    <title>套装分类页面</title>
+    <link rel="stylesheet" href="./css/lib/reset.css">
+</head>
+
+
+<body>
+
+
+    <!-- 页面左侧隐藏的侧边栏导航区域开始 -->
+    <aside class="main-left"></aside>
+    <!-- 页面左侧隐藏的侧边栏导航区域结束 -->
+
+
+    <main class="cont">
+        <!-- 页面顶部区域开始 -->
+        <header class="head">
+            <div class="h-left">
+                左边区域
+            </div>
+            <a href="#">百度以下</a>
+
+
+            <div class="h-right">
+                右边区域
+            </div>
+        </header>
+        <!-- 页面顶部区域结束 -->
+    </main>
+
+
+    <!-- 底部固定的导航区域开始 -->
+    <aside class="nav-bottom"></aside>
+    <!-- 底部固定的导航区域结束 -->
+
+
+
+
+    <!-- 引入适配各种手机的js文件 -->
+    <script src="./js/lib/adapaMobile.js"></script>
+    <script src="./js/lib/zepto.min.js"></script>
+    <script src="./js/lib/touch.js"></script>
+    <script src="./js//lib/fastclick.js"></script>
+</body>
+
+
+</html>

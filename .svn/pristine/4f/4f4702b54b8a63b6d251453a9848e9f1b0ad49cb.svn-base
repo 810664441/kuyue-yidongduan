@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>首页</title>
+    <link rel="stylesheet" href="css/lib/swiper.min.css">
+    <link rel="stylesheet" href="fonts/iconfont.css">
+    <link rel="stylesheet" href="css/lib/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <div class="all-box clearfix">
+        <!-- 网站左侧的导航 -->
+        <aside class="aside-nav">
+
+            <dl class="nav">
+                <dt>网站导航</dt>
+                <dd>
+                    <a href="#">首页</a>
+                </dd>
+                <dd>
+                    <a href="#">品牌专区</a>
+                </dd>
+                <dd>
+                    <a href="#">套装分类</a>
+                </dd>
+                <dd>
+                    <a href="#">商品分类</a>
+                </dd>
+                <dd>
+                    <a href="#">活动专场</a>
+                </dd>
+                <dd>
+                    <a href="#">我的音平</a>
+                </dd>
+                <dd>
+                    <a href="#">帮助中心</a>
+                </dd>
+                <dd>
+                    <a href="#">商城广告</a>
+                </dd>
+            </dl>
+
+            <dl class="server">
+                <dt>特色服务</dt>
+                <dd>
+                    <a href="#">
+                        <img src="./imgs/section3/server1.jpg" alt="">
+                    </a>
+                </dd>
+                <dd>
+                    <a href="#">
+                        <img src="./imgs/section3/server2.jpg" alt="">
+                    </a>
+                </dd>
+                <dd>
+                    <a href="#">
+                        <img src="./imgs/section3/server3.jpg" alt="">
+                    </a>
+                </dd>
+            </dl>
+
+            <dl class="other">
+                <dd>
+                    <a href="#">
+                        <img src="./imgs/section7/ot1.jpg" alt="" class="ot">
+                        订单查询
+                    </a>
+                </dd>
+                <dd>
+                    <a href="#">
+                        <img src="./imgs/section7/ot2.png" alt="" class="ot">
+                        投诉建议
+                    </a>
+                </dd>
+            </dl>
+
+            <dl>
+                <dd>
+                    <a href="javascript:void(0);" class="phone-box">
+                        <img src="./imgs/section7/phone.jpg" alt="" class="phone">
+                        400-700-3638
+                    </a>
+                </dd>
+            </dl>
+
+            <dl>
+                <dd class="heart-info">
+                    <a href="javascript:void(0);">
+                        正品保障
+                    </a>
+                </dd>
+                <dd class="heart-info">
+                    <a href="javascript:void(0);">
+                        售后无忧
+                    </a>
+                </dd>
+                <dd class="heart-info">
+                    <a href="javascript:void(0);">
+                        货到付款
+                    </a>
+                </dd>
+                <dd class="heart-info">
+                    <a href="javascript:void(0);">
+                        闪电发货
+                    </a>
+                </dd>
+            </dl>
+
+        </aside>
+        <!-- 页面内容区域开始 -->
+        <main class="cont">
+            <!-- 头部 -->
+            <header class="head">
+                <div class="h-left">
+                    <div class="aside-nav-toggle iconfont icon-caidan" data-flag="true"></div>
+                    <div class="logo">
+                        <a href="./index.html">
+                            <img src="./imgs/index/logo.png" alt="音平商城">
+                        </a>
+                    </div>
+                </div>
+                <div class="h-right">
+                    <a href="#">
+                        <div class="myicon icon_01"></div>
+                        <span>搜索</span>
+                    </a>
+                    <a href="#">
+                        <div class="myicon icon_02"></div>
+                        <span>我的</span>
+                    </a>
+                </div>
+            </header>
+            <!-- 头部结束 -->
+            <!-- 轮播ad -->
+            <div class="loop">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="imgs/index/l1.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="imgs/index/l2.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="imgs/index/l3.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="imgs/index/l4.jpg" alt=""></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+            <!-- 轮播ad结束 -->
+            <!-- 搜索框 -->
+            <div class="plate1">
+                <div class="search-box">
+                    <i class="iconfont icon-fangdajing"></i>
+                    <input type="text" placeholder="手机麦克风" class="search-k">
+                </div>
+            </div>
+            <!-- 搜索框结束 -->
+            <!-- list轮播 -->
+            <div class="listloop">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="box">
+                                <a href="./section1.html">
+                                    <img src="imgs/index/luying_1.png" alt="">
+                                    <p>录音编曲</p>
+                                </a>
+                                <a href="./section2.html">
+                                    <img src="imgs/index/jiatingktv_1.png" alt="">
+                                    <p>家庭KTV</p>
+                                </a>
+                            </div>
+                            <div class="box">
+                                <a href="./section3.html">
+                                    <img src="imgs/index/wangluozhubo_1.png" alt="">
+                                    <p>网络主播</p>
+                                </a>
+                                <a href="./section4.html">
+                                    <img src="imgs/index/jita_1.png" alt="">
+                                    <p>吉他乐器</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="box">
+                                <a href="./section5.html">
+                                    <img src="imgs/index/shoujizhibo_1.png" alt="">
+                                    <p>手机直播</p>
+                                </a>
+                                <a href="./section6.html">
+                                    <img src="imgs/index/yingshiluyin_1.png" alt="">
+                                    <p>影视录音</p>
+                                </a>
+                            </div>
+                            <div class="box">
+                                <a href="./section7.html">
+                                    <img src="imgs/index/yinxiang_1.png" alt="">
+                                    <p>演出音响</p>
+                                </a>
+                                <a href="./section8.html">
+                                    <img src="imgs/index/jiatingyingyuan_1.png" alt="">
+                                    <p>家庭影院</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="box">
+                                <a href="./section9.html">
+                                    <img src="imgs/index/huiyi_1.png" alt="">
+                                    <p>会议工程</p>
+                                </a>
+                                <a href="./section10.html">
+                                    <img src="imgs/index/erji_1.png" alt="">
+                                    <p>音乐欣赏</p>
+                                </a>
+                            </div>
+                            <div class="box">
+                                <a href="./section11.html">
+                                    <img src="imgs/index/shangyong_1.png" alt="">
+                                    <p>商用直播</p>
+                                </a>
+                                <a href="./section12.html">
+                                    <img src="imgs/index/geren_1.png" alt="">
+                                    <p>个人中心</p>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+                <!-- <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="box">
+                                <a href="./section1.html">
+                                    <img src="imgs/index/luying_1.png" alt="">
+                                    <p>录音编曲</p>
+                                </a>
+                                <a href="./section2.html">
+                                    <img src="imgs/index/jiatingktv_1.png" alt="">
+                                    <p>家庭KTV</p>
+                                </a>
+                            </div>
+                            <div class="box">
+                                <a href="./section3.html">
+                                    <img src="imgs/index/wangluozhubo_1.png" alt="">
+                                    <p>网络主播</p>
+                                </a>
+                                <a href="./section4.html">
+                                    <img src="imgs/index/jita_1.png" alt="">
+                                    <p>吉他乐器</p>
+                                </a>
+                            </div>
+                            <div class="box">
+                                <a href="./section5.html">
+                                    <img src="imgs/index/shoujizhibo_1.png" alt="">
+                                    <p>手机直播</p>
+                                </a>
+                                <a href="./section6.html">
+                                    <img src="imgs/index/yingshiluyin_1.png" alt="">
+                                    <p>影视录音</p>
+                                </a>
+                            </div>
+                            <div class="box">
+                                <a href="./section7.html">
+                                    <img src="imgs/index/yinxiang_1.png" alt="">
+                                    <p>演出音响</p>
+                                </a>
+                                <a href="./section8.html">
+                                    <img src="imgs/index/jiatingyingyuan_1.png" alt="">
+                                    <p>家庭影院</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="box">
+                                <a href="./section5.html">
+                                    <img src="imgs/index/shoujizhibo_1.png" alt="">
+                                    <p>手机直播</p>
+                                </a>
+                                <a href="./section6.html">
+                                    <img src="imgs/index/yingshiluyin_1.png" alt="">
+                                    <p>影视录音</p>
+                                </a>
+                            </div>
+                            <div class="box">
+                                <a href="./section7.html">
+                                    <img src="imgs/index/yinxiang_1.png" alt="">
+                                    <p>演出音响</p>
+                                </a>
+                                <a href="./section8.html">
+                                    <img src="imgs/index/jiatingyingyuan_1.png" alt="">
+                                    <p>家庭影院</p>
+                                </a>
+                            </div>
+                            <div class="box">
+                                <a href="./section9.html">
+                                    <img src="imgs/index/huiyi_1.png" alt="">
+                                    <p>会议工程</p>
+                                </a>
+                                <a href="./section10.html">
+                                    <img src="imgs/index/erji_1.png" alt="">
+                                    <p>音乐欣赏</p>
+                                </a>
+                            </div>
+                            <div class="box">
+                                <a href="./section11.html">
+                                    <img src="imgs/index/shangyong_1.png" alt="">
+                                    <p>商用直播</p>
+                                </a>
+                                <a href="./section12.html">
+                                    <img src="imgs/index/geren_1.png" alt="">
+                                    <p>个人中心</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div> -->
+            </div>
+            <!-- list轮播结束 -->
+            <!-- 热卖促销 -->
+            <div class="plate2">
+                <div class="plate2-1">
+                    <p class="wen1">热卖促销</p>
+                    <span>|</span>
+                    <p class="wen2">直播K歌娱乐推荐</p>
+                </div>
+                <div class="plate2-2">
+                    <img src="imgs/index/201901180932480472834.jpg" alt="">
+                </div>
+                <div class="plate2-3">
+                    <img src="imgs/index/201901210923370118868.jpg" alt="">
+                    <img src="imgs/index/201901210923090344419.jpg" alt="">
+                    <img src="imgs/index/201901210923440851179.jpg" alt="">
+                </div>
+                <div class="plate2-4">
+                    <a href="#">
+                        <p>热卖优惠专区>></p>
+                    </a>
+                </div>
+            </div>
+            <!-- 热卖促销结束 -->
+            <!-- 精选设备 -->
+            <div class="plate3">
+                <div class="plate3-1">
+                    <p class="wen1">精选设备</p>
+                    <span>|</span>
+                    <p class="wen2">超高性价 品质保证</p>
+                </div>
+                <div class="plate3-2">
+                    <div class="plate3-2-1">
+                        <img src="imgs/index/201901210926230806167.jpg" alt="">
+                    </div>
+                    <div class="shu"></div>
+                    <div class="plate3-2-2">
+                        <img src="imgs/index/20190121092552094569.jpg" alt="">
+                        <img src="imgs/index/201901180933520667904.jpg" alt="">
+                    </div>
+                </div>
+                <div class="plate3-3">
+                    <a href="#">
+                        <p>更多精选音频设备>></p>
+                    </a>
+                </div>
+            </div>
+            <!-- 精选设备结束 -->
+            <!-- 解决方案 -->
+            <div class="plate4">
+                <div class="plate4-1">
+                    <p class="wen1">解决方案</p>
+                    <span>|</span>
+                    <p class="wen2">爆款精选 专业搭配</p>
+                </div>
+                <div class="plate4-2">
+                    <div class="plate4-2-1">
+                        <img src="imgs/index/201901101551410326904.jpg" alt="">
+                    </div>
+                    <div class="plate4-2-2">
+                        <img src="imgs/index/201901210926550324384.jpg" alt="">
+                        <div>
+                            <a href="#">
+                                <p>录音麦克风</p>
+                            </a>
+                            <div class="shu"></div>
+                            <a href="#">
+                                <p>音频接口</p>
+                            </a>
+                            <div class="shu"></div>
+                            <a href="#">
+                                <p>MIDI键盘</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="plate4-2">
+                    <div class="plate4-2-1">
+                        <img src="imgs/index/201901101556390989446.jpg" alt="">
+                    </div>
+                    <div class="plate4-2-2">
+                        <img src="imgs/index/201901210929280551477.jpg" alt="">
+                        <div>
+                            <a href="#">
+                                <p>K歌声卡</p>
+                            </a>
+                            <div class="shu"></div>
+                            <a href="#">
+                                <p>K歌麦克风</p>
+                            </a>
+                            <div class="shu"></div>
+                            <a href="#">
+                                <p>监听耳机</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="plate4-2">
+                    <div class="plate4-2-1">
+                        <img src="imgs/index/201901101614010604657.jpg" alt="">
+                    </div>
+                    <div class="plate4-2-2">
+                        <img src="imgs/index/201901210929580902493.jpg" alt="">
+                        <div>
+                            <a href="#">
+                                <p>手机麦克风</p>
+                            </a>
+                            <div class="shu"></div>
+                            <a href="#">
+                                <p>手机耳机</p>
+                            </a>
+                            <div class="shu"></div>
+                            <a href="#">
+                                <p>耳塞</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="plate4-2">
+                    <div class="plate4-2-1">
+                        <img src="imgs/index/201901101726280912113.jpg" alt="">
+                    </div>
+                    <div class="plate4-2-2">
+                        <img src="imgs/index/201901210930140874619.jpg" alt="">
+                        <div>
+                            <a href="#">
+                                <p>演出麦克风</p>
+                            </a>
+                            <div class="shu"></div>
+                            <a href="#">
+                                <p>调音台</p>
+                            </a>
+                            <div class="shu"></div>
+                            <a href="#">
+                                <p>舞台音箱</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="plate4-2">
+                    <div class="plate4-2-1">
+                        <img src="imgs/index/201901101729470871855.jpg" alt="">
+                    </div>
+                    <div class="plate4-2-2">
+                        <img src="imgs/index/201901210930500368745.jpg" alt="">
+                        <div>
+                            <a href="#">
+                                <p>KTV功放</p>
+                            </a>
+                            <div class="shu"></div>
+                            <a href="#">
+                                <p>卡包音箱</p>
+                            </a>
+                            <div class="shu"></div>
+                            <a href="#">
+                                <p>KTV点歌机</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="plate4-2">
+                    <div class="plate4-2-1">
+                        <img src="imgs/index/201901101734530377680.jpg" alt="">
+                    </div>
+                    <div class="plate4-2-2">
+                        <img src="imgs/index/201901210931170104448.jpg" alt="">
+                        <div>
+                            <a href="#">
+                                <p>电吉他</p>
+                            </a>
+                            <div class="shu"></div>
+                            <a href="#">
+                                <p>电贝司</p>
+                            </a>
+                            <div class="shu"></div>
+                            <a href="#">
+                                <p>电子鼓</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="plate4-2">
+                    <div class="plate4-2-1">
+                        <img src="imgs/index/20190110173948046942.jpg" alt="">
+                    </div>
+                    <div class="plate4-2-2">
+                        <img src="imgs/index/201901210931470365470.jpg" alt="">
+                        <div>
+                            <a href="#">
+                                <p>录音机</p>
+                            </a>
+                            <div class="shu"></div>
+                            <a href="#">
+                                <p>采访麦克风</p>
+                            </a>
+                            <div class="shu"></div>
+                            <a href="#">
+                                <p>监听耳机</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="plate4-2">
+                    <div class="plate4-2-1">
+                        <img src="imgs/index/20190110174147066781.jpg" alt="">
+                    </div>
+                    <div class="plate4-2-2">
+                        <img src="imgs/index/20190121093307008569.jpg" alt="">
+                        <div>
+                            <a href="#">
+                                <p>音乐耳机</p>
+                            </a>
+                            <div class="shu"></div>
+                            <a href="#">
+                                <p>蓝牙耳机</p>
+                            </a>
+                            <div class="shu"></div>
+                            <a href="#">
+                                <p>蓝牙音箱</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="plate4-2">
+                    <div class="plate4-2-1">
+                        <img src="imgs/index/201901101744390069688.jpg" alt="">
+                    </div>
+                    <div class="plate4-2-2">
+                        <img src="imgs/index/201901210933520009142.jpg" alt="">
+                        <div>
+                            <a href="#">
+                                <p>音响</p>
+                            </a>
+                            <div class="shu"></div>
+                            <a href="#">
+                                <p>DVD碟机</p>
+                            </a>
+                            <div class="shu"></div>
+                            <a href="#">
+                                <p>低音炮</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="plate4-2">
+                    <div class="plate4-2-1">
+                        <img src="imgs/index/201901101746590683445.jpg" alt="">
+                    </div>
+                    <div class="plate4-2-2">
+                        <img src="imgs/index/201901210933280154242.jpg" alt="">
+                        <div>
+                            <a href="#">
+                                <p>会议麦克风</p>
+                            </a>
+                            <div class="shu"></div>
+                            <a href="#">
+                                <p>扩音系统</p>
+                            </a>
+                            <div class="shu"></div>
+                            <a href="#">
+                                <p>会议功放</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 解决方案结束 -->
+            <!-- 网站脚注区域 -->
+            <footer class="page-foot">
+                <!-- 长按扫码区域 -->
+                <section class="press-scan">
+                    <img src="./imgs/suit/press_scan.jpg" alt="长按扫码">
+                </section>
+
+                <!-- 登陆注册链接区域 -->
+                <section class="tip-box">
+                    <div class="left-box">
+                        <a href="#">登陆</a>
+                        <span>|</span>
+                        <a href="#">注册</a>
+                    </div>
+                    <div class="right-box">
+                        <a href="#">
+                            客服热线 :
+                            <span>400-700-3683</span>
+                        </a>
+                    </div>
+                </section>
+
+                <!-- 售后帮助导航区域 -->
+                <section class="help-box">
+                    <div class="item">
+                        <i>f</i>
+                        <span>正品保障</span>
+                    </div>
+                    <div class="item">
+                        <i>g</i>
+                        <span>满99包邮</span>
+                    </div>
+                    <div class="item">
+                        <i>a</i>
+                        <span>七天退换</span>
+                    </div>
+                    <div class="item">
+                        <i>a</i>
+                        <span>售后保障</span>
+                    </div>
+                </section>
+
+                <!-- img信息提示区域 -->
+                <section class="img-info-box">
+                    <figure>
+                        <img src="./imgs/suit/img-info1.png" alt="了解音平">
+                        <span>了解音平</span>
+                    </figure>
+                    <figure>
+                        <img src="./imgs/suit/img-info2.png" alt="触屏版">
+                        <span>触屏版</span>
+                    </figure>
+                    <figure>
+                        <img src="./imgs/suit/img-info3.png" alt="电脑版">
+                        <span>电脑版</span>
+                    </figure>
+                    <figure>
+                        <img src="./imgs/suit/img-info4.png" alt="小程序">
+                        <span>小程序</span>
+                    </figure>
+                </section>
+
+                <!-- 许可证信息区域 -->
+                <section class="license">
+                    <p>增值电信业务经营许可证：粤B2-20110237 | 粤ICP备11032710号</p>
+                    <p>© 2011-2019 音平商城</p>
+                </section>
+            </footer>
+
+            <!-- 底部固定的导航区域 -->
+            <nav class="fixed-bottom">
+                <a href="#">
+                    <i class="iconfont icon-kefu"></i>
+                    <span>客服</span>
+                </a>
+                <a href="#">
+                    <i class="iconfont icon-caidan"></i>
+                    <span>分类</span>
+                </a>
+                <a href="#">
+                    <i class="iconfont icon-jishiben"></i>
+                    <span>套装</span>
+                </a>
+                <a href="#">
+                    <i class="iconfont icon-tubiaozhizuo--"></i>
+                    <span>活动</span>
+                </a>
+                <a href="#">
+                    <i class="iconfont icon-gouwuche"></i>
+                    <span>我的购物车</span>
+                </a>
+            </nav>
+
+        </main>
+        <!-- 页面内容区域结束 -->
+    </div>
+    <script src="./js/lib/adapaMobile.js"></script>
+    <script src="./js/lib/zepto.min.js"></script>
+    <script src="./js/lib/fx_methods.js"></script>
+    <script src="./js/lib/fastclick.js"></script>
+    <script src="./js/lib/fx.js"></script>
+    <script src="./js/lib/touch.js"></script>
+    <script src="./js/lib/swiper.min.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/header.js"></script>
+
+</body>
+
+</html>
